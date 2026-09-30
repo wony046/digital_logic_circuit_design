@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="5.0.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v5.0.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#FPArithmetic" name="4"/>
+  <lib desc="#Memory" name="5"/>
+  <lib desc="#I/O" name="6"/>
+  <lib desc="#TTL" name="7"/>
+  <lib desc="#TCL" name="8"/>
+  <lib desc="#Base" name="9"/>
+  <lib desc="#BFH-Praktika" name="10"/>
+  <lib desc="#Input/Output-Extra" name="11"/>
+  <lib desc="#Soc" name="12"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool map="Button2" name="Poke Tool"/>
+    <tool map="Button3" name="Menu Tool"/>
+    <tool map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool name="Poke Tool"/>
+    <tool name="Edit Tool"/>
+    <tool name="Wiring Tool"/>
+    <tool name="Text Tool"/>
+    <tool name="Image"/>
+    <sep/>
+    <tool name="Pin"/>
+    <tool name="Pin">
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+    </tool>
+    <sep/>
+    <tool name="NOT Gate"/>
+    <tool name="AND Gate"/>
+    <tool name="OR Gate"/>
+    <tool name="XOR Gate"/>
+    <tool name="NAND Gate"/>
+    <tool name="NOR Gate"/>
+    <sep/>
+    <tool name="D Flip-Flop"/>
+    <tool name="Register"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="main"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(360,330)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="y"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(80,330)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp loc="(330,330)" name="not_gate"/>
+    <wire from="(330,330)" to="(360,330)"/>
+    <wire from="(80,330)" to="(110,330)"/>
+  </circuit>
+  <vhdl appearance="logisim_evolution" name="not_gate">--------------------------------------------------------------------------------&#13;
+-- Project : NOT Gate (VHDL workflow practice)&#13;
+-- File    : not_gate.vhd&#13;
+-- Author  : Unkyoung Won / 2023010519&#13;
+-- Date    : 2026-09-30&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--   입력 a를 반전하여 출력 y로 내보내는 1비트 NOT 게이트.&#13;
+--   a = '0' 이면 y = '1', a = '1' 이면 y = '0'.&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+library ieee;&#13;
+use ieee.std_logic_1164.all;&#13;
+&#13;
+-- 외형 정의: 입력 핀 a, 출력 핀 y&#13;
+entity not_gate is&#13;
+  port (&#13;
+    a : in  std_logic;   -- 입력&#13;
+    y : out std_logic    -- 출력&#13;
+  );&#13;
+end entity not_gate;&#13;
+&#13;
+-- 내부 동작 정의: y는 항상 a의 반전 값&#13;
+architecture behavioral of not_gate is&#13;
+begin&#13;
+  y &lt;= not a;&#13;
+end architecture behavioral;&#13;
+</vhdl>
+</project>

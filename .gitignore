@@ -1,0 +1,8 @@
+work/
+transcript
+*.wlf
+*.vstf
+modelsim.ini
+
+Thumbs.db
+desktop.ini
