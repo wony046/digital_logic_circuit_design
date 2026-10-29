@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project source="5.0.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v5.0.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic" />
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1" />
+  <lib desc="#Plexers" name="2" />
+  <lib desc="#Arithmetic" name="3" />
+  <lib desc="#FPArithmetic" name="4" />
+  <lib desc="#Memory" name="5" />
+  <lib desc="#I/O" name="6" />
+  <lib desc="#TTL" name="7" />
+  <lib desc="#TCL" name="8" />
+  <lib desc="#Base" name="9" />
+  <lib desc="#BFH-Praktika" name="10" />
+  <lib desc="#Input/Output-Extra" name="11" />
+  <lib desc="#Soc" name="12" />
+  <main name="main" />
+  <options>
+    <a name="gateUndefined" val="ignore" />
+    <a name="simlimit" val="1000" />
+    <a name="simrand" val="0" />
+  </options>
+  <mappings>
+    <tool map="Button2" name="Poke Tool" />
+    <tool map="Button3" name="Menu Tool" />
+    <tool map="Ctrl Button1" name="Menu Tool" />
+  </mappings>
+  <toolbar>
+    <tool name="Poke Tool" />
+    <tool name="Edit Tool" />
+    <tool name="Wiring Tool" />
+    <tool name="Text Tool" />
+    <tool name="Image" />
+    <sep />
+    <tool name="Pin" />
+    <tool name="Pin">
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+    </tool>
+    <sep />
+    <tool name="NOT Gate" />
+    <tool name="AND Gate" />
+    <tool name="OR Gate" />
+    <tool name="XOR Gate" />
+    <tool name="NAND Gate" />
+    <tool name="NOR Gate" />
+    <sep />
+    <tool name="D Flip-Flop" />
+    <tool name="Register" />
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution" />
+    <a name="circuit" val="main" />
+    <a name="circuitnamedboxfixedsize" val="true" />
+    <a name="simulationFrequency" val="1.0" />
+    <comp name="letters7seg" loc="(460,160)" />
+    <comp name="Pin" loc="(150,160)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="sel" />
+      <a name="width" val="3" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(150,160)" to="(240,160)" />
+    <comp name="Tunnel" loc="(520,160)" lib="0">
+      <a name="label" val="seg_a" />
+      <a name="facing" val="west" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(460,160)" to="(520,160)" />
+    <comp name="Tunnel" loc="(520,180)" lib="0">
+      <a name="label" val="seg_b" />
+      <a name="facing" val="west" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(460,180)" to="(520,180)" />
+    <comp name="Tunnel" loc="(520,200)" lib="0">
+      <a name="label" val="seg_c" />
+      <a name="facing" val="west" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(460,200)" to="(520,200)" />
+    <comp name="Tunnel" loc="(520,220)" lib="0">
+      <a name="label" val="seg_d" />
+      <a name="facing" val="west" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(460,220)" to="(520,220)" />
+    <comp name="Tunnel" loc="(520,240)" lib="0">
+      <a name="label" val="seg_e" />
+      <a name="facing" val="west" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(460,240)" to="(520,240)" />
+    <comp name="Tunnel" loc="(520,260)" lib="0">
+      <a name="label" val="seg_f" />
+      <a name="facing" val="west" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(460,260)" to="(520,260)" />
+    <comp name="Tunnel" loc="(520,280)" lib="0">
+      <a name="label" val="seg_g" />
+      <a name="facing" val="west" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(460,280)" to="(520,280)" />
+    <comp name="Tunnel" loc="(520,300)" lib="0">
+      <a name="label" val="seg_dp" />
+      <a name="facing" val="west" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(460,300)" to="(520,300)" />
+    <comp name="7-Segment Display" loc="(660,200)" lib="6" />
+    <comp name="Tunnel" loc="(660,80)" lib="0">
+      <a name="label" val="seg_g" />
+      <a name="facing" val="west" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(660,80)" to="(660,200)" />
+    <comp name="Tunnel" loc="(670,100)" lib="0">
+      <a name="label" val="seg_f" />
+      <a name="facing" val="west" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(670,100)" to="(670,200)" />
+    <comp name="Tunnel" loc="(680,120)" lib="0">
+      <a name="label" val="seg_a" />
+      <a name="facing" val="west" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(680,120)" to="(680,200)" />
+    <comp name="Tunnel" loc="(690,140)" lib="0">
+      <a name="label" val="seg_b" />
+      <a name="facing" val="west" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(690,140)" to="(690,200)" />
+    <comp name="Tunnel" loc="(660,300)" lib="0">
+      <a name="label" val="seg_e" />
+      <a name="facing" val="east" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(660,260)" to="(660,300)" />
+    <comp name="Tunnel" loc="(670,320)" lib="0">
+      <a name="label" val="seg_d" />
+      <a name="facing" val="east" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(670,260)" to="(670,320)" />
+    <comp name="Tunnel" loc="(680,340)" lib="0">
+      <a name="label" val="seg_c" />
+      <a name="facing" val="east" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(680,260)" to="(680,340)" />
+    <comp name="Tunnel" loc="(690,360)" lib="0">
+      <a name="label" val="seg_dp" />
+      <a name="facing" val="east" />
+      <a name="labelfont" val="SansSerif plain 12" />
+    </comp>
+    <wire from="(690,260)" to="(690,360)" />
+  </circuit>
+  <vhdl appearance="logisim_evolution" name="letters7seg">library ieee;
+use ieee.std_logic_1164.all;
+
+entity letters7seg is
+    port (
+        sel                 : in  std_logic_vector(2 downto 0);
+        a, b, c, d, e, f, g : out std_logic;
+        dp                  : out std_logic
+    );
+end entity letters7seg;
+
+architecture behavioral of letters7seg is
+    signal segments : std_logic_vector(6 downto 0);
+begin
+    with sel select
+        segments &lt;= "1111101" when "000",
+                    "0011111" when "001",
+                    "0001101" when "010",
+                    "0111101" when "011",
+                    "1000111" when "100",
+                    "1111011" when "101",
+                    "0000000" when others;
+
+    a &lt;= segments(6);
+    b &lt;= segments(5);
+    c &lt;= segments(4);
+    d &lt;= segments(3);
+    e &lt;= segments(2);
+    f &lt;= segments(1);
+    g &lt;= segments(0);
+    dp &lt;= '0';
+end architecture behavioral;
+</vhdl>
+</project>

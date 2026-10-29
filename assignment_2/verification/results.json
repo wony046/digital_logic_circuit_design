@@ -1,0 +1,28 @@
+{
+  "compiler": "Questa Altera Starter FPGA Edition-64 2025.2",
+  "standard": "VHDL-93",
+  "popcount_input_width": 15,
+  "compile_exit_code": 0,
+  "simulation_exit_code": 0,
+  "all_passed": true,
+  "source_files_unchanged": true,
+  "cases": {
+    "logic4": 16,
+    "mux8": 2048,
+    "letters7seg": 8,
+    "vote25": 76,
+    "popcount15": 65536
+  },
+  "total_cases": 67684,
+  "source_sha256": {
+    "logic4.vhd": "8D31C6707B1ECACDD266EEEE88A89772D5466B317FD127F815B97337D67938B7",
+    "mux8.vhd": "9235A4B1AF5D458053EB95585FCDF904876B033C150AF6D8B1A073ED6F68A7BA",
+    "letters7seg.vhd": "85D358E385BD08BA5FD73D9294CD8FCC4F48A14A54AC09FB640634BB3CE643D5",
+    "vote25.vhd": "C694A351B24E5E2724BA497C8E3A1493A71210C621B20E49E97907B9D532DA24",
+    "popcount15.vhd": "0796A0B9D29D868119D6D384C5DF629EF3C44BA059588E4B976C750F8963E06C",
+    "tb_homework.vhd": "D452964E40FA2CC19AEBC8E15DFCAC91329505E41D1F14D061EEB19F2C77E0E1"
+  },
+  "compile_log": "compile.log",
+  "simulation_log": "simulation.log",
+  "timestamp": "2026-10-29T23:14:35.9152081+09:00"
+}
