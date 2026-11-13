@@ -1,0 +1,59 @@
+{
+  "simulator": "Logisim-evolution 5.0.0 native VhdlSimulatorTop + Questa Altera Starter FPGA Edition 2025.2 TCL binder",
+  "all_passed": true,
+  "total_samples": 130,
+  "total_output_comparisons": 132,
+  "circuits": {
+    "rs_latch": {
+      "circuit": "rs_latch",
+      "valid_logisim_source": true,
+      "bridge_reached_running": true,
+      "samples": 7,
+      "output_comparisons": 14,
+      "failures": 0,
+      "all_passed": true,
+      "source_sha256": "4c582120ca719d2b1d47f769bc6f934b3b02e2f4d331e57a1ba458cb7861bb6c"
+    },
+    "d_latch": {
+      "circuit": "d_latch",
+      "valid_logisim_source": true,
+      "bridge_reached_running": true,
+      "samples": 16,
+      "output_comparisons": 15,
+      "failures": 0,
+      "all_passed": true,
+      "source_sha256": "78443c841cb6162956b4a6d7d44e52a47f2bf50a0f4df5bd9c83fd3ef5091dbd"
+    },
+    "d_flip_flop": {
+      "circuit": "d_flip_flop",
+      "valid_logisim_source": true,
+      "bridge_reached_running": true,
+      "samples": 22,
+      "output_comparisons": 21,
+      "failures": 0,
+      "all_passed": true,
+      "source_sha256": "aba902c1b7dc1e198ce2c62882c843616544d78f6f73e5b6b5614eac1a2847e9"
+    },
+    "jk_flip_flop": {
+      "circuit": "jk_flip_flop",
+      "valid_logisim_source": true,
+      "bridge_reached_running": true,
+      "samples": 47,
+      "output_comparisons": 45,
+      "failures": 0,
+      "all_passed": true,
+      "source_sha256": "fc1f753f72037489476001f74f7f8d7a58376ad5e4910c04154bc8c637e7ac37"
+    },
+    "d_flip_flop_async": {
+      "circuit": "d_flip_flop_async",
+      "valid_logisim_source": true,
+      "bridge_reached_running": true,
+      "samples": 38,
+      "output_comparisons": 37,
+      "failures": 0,
+      "all_passed": true,
+      "source_sha256": "55b4c969cfdaff4feb3290557104b5bc5de1c0e61105725cc279ca0350db6c7e"
+    }
+  },
+  "timestamp": "2026-11-11T11:37:05.751997"
+}

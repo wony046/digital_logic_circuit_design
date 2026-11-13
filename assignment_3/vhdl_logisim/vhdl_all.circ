@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project source="5.0.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v5.0.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic" />
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1" />
+  <lib desc="#Plexers" name="2" />
+  <lib desc="#Arithmetic" name="3" />
+  <lib desc="#FPArithmetic" name="4" />
+  <lib desc="#Memory" name="5" />
+  <lib desc="#I/O" name="6" />
+  <lib desc="#TTL" name="7" />
+  <lib desc="#TCL" name="8" />
+  <lib desc="#Base" name="9" />
+  <lib desc="#BFH-Praktika" name="10" />
+  <lib desc="#Input/Output-Extra" name="11" />
+  <lib desc="#Soc" name="12" />
+  <main name="rs_latch_vhdl" />
+  <options>
+    <a name="gateUndefined" val="ignore" />
+    <a name="simlimit" val="1000" />
+    <a name="simrand" val="0" />
+  </options>
+  <mappings>
+    <tool map="Button2" name="Poke Tool" />
+    <tool map="Button3" name="Menu Tool" />
+    <tool map="Ctrl Button1" name="Menu Tool" />
+  </mappings>
+  <toolbar>
+    <tool name="Poke Tool" />
+    <tool name="Edit Tool" />
+    <tool name="Wiring Tool" />
+    <tool name="Text Tool" />
+    <tool name="Image" />
+    <sep />
+    <tool name="Pin" />
+    <tool name="Pin">
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+    </tool>
+    <sep />
+    <tool name="NOT Gate" />
+    <tool name="AND Gate" />
+    <tool name="OR Gate" />
+    <tool name="XOR Gate" />
+    <tool name="NAND Gate" />
+    <tool name="NOR Gate" />
+    <sep />
+    <tool name="D Flip-Flop" />
+    <tool name="Register" />
+  </toolbar>
+  <circuit name="rs_latch_vhdl">
+    <a name="appearance" val="logisim_evolution" />
+    <a name="circuit" val="rs_latch_vhdl" />
+    <a name="circuitnamedboxfixedsize" val="true" />
+    <a name="simulationFrequency" val="1.0" />
+    <comp name="rs_latch" loc="(460,200)" />
+    <comp name="Pin" loc="(100,200)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="s" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,200)" to="(240,200)" />
+    <comp name="Pin" loc="(100,220)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="r" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,220)" to="(240,220)" />
+    <comp name="Pin" loc="(610,200)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="q" />
+      <a name="labelfont" val="SansSerif plain 14" />
+      <a name="type" val="output" />
+      <a name="facing" val="west" />
+    </comp>
+    <wire from="(460,200)" to="(610,200)" />
+    <comp name="Pin" loc="(610,220)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="qbar" />
+      <a name="labelfont" val="SansSerif plain 14" />
+      <a name="type" val="output" />
+      <a name="facing" val="west" />
+    </comp>
+    <wire from="(460,220)" to="(610,220)" />
+  </circuit>
+  <vhdl appearance="logisim_evolution" name="rs_latch">library ieee;
+use ieee.std_logic_1164.all;
+
+entity rs_latch is
+    port (s, r : in std_logic;
+          q, qbar : out std_logic);
+end entity rs_latch;
+
+architecture rtl of rs_latch is
+    signal q_i, qbar_i : std_logic;
+begin
+    q_i &lt;= not (r or qbar_i);
+    qbar_i &lt;= not (s or q_i);
+    q &lt;= q_i;
+    qbar &lt;= qbar_i;
+end architecture rtl;
+</vhdl>
+  <circuit name="d_latch_vhdl">
+    <a name="appearance" val="logisim_evolution" />
+    <a name="circuit" val="d_latch_vhdl" />
+    <a name="circuitnamedboxfixedsize" val="true" />
+    <a name="simulationFrequency" val="1.0" />
+    <comp name="d_latch" loc="(460,200)" />
+    <comp name="Pin" loc="(100,200)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="d" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,200)" to="(240,200)" />
+    <comp name="Pin" loc="(100,220)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="en" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,220)" to="(240,220)" />
+    <comp name="Pin" loc="(610,200)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="q" />
+      <a name="labelfont" val="SansSerif plain 14" />
+      <a name="type" val="output" />
+      <a name="facing" val="west" />
+    </comp>
+    <wire from="(460,200)" to="(610,200)" />
+  </circuit>
+  <vhdl appearance="logisim_evolution" name="d_latch">library ieee;
+use ieee.std_logic_1164.all;
+
+entity d_latch is
+    port (d, en : in std_logic;
+          q : out std_logic);
+end entity d_latch;
+
+architecture rtl of d_latch is
+begin
+    process(d, en)
+    begin
+        if en = '1' then
+            q &lt;= d;
+        end if;
+    end process;
+end architecture rtl;
+</vhdl>
+  <circuit name="d_flip_flop_vhdl">
+    <a name="appearance" val="logisim_evolution" />
+    <a name="circuit" val="d_flip_flop_vhdl" />
+    <a name="circuitnamedboxfixedsize" val="true" />
+    <a name="simulationFrequency" val="1.0" />
+    <comp name="d_flip_flop" loc="(460,200)" />
+    <comp name="Pin" loc="(100,200)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="d" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,200)" to="(240,200)" />
+    <comp name="Pin" loc="(100,220)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="clk" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,220)" to="(240,220)" />
+    <comp name="Pin" loc="(610,200)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="q" />
+      <a name="labelfont" val="SansSerif plain 14" />
+      <a name="type" val="output" />
+      <a name="facing" val="west" />
+    </comp>
+    <wire from="(460,200)" to="(610,200)" />
+  </circuit>
+  <vhdl appearance="logisim_evolution" name="d_flip_flop">library ieee;
+use ieee.std_logic_1164.all;
+
+entity d_flip_flop is
+    port (d, clk : in std_logic;
+          q : out std_logic);
+end entity d_flip_flop;
+
+architecture rtl of d_flip_flop is
+begin
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            q &lt;= d;
+        end if;
+    end process;
+end architecture rtl;
+</vhdl>
+  <circuit name="jk_flip_flop_vhdl">
+    <a name="appearance" val="logisim_evolution" />
+    <a name="circuit" val="jk_flip_flop_vhdl" />
+    <a name="circuitnamedboxfixedsize" val="true" />
+    <a name="simulationFrequency" val="1.0" />
+    <comp name="jk_flip_flop" loc="(460,200)" />
+    <comp name="Pin" loc="(100,200)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="j" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,200)" to="(240,200)" />
+    <comp name="Pin" loc="(100,220)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="k" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,220)" to="(240,220)" />
+    <comp name="Pin" loc="(100,240)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="clk" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,240)" to="(240,240)" />
+    <comp name="Pin" loc="(610,200)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="q" />
+      <a name="labelfont" val="SansSerif plain 14" />
+      <a name="type" val="output" />
+      <a name="facing" val="west" />
+    </comp>
+    <wire from="(460,200)" to="(610,200)" />
+  </circuit>
+  <vhdl appearance="logisim_evolution" name="jk_flip_flop">library ieee;
+use ieee.std_logic_1164.all;
+
+entity jk_flip_flop is
+    port (j, k, clk : in std_logic;
+          q : out std_logic);
+end entity jk_flip_flop;
+
+architecture rtl of jk_flip_flop is
+    signal q_i : std_logic;
+begin
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            if j = '0' and k = '0' then
+                null;
+            elsif j = '0' and k = '1' then
+                q_i &lt;= '0';
+            elsif j = '1' and k = '0' then
+                q_i &lt;= '1';
+            elsif j = '1' and k = '1' then
+                q_i &lt;= not q_i;
+            end if;
+        end if;
+    end process;
+    q &lt;= q_i;
+end architecture rtl;
+</vhdl>
+  <circuit name="d_flip_flop_async_vhdl">
+    <a name="appearance" val="logisim_evolution" />
+    <a name="circuit" val="d_flip_flop_async_vhdl" />
+    <a name="circuitnamedboxfixedsize" val="true" />
+    <a name="simulationFrequency" val="1.0" />
+    <comp name="d_flip_flop_async" loc="(460,200)" />
+    <comp name="Pin" loc="(100,200)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="d" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,200)" to="(240,200)" />
+    <comp name="Pin" loc="(100,220)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="clk" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,220)" to="(240,220)" />
+    <comp name="Pin" loc="(100,240)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="set" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,240)" to="(240,240)" />
+    <comp name="Pin" loc="(100,260)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="clr" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(100,260)" to="(240,260)" />
+    <comp name="Pin" loc="(610,200)" lib="0">
+      <a name="appearance" val="NewPins" />
+      <a name="label" val="q" />
+      <a name="labelfont" val="SansSerif plain 14" />
+      <a name="type" val="output" />
+      <a name="facing" val="west" />
+    </comp>
+    <wire from="(460,200)" to="(610,200)" />
+  </circuit>
+  <vhdl appearance="logisim_evolution" name="d_flip_flop_async">library ieee;
+use ieee.std_logic_1164.all;
+
+entity d_flip_flop_async is
+    port (d, clk, set, clr : in std_logic;
+          q : out std_logic);
+end entity d_flip_flop_async;
+
+architecture rtl of d_flip_flop_async is
+begin
+    process(clk, set, clr)
+    begin
+        if clr = '1' then
+            q &lt;= '0';
+        elsif set = '1' then
+            q &lt;= '1';
+        elsif rising_edge(clk) then
+            q &lt;= d;
+        end if;
+    end process;
+end architecture rtl;
+</vhdl>
+</project>

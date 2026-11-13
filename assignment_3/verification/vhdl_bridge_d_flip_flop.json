@@ -1,0 +1,10 @@
+{
+  "circuit": "d_flip_flop",
+  "valid_logisim_source": true,
+  "bridge_reached_running": true,
+  "samples": 22,
+  "output_comparisons": 21,
+  "failures": 0,
+  "all_passed": true,
+  "source_sha256": "aba902c1b7dc1e198ce2c62882c843616544d78f6f73e5b6b5614eac1a2847e9"
+}

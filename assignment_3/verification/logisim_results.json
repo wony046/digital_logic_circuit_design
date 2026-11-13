@@ -1,0 +1,65 @@
+{
+  "simulator": "Logisim-evolution 5.0.0 bundled OpenJDK 21 JNI API",
+  "vhdl_reference": "Questa RTL VCD settled transition samples",
+  "timestamp": "2026-11-13T07:01:27.774734+00:00",
+  "circuits": {
+    "rs_latch": {
+      "samples": 7,
+      "output_comparisons": 14,
+      "undefined_startup_skipped": 0,
+      "failures": 0,
+      "all_passed": true,
+      "individual_gate_count": 2,
+      "prebuilt_storage_components": 0,
+      "source_sha256": "a88e87ebc0b289a5f7862f9d7c0f237cb6132497a82ced219b71f7142b08233d",
+      "trace": "logisim_trace_rs_latch.csv"
+    },
+    "d_latch": {
+      "samples": 16,
+      "output_comparisons": 15,
+      "undefined_startup_skipped": 1,
+      "failures": 0,
+      "all_passed": true,
+      "individual_gate_count": 5,
+      "prebuilt_storage_components": 0,
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "trace": "logisim_trace_d_latch.csv"
+    },
+    "d_flip_flop": {
+      "samples": 22,
+      "output_comparisons": 21,
+      "undefined_startup_skipped": 1,
+      "failures": 0,
+      "all_passed": true,
+      "individual_gate_count": 10,
+      "prebuilt_storage_components": 0,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "trace": "logisim_trace_d_flip_flop.csv"
+    },
+    "jk_flip_flop": {
+      "samples": 47,
+      "output_comparisons": 45,
+      "undefined_startup_skipped": 2,
+      "failures": 0,
+      "all_passed": true,
+      "individual_gate_count": 14,
+      "prebuilt_storage_components": 0,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "trace": "logisim_trace_jk_flip_flop.csv"
+    },
+    "d_ff_async": {
+      "samples": 38,
+      "output_comparisons": 37,
+      "undefined_startup_skipped": 1,
+      "failures": 0,
+      "all_passed": true,
+      "individual_gate_count": 16,
+      "prebuilt_storage_components": 0,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "trace": "logisim_trace_d_ff_async.csv"
+    }
+  },
+  "all_passed": true,
+  "total_samples": 130,
+  "total_output_comparisons": 132
+}

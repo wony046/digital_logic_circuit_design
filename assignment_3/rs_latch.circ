@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project source="5.0.0" version="1.0">
+  <lib name="0" desc="#Wiring" />
+  <lib name="1" desc="#Gates" />
+  <lib name="9" desc="#Base" />
+  <main name="rs_latch" />
+  <options>
+    <a name="gateUndefined" val="ignore" />
+    <a name="simlimit" val="1000" />
+    <a name="simrand" val="0" />
+  </options>
+  <circuit name="rs_latch">
+    <a name="appearance" val="logisim_evolution" />
+    <a name="circuit" val="rs_latch" />
+    <comp name="Text" loc="(60,50)" lib="9">
+      <a name="text" val="RS LATCH" />
+      <a name="font" val="SansSerif bold 20" />
+      <a name="halign" val="left" />
+    </comp>
+    <comp name="NOR Gate" loc="(350,180)" lib="1">
+      <a name="inputs" val="2" />
+      <a name="size" val="50" />
+    </comp>
+    <comp name="NOR Gate" loc="(350,340)" lib="1">
+      <a name="inputs" val="2" />
+      <a name="size" val="50" />
+    </comp>
+    <comp name="Pin" loc="(60,160)" lib="0">
+      <a name="label" val="r" />
+      <a name="appearance" val="NewPins" />
+      <a name="facing" val="east" />
+      <a name="type" val="input" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <comp name="Pin" loc="(60,360)" lib="0">
+      <a name="label" val="s" />
+      <a name="appearance" val="NewPins" />
+      <a name="facing" val="east" />
+      <a name="type" val="input" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(60,160)" to="(290,160)" />
+    <wire from="(60,360)" to="(290,360)" />
+    <wire from="(350,180)" to="(410,180)" />
+    <wire from="(410,180)" to="(410,260)" />
+    <wire from="(410,260)" to="(200,260)" />
+    <wire from="(200,260)" to="(200,320)" />
+    <wire from="(200,320)" to="(290,320)" />
+    <wire from="(350,340)" to="(390,340)" />
+    <wire from="(390,340)" to="(390,240)" />
+    <wire from="(390,240)" to="(180,240)" />
+    <wire from="(180,240)" to="(180,200)" />
+    <wire from="(180,200)" to="(290,200)" />
+    <comp name="Pin" loc="(530,180)" lib="0">
+      <a name="label" val="q" />
+      <a name="appearance" val="NewPins" />
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(350,180)" to="(530,180)" />
+    <comp name="Pin" loc="(530,340)" lib="0">
+      <a name="label" val="q_bar" />
+      <a name="appearance" val="NewPins" />
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(350,340)" to="(530,340)" />
+    <comp name="Text" loc="(160,100)" lib="9">
+      <a name="text" val="Cross-coupled NOR feedback" />
+      <a name="font" val="SansSerif bold 14" />
+      <a name="halign" val="left" />
+    </comp>
+  </circuit>
+</project>

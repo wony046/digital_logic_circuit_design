@@ -1,0 +1,5514 @@
+{
+  "export_origin": "Native Logisim-evolution Circuit.draw with the actual CircuitState and native signal colors; not GUI screenshots",
+  "timestamp": "2026-11-13T07:01:33.738557+00:00",
+  "simulator": "Logisim-evolution 5.0.0 bundled JVM via JNI",
+  "logic_or_layout_modified": false,
+  "all_passed": true,
+  "circuits": {
+    "rs_latch": {
+      "frame_count": 7,
+      "defined_output_comparisons": 14,
+      "undefined_output_comparisons_skipped": 0,
+      "reported_table_rows": 7,
+      "original_exported_frames": 6,
+      "frames_added_beyond_old_manifest": 1,
+      "source_sha256": "a88e87ebc0b289a5f7862f9d7c0f237cb6132497a82ced219b71f7142b08233d",
+      "all_passed": true
+    },
+    "d_latch": {
+      "frame_count": 16,
+      "defined_output_comparisons": 15,
+      "undefined_output_comparisons_skipped": 1,
+      "reported_table_rows": 6,
+      "original_exported_frames": 7,
+      "frames_added_beyond_old_manifest": 9,
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "all_passed": true
+    },
+    "d_flip_flop": {
+      "frame_count": 22,
+      "defined_output_comparisons": 21,
+      "undefined_output_comparisons_skipped": 1,
+      "reported_table_rows": 6,
+      "original_exported_frames": 8,
+      "frames_added_beyond_old_manifest": 14,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "all_passed": true
+    },
+    "jk_flip_flop": {
+      "frame_count": 47,
+      "defined_output_comparisons": 45,
+      "undefined_output_comparisons_skipped": 2,
+      "reported_table_rows": 8,
+      "original_exported_frames": 8,
+      "frames_added_beyond_old_manifest": 39,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "all_passed": true
+    },
+    "d_ff_async": {
+      "frame_count": 38,
+      "defined_output_comparisons": 37,
+      "undefined_output_comparisons_skipped": 1,
+      "reported_table_rows": 8,
+      "original_exported_frames": 11,
+      "frames_added_beyond_old_manifest": 27,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "all_passed": true
+    }
+  },
+  "snapshots": [
+    {
+      "circuit": "rs_latch",
+      "entity": "rs_latch",
+      "step_index": 0,
+      "display_index": 1,
+      "time_ns": 0,
+      "filename": "images/all_cases/logisim_rs_latch_00_t0000.png",
+      "inputs": {
+        "s": 0,
+        "r": 1
+      },
+      "inputs_text": "s=0 r=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": null,
+      "current_q": "0",
+      "previous_inputs": null,
+      "previous_time_ns": null,
+      "q_transition": "0",
+      "mode_code": "reset",
+      "label_ko": "Reset으로 Q를 0으로 설정",
+      "short_label_ko": "Reset",
+      "caption_ko": "1번 0 ns  Reset",
+      "reference_outputs": {
+        "q": "0",
+        "qbar": "1"
+      },
+      "defined_output_comparisons": 2,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_rs_latch_reset.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Reset",
+      "source_sha256": "a88e87ebc0b289a5f7862f9d7c0f237cb6132497a82ced219b71f7142b08233d",
+      "stimulus_file": "verification/vhdl_stimuli_rs_latch.csv"
+    },
+    {
+      "circuit": "rs_latch",
+      "entity": "rs_latch",
+      "step_index": 1,
+      "display_index": 2,
+      "time_ns": 10,
+      "filename": "images/all_cases/logisim_rs_latch_01_t0010.png",
+      "inputs": {
+        "s": 0,
+        "r": 0
+      },
+      "inputs_text": "s=0 r=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "s": 0,
+        "r": 1
+      },
+      "previous_time_ns": 0,
+      "q_transition": "0→0",
+      "mode_code": "hold_0",
+      "label_ko": "Hold로 Q=0을 유지",
+      "short_label_ko": "Hold 0",
+      "caption_ko": "2번 10 ns  Hold 0",
+      "reference_outputs": {
+        "q": "0",
+        "qbar": "1"
+      },
+      "defined_output_comparisons": 2,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_rs_latch_hold_zero.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Hold 0",
+      "source_sha256": "a88e87ebc0b289a5f7862f9d7c0f237cb6132497a82ced219b71f7142b08233d",
+      "stimulus_file": "verification/vhdl_stimuli_rs_latch.csv"
+    },
+    {
+      "circuit": "rs_latch",
+      "entity": "rs_latch",
+      "step_index": 2,
+      "display_index": 3,
+      "time_ns": 20,
+      "filename": "images/all_cases/logisim_rs_latch_02_t0020.png",
+      "inputs": {
+        "s": 1,
+        "r": 0
+      },
+      "inputs_text": "s=1 r=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "s": 0,
+        "r": 0
+      },
+      "previous_time_ns": 10,
+      "q_transition": "0→1",
+      "mode_code": "set",
+      "label_ko": "Set으로 Q를 1로 설정",
+      "short_label_ko": "Set",
+      "caption_ko": "3번 20 ns  Set",
+      "reference_outputs": {
+        "q": "1",
+        "qbar": "0"
+      },
+      "defined_output_comparisons": 2,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_rs_latch_set.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Set",
+      "source_sha256": "a88e87ebc0b289a5f7862f9d7c0f237cb6132497a82ced219b71f7142b08233d",
+      "stimulus_file": "verification/vhdl_stimuli_rs_latch.csv"
+    },
+    {
+      "circuit": "rs_latch",
+      "entity": "rs_latch",
+      "step_index": 3,
+      "display_index": 4,
+      "time_ns": 30,
+      "filename": "images/all_cases/logisim_rs_latch_03_t0030.png",
+      "inputs": {
+        "s": 0,
+        "r": 0
+      },
+      "inputs_text": "s=0 r=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "s": 1,
+        "r": 0
+      },
+      "previous_time_ns": 20,
+      "q_transition": "1→1",
+      "mode_code": "hold_1",
+      "label_ko": "Hold로 Q=1을 유지",
+      "short_label_ko": "Hold 1",
+      "caption_ko": "4번 30 ns  Hold 1",
+      "reference_outputs": {
+        "q": "1",
+        "qbar": "0"
+      },
+      "defined_output_comparisons": 2,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_rs_latch_hold_one.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Hold 1",
+      "source_sha256": "a88e87ebc0b289a5f7862f9d7c0f237cb6132497a82ced219b71f7142b08233d",
+      "stimulus_file": "verification/vhdl_stimuli_rs_latch.csv"
+    },
+    {
+      "circuit": "rs_latch",
+      "entity": "rs_latch",
+      "step_index": 4,
+      "display_index": 5,
+      "time_ns": 40,
+      "filename": "images/all_cases/logisim_rs_latch_04_t0040.png",
+      "inputs": {
+        "s": 1,
+        "r": 1
+      },
+      "inputs_text": "s=1 r=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "s": 0,
+        "r": 0
+      },
+      "previous_time_ns": 30,
+      "q_transition": "1→0",
+      "mode_code": "forbidden",
+      "label_ko": "금지 입력으로 두 출력이 0이 됨",
+      "short_label_ko": "금지 입력",
+      "caption_ko": "5번 40 ns  금지 입력",
+      "reference_outputs": {
+        "q": "0",
+        "qbar": "0"
+      },
+      "defined_output_comparisons": 2,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_rs_latch_forbidden.png",
+      "reported_table_row": true,
+      "reported_table_condition": "금지 입력",
+      "source_sha256": "a88e87ebc0b289a5f7862f9d7c0f237cb6132497a82ced219b71f7142b08233d",
+      "stimulus_file": "verification/vhdl_stimuli_rs_latch.csv"
+    },
+    {
+      "circuit": "rs_latch",
+      "entity": "rs_latch",
+      "step_index": 5,
+      "display_index": 6,
+      "time_ns": 50,
+      "filename": "images/all_cases/logisim_rs_latch_05_t0050.png",
+      "inputs": {
+        "s": 0,
+        "r": 1
+      },
+      "inputs_text": "s=0 r=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "s": 1,
+        "r": 1
+      },
+      "previous_time_ns": 40,
+      "q_transition": "0→0",
+      "mode_code": "reset_recovery",
+      "label_ko": "금지 입력에서 Reset으로 복구",
+      "short_label_ko": "Reset 복구",
+      "caption_ko": "6번 50 ns  Reset 복구",
+      "reference_outputs": {
+        "q": "0",
+        "qbar": "1"
+      },
+      "defined_output_comparisons": 2,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_rs_latch_recover_reset.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Reset 복구",
+      "source_sha256": "a88e87ebc0b289a5f7862f9d7c0f237cb6132497a82ced219b71f7142b08233d",
+      "stimulus_file": "verification/vhdl_stimuli_rs_latch.csv"
+    },
+    {
+      "circuit": "rs_latch",
+      "entity": "rs_latch",
+      "step_index": 6,
+      "display_index": 7,
+      "time_ns": 60,
+      "filename": "images/all_cases/logisim_rs_latch_06_t0060.png",
+      "inputs": {
+        "s": 0,
+        "r": 0
+      },
+      "inputs_text": "s=0 r=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "s": 0,
+        "r": 1
+      },
+      "previous_time_ns": 50,
+      "q_transition": "0→0",
+      "mode_code": "hold_0",
+      "label_ko": "Hold로 Q=0을 유지",
+      "short_label_ko": "Hold 0",
+      "caption_ko": "7번 60 ns  Hold 0",
+      "reference_outputs": {
+        "q": "0",
+        "qbar": "1"
+      },
+      "defined_output_comparisons": 2,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": true,
+      "reported_table_condition": "Hold 0",
+      "source_sha256": "a88e87ebc0b289a5f7862f9d7c0f237cb6132497a82ced219b71f7142b08233d",
+      "stimulus_file": "verification/vhdl_stimuli_rs_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 0,
+      "display_index": 1,
+      "time_ns": 0,
+      "filename": "images/all_cases/logisim_d_latch_00_t0000.png",
+      "inputs": {
+        "d": 0,
+        "en": 0
+      },
+      "inputs_text": "d=0 en=0",
+      "actual_outputs": {
+        "q": "E",
+        "q_bar": "E"
+      },
+      "previous_q": null,
+      "current_q": "E",
+      "previous_inputs": null,
+      "previous_time_ns": null,
+      "q_transition": "미정",
+      "mode_code": "startup",
+      "label_ko": "초기화 전 미정 상태",
+      "short_label_ko": "초기화 전",
+      "caption_ko": "1번 0 ns  초기화 전",
+      "reference_outputs": {
+        "q": "x"
+      },
+      "defined_output_comparisons": 0,
+      "undefined_startup": true,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 1,
+      "display_index": 2,
+      "time_ns": 70,
+      "filename": "images/all_cases/logisim_d_latch_01_t0070.png",
+      "inputs": {
+        "d": 0,
+        "en": 1
+      },
+      "inputs_text": "d=0 en=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "E",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "en": 0
+      },
+      "previous_time_ns": 0,
+      "q_transition": "미정→0",
+      "mode_code": "reenable_0",
+      "label_ko": "en=1에서 D=0을 Q에 전달",
+      "short_label_ko": "입력 0 전달",
+      "caption_ko": "2번 70 ns  입력 0 전달",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_latch_transparent_zero.png",
+      "reported_table_row": true,
+      "reported_table_condition": "0 전달",
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 2,
+      "display_index": 3,
+      "time_ns": 80,
+      "filename": "images/all_cases/logisim_d_latch_02_t0080.png",
+      "inputs": {
+        "d": 1,
+        "en": 1
+      },
+      "inputs_text": "d=1 en=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "en": 1
+      },
+      "previous_time_ns": 70,
+      "q_transition": "0→1",
+      "mode_code": "transparent_1",
+      "label_ko": "en=1에서 D=1을 Q에 전달",
+      "short_label_ko": "입력 1 전달",
+      "caption_ko": "3번 80 ns  입력 1 전달",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_latch_transparent_one.png",
+      "reported_table_row": true,
+      "reported_table_condition": "1 전달",
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 3,
+      "display_index": 4,
+      "time_ns": 90,
+      "filename": "images/all_cases/logisim_d_latch_03_t0090.png",
+      "inputs": {
+        "d": 0,
+        "en": 1
+      },
+      "inputs_text": "d=0 en=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "en": 1
+      },
+      "previous_time_ns": 80,
+      "q_transition": "1→0",
+      "mode_code": "transparent_0",
+      "label_ko": "en=1에서 D=0을 Q에 전달",
+      "short_label_ko": "입력 0 전달",
+      "caption_ko": "4번 90 ns  입력 0 전달",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 4,
+      "display_index": 5,
+      "time_ns": 100,
+      "filename": "images/all_cases/logisim_d_latch_04_t0100.png",
+      "inputs": {
+        "d": 1,
+        "en": 1
+      },
+      "inputs_text": "d=1 en=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "en": 1
+      },
+      "previous_time_ns": 90,
+      "q_transition": "0→1",
+      "mode_code": "transparent_1",
+      "label_ko": "en=1에서 D=1을 Q에 전달",
+      "short_label_ko": "입력 1 전달",
+      "caption_ko": "5번 100 ns  입력 1 전달",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 5,
+      "display_index": 6,
+      "time_ns": 110,
+      "filename": "images/all_cases/logisim_d_latch_05_t0110.png",
+      "inputs": {
+        "d": 0,
+        "en": 1
+      },
+      "inputs_text": "d=0 en=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "en": 1
+      },
+      "previous_time_ns": 100,
+      "q_transition": "1→0",
+      "mode_code": "transparent_0",
+      "label_ko": "en=1에서 D=0을 Q에 전달",
+      "short_label_ko": "입력 0 전달",
+      "caption_ko": "6번 110 ns  입력 0 전달",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 6,
+      "display_index": 7,
+      "time_ns": 120,
+      "filename": "images/all_cases/logisim_d_latch_06_t0120.png",
+      "inputs": {
+        "d": 1,
+        "en": 1
+      },
+      "inputs_text": "d=1 en=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "en": 1
+      },
+      "previous_time_ns": 110,
+      "q_transition": "0→1",
+      "mode_code": "transparent_1",
+      "label_ko": "en=1에서 D=1을 Q에 전달",
+      "short_label_ko": "입력 1 전달",
+      "caption_ko": "7번 120 ns  입력 1 전달",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 7,
+      "display_index": 8,
+      "time_ns": 130,
+      "filename": "images/all_cases/logisim_d_latch_07_t0130.png",
+      "inputs": {
+        "d": 0,
+        "en": 1
+      },
+      "inputs_text": "d=0 en=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "en": 1
+      },
+      "previous_time_ns": 120,
+      "q_transition": "1→0",
+      "mode_code": "transparent_0",
+      "label_ko": "en=1에서 D=0을 Q에 전달",
+      "short_label_ko": "입력 0 전달",
+      "caption_ko": "8번 130 ns  입력 0 전달",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 8,
+      "display_index": 9,
+      "time_ns": 150,
+      "filename": "images/all_cases/logisim_d_latch_08_t0150.png",
+      "inputs": {
+        "d": 0,
+        "en": 0
+      },
+      "inputs_text": "d=0 en=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "en": 1
+      },
+      "previous_time_ns": 130,
+      "q_transition": "0→0",
+      "mode_code": "disable_hold_0",
+      "label_ko": "en을 0으로 바꾸어 Q=0을 저장",
+      "short_label_ko": "0 저장",
+      "caption_ko": "9번 150 ns  0 저장",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_latch_hold_zero.png",
+      "reported_table_row": true,
+      "reported_table_condition": "0 저장",
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 9,
+      "display_index": 10,
+      "time_ns": 160,
+      "filename": "images/all_cases/logisim_d_latch_09_t0160.png",
+      "inputs": {
+        "d": 1,
+        "en": 0
+      },
+      "inputs_text": "d=1 en=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "en": 0
+      },
+      "previous_time_ns": 150,
+      "q_transition": "0→0",
+      "mode_code": "disabled_data_hold_0",
+      "label_ko": "en=0에서 D를 바꾸어도 Q=0을 유지",
+      "short_label_ko": "D 변경 후 0 유지",
+      "caption_ko": "10번 160 ns  D 변경 후 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_latch_hold_zero_changed_d.png",
+      "reported_table_row": true,
+      "reported_table_condition": "D 변경 후 유지",
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 10,
+      "display_index": 11,
+      "time_ns": 170,
+      "filename": "images/all_cases/logisim_d_latch_10_t0170.png",
+      "inputs": {
+        "d": 0,
+        "en": 0
+      },
+      "inputs_text": "d=0 en=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "en": 0
+      },
+      "previous_time_ns": 160,
+      "q_transition": "0→0",
+      "mode_code": "disabled_data_hold_0",
+      "label_ko": "en=0에서 D를 바꾸어도 Q=0을 유지",
+      "short_label_ko": "D 변경 후 0 유지",
+      "caption_ko": "11번 170 ns  D 변경 후 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 11,
+      "display_index": 12,
+      "time_ns": 180,
+      "filename": "images/all_cases/logisim_d_latch_11_t0180.png",
+      "inputs": {
+        "d": 1,
+        "en": 1
+      },
+      "inputs_text": "d=1 en=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "en": 0
+      },
+      "previous_time_ns": 170,
+      "q_transition": "0→1",
+      "mode_code": "reenable_1",
+      "label_ko": "en=1에서 D=1을 Q에 전달",
+      "short_label_ko": "입력 1 전달",
+      "caption_ko": "12번 180 ns  입력 1 전달",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 12,
+      "display_index": 13,
+      "time_ns": 190,
+      "filename": "images/all_cases/logisim_d_latch_12_t0190.png",
+      "inputs": {
+        "d": 1,
+        "en": 0
+      },
+      "inputs_text": "d=1 en=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "en": 1
+      },
+      "previous_time_ns": 180,
+      "q_transition": "1→1",
+      "mode_code": "disable_hold_1",
+      "label_ko": "en을 0으로 바꾸어 Q=1을 저장",
+      "short_label_ko": "1 저장",
+      "caption_ko": "13번 190 ns  1 저장",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_latch_hold_one.png",
+      "reported_table_row": true,
+      "reported_table_condition": "1 저장",
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 13,
+      "display_index": 14,
+      "time_ns": 200,
+      "filename": "images/all_cases/logisim_d_latch_13_t0200.png",
+      "inputs": {
+        "d": 0,
+        "en": 0
+      },
+      "inputs_text": "d=0 en=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "en": 0
+      },
+      "previous_time_ns": 190,
+      "q_transition": "1→1",
+      "mode_code": "disabled_data_hold_1",
+      "label_ko": "en=0에서 D를 바꾸어도 Q=1을 유지",
+      "short_label_ko": "D 변경 후 1 유지",
+      "caption_ko": "14번 200 ns  D 변경 후 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_latch_hold_one_changed_d.png",
+      "reported_table_row": true,
+      "reported_table_condition": "D 변경 후 유지",
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 14,
+      "display_index": 15,
+      "time_ns": 210,
+      "filename": "images/all_cases/logisim_d_latch_14_t0210.png",
+      "inputs": {
+        "d": 1,
+        "en": 0
+      },
+      "inputs_text": "d=1 en=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "en": 0
+      },
+      "previous_time_ns": 200,
+      "q_transition": "1→1",
+      "mode_code": "disabled_data_hold_1",
+      "label_ko": "en=0에서 D를 바꾸어도 Q=1을 유지",
+      "short_label_ko": "D 변경 후 1 유지",
+      "caption_ko": "15번 210 ns  D 변경 후 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_latch",
+      "entity": "d_latch",
+      "step_index": 15,
+      "display_index": 16,
+      "time_ns": 220,
+      "filename": "images/all_cases/logisim_d_latch_15_t0220.png",
+      "inputs": {
+        "d": 1,
+        "en": 1
+      },
+      "inputs_text": "d=1 en=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "en": 0
+      },
+      "previous_time_ns": 210,
+      "q_transition": "1→1",
+      "mode_code": "reenable_1",
+      "label_ko": "en=1에서 D=1을 Q에 전달",
+      "short_label_ko": "입력 1 전달",
+      "caption_ko": "16번 220 ns  입력 1 전달",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_latch_reenable.png",
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
+      "stimulus_file": "verification/vhdl_stimuli_d_latch.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 0,
+      "display_index": 1,
+      "time_ns": 0,
+      "filename": "images/all_cases/logisim_d_flip_flop_00_t0000.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "inputs_text": "d=0 clk=0",
+      "actual_outputs": {
+        "q": "E",
+        "q_bar": "E"
+      },
+      "previous_q": null,
+      "current_q": "E",
+      "previous_inputs": null,
+      "previous_time_ns": null,
+      "q_transition": "미정",
+      "mode_code": "startup",
+      "label_ko": "초기화 전 미정 상태",
+      "short_label_ko": "초기화 전",
+      "caption_ko": "1번 0 ns  초기화 전",
+      "reference_outputs": {
+        "q": "x"
+      },
+      "defined_output_comparisons": 0,
+      "undefined_startup": true,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 1,
+      "display_index": 2,
+      "time_ns": 240,
+      "filename": "images/all_cases/logisim_d_flip_flop_01_t0240.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1
+      },
+      "inputs_text": "d=0 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "E",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 0,
+      "q_transition": "미정→0",
+      "mode_code": "rising_capture_0",
+      "label_ko": "상승 에지에서 D=0을 저장",
+      "short_label_ko": "상승 에지 0 저장",
+      "caption_ko": "2번 240 ns  상승 에지 0 저장",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_flip_flop_rising_capture_zero.png",
+      "reported_table_row": true,
+      "reported_table_condition": "상승 에지 0 저장",
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 2,
+      "display_index": 3,
+      "time_ns": 250,
+      "filename": "images/all_cases/logisim_d_flip_flop_02_t0250.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1
+      },
+      "inputs_text": "d=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 240,
+      "q_transition": "0→0",
+      "mode_code": "high_hold_0",
+      "label_ko": "clk=1에서 D를 바꾸어도 Q=0을 유지",
+      "short_label_ko": "clk=1에서 유지",
+      "caption_ko": "3번 250 ns  clk=1에서 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_flip_flop_high_hold.png",
+      "reported_table_row": true,
+      "reported_table_condition": "높은 구간 유지",
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 3,
+      "display_index": 4,
+      "time_ns": 260,
+      "filename": "images/all_cases/logisim_d_flip_flop_03_t0260.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "inputs_text": "d=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 250,
+      "q_transition": "0→0",
+      "mode_code": "falling_hold_0",
+      "label_ko": "하강 에지에서 Q=0을 유지",
+      "short_label_ko": "하강 에지 0 유지",
+      "caption_ko": "4번 260 ns  하강 에지 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_flip_flop_falling_hold_zero.png",
+      "reported_table_row": true,
+      "reported_table_condition": "하강 에지 유지",
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 4,
+      "display_index": 5,
+      "time_ns": 270,
+      "filename": "images/all_cases/logisim_d_flip_flop_04_t0270.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "inputs_text": "d=0 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 260,
+      "q_transition": "0→0",
+      "mode_code": "low_hold_0",
+      "label_ko": "clk=0에서 D를 바꾸어도 Q=0을 유지",
+      "short_label_ko": "clk=0에서 유지",
+      "caption_ko": "5번 270 ns  clk=0에서 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 5,
+      "display_index": 6,
+      "time_ns": 280,
+      "filename": "images/all_cases/logisim_d_flip_flop_05_t0280.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "inputs_text": "d=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 270,
+      "q_transition": "0→0",
+      "mode_code": "low_hold_0",
+      "label_ko": "clk=0에서 D를 바꾸어도 Q=0을 유지",
+      "short_label_ko": "clk=0에서 유지",
+      "caption_ko": "6번 280 ns  clk=0에서 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_flip_flop_low_hold.png",
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 6,
+      "display_index": 7,
+      "time_ns": 290,
+      "filename": "images/all_cases/logisim_d_flip_flop_06_t0290.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1
+      },
+      "inputs_text": "d=1 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 280,
+      "q_transition": "0→1",
+      "mode_code": "rising_capture_1",
+      "label_ko": "상승 에지에서 D=1을 저장",
+      "short_label_ko": "상승 에지 1 저장",
+      "caption_ko": "7번 290 ns  상승 에지 1 저장",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_flip_flop_rising_capture_one.png",
+      "reported_table_row": true,
+      "reported_table_condition": "상승 에지 1 저장",
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 7,
+      "display_index": 8,
+      "time_ns": 300,
+      "filename": "images/all_cases/logisim_d_flip_flop_07_t0300.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1
+      },
+      "inputs_text": "d=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 290,
+      "q_transition": "1→1",
+      "mode_code": "high_hold_1",
+      "label_ko": "clk=1에서 D를 바꾸어도 Q=1을 유지",
+      "short_label_ko": "clk=1에서 유지",
+      "caption_ko": "8번 300 ns  clk=1에서 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_flip_flop_high_hold_changed_d.png",
+      "reported_table_row": true,
+      "reported_table_condition": "D 변경 후 유지",
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 8,
+      "display_index": 9,
+      "time_ns": 310,
+      "filename": "images/all_cases/logisim_d_flip_flop_08_t0310.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "inputs_text": "d=0 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 300,
+      "q_transition": "1→1",
+      "mode_code": "falling_hold_1",
+      "label_ko": "하강 에지에서 Q=1을 유지",
+      "short_label_ko": "하강 에지 1 유지",
+      "caption_ko": "9번 310 ns  하강 에지 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_flip_flop_falling_hold_one.png",
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 9,
+      "display_index": 10,
+      "time_ns": 320,
+      "filename": "images/all_cases/logisim_d_flip_flop_09_t0320.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "inputs_text": "d=1 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 310,
+      "q_transition": "1→1",
+      "mode_code": "low_hold_1",
+      "label_ko": "clk=0에서 D를 바꾸어도 Q=1을 유지",
+      "short_label_ko": "clk=0에서 유지",
+      "caption_ko": "10번 320 ns  clk=0에서 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 10,
+      "display_index": 11,
+      "time_ns": 330,
+      "filename": "images/all_cases/logisim_d_flip_flop_10_t0330.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "inputs_text": "d=0 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 320,
+      "q_transition": "1→1",
+      "mode_code": "low_hold_1",
+      "label_ko": "clk=0에서 D를 바꾸어도 Q=1을 유지",
+      "short_label_ko": "clk=0에서 유지",
+      "caption_ko": "11번 330 ns  clk=0에서 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 11,
+      "display_index": 12,
+      "time_ns": 340,
+      "filename": "images/all_cases/logisim_d_flip_flop_11_t0340.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1
+      },
+      "inputs_text": "d=0 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 330,
+      "q_transition": "1→0",
+      "mode_code": "rising_capture_0",
+      "label_ko": "상승 에지에서 D=0을 저장",
+      "short_label_ko": "상승 에지 0 저장",
+      "caption_ko": "12번 340 ns  상승 에지 0 저장",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_flip_flop_rising_capture_next_zero.png",
+      "reported_table_row": true,
+      "reported_table_condition": "다음 상승 에지",
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 12,
+      "display_index": 13,
+      "time_ns": 350,
+      "filename": "images/all_cases/logisim_d_flip_flop_12_t0350.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1
+      },
+      "inputs_text": "d=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 340,
+      "q_transition": "0→0",
+      "mode_code": "high_hold_0",
+      "label_ko": "clk=1에서 D를 바꾸어도 Q=0을 유지",
+      "short_label_ko": "clk=1에서 유지",
+      "caption_ko": "13번 350 ns  clk=1에서 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 13,
+      "display_index": 14,
+      "time_ns": 360,
+      "filename": "images/all_cases/logisim_d_flip_flop_13_t0360.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "inputs_text": "d=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 350,
+      "q_transition": "0→0",
+      "mode_code": "falling_hold_0",
+      "label_ko": "하강 에지에서 Q=0을 유지",
+      "short_label_ko": "하강 에지 0 유지",
+      "caption_ko": "14번 360 ns  하강 에지 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 14,
+      "display_index": 15,
+      "time_ns": 370,
+      "filename": "images/all_cases/logisim_d_flip_flop_14_t0370.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "inputs_text": "d=0 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 360,
+      "q_transition": "0→0",
+      "mode_code": "low_hold_0",
+      "label_ko": "clk=0에서 D를 바꾸어도 Q=0을 유지",
+      "short_label_ko": "clk=0에서 유지",
+      "caption_ko": "15번 370 ns  clk=0에서 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 15,
+      "display_index": 16,
+      "time_ns": 380,
+      "filename": "images/all_cases/logisim_d_flip_flop_15_t0380.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "inputs_text": "d=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 370,
+      "q_transition": "0→0",
+      "mode_code": "low_hold_0",
+      "label_ko": "clk=0에서 D를 바꾸어도 Q=0을 유지",
+      "short_label_ko": "clk=0에서 유지",
+      "caption_ko": "16번 380 ns  clk=0에서 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 16,
+      "display_index": 17,
+      "time_ns": 390,
+      "filename": "images/all_cases/logisim_d_flip_flop_16_t0390.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1
+      },
+      "inputs_text": "d=1 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 380,
+      "q_transition": "0→1",
+      "mode_code": "rising_capture_1",
+      "label_ko": "상승 에지에서 D=1을 저장",
+      "short_label_ko": "상승 에지 1 저장",
+      "caption_ko": "17번 390 ns  상승 에지 1 저장",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 17,
+      "display_index": 18,
+      "time_ns": 400,
+      "filename": "images/all_cases/logisim_d_flip_flop_17_t0400.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1
+      },
+      "inputs_text": "d=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 390,
+      "q_transition": "1→1",
+      "mode_code": "high_hold_1",
+      "label_ko": "clk=1에서 D를 바꾸어도 Q=1을 유지",
+      "short_label_ko": "clk=1에서 유지",
+      "caption_ko": "18번 400 ns  clk=1에서 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 18,
+      "display_index": 19,
+      "time_ns": 410,
+      "filename": "images/all_cases/logisim_d_flip_flop_18_t0410.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "inputs_text": "d=0 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 400,
+      "q_transition": "1→1",
+      "mode_code": "falling_hold_1",
+      "label_ko": "하강 에지에서 Q=1을 유지",
+      "short_label_ko": "하강 에지 1 유지",
+      "caption_ko": "19번 410 ns  하강 에지 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 19,
+      "display_index": 20,
+      "time_ns": 420,
+      "filename": "images/all_cases/logisim_d_flip_flop_19_t0420.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "inputs_text": "d=1 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 410,
+      "q_transition": "1→1",
+      "mode_code": "low_hold_1",
+      "label_ko": "clk=0에서 D를 바꾸어도 Q=1을 유지",
+      "short_label_ko": "clk=0에서 유지",
+      "caption_ko": "20번 420 ns  clk=0에서 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 20,
+      "display_index": 21,
+      "time_ns": 430,
+      "filename": "images/all_cases/logisim_d_flip_flop_20_t0430.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "inputs_text": "d=0 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 420,
+      "q_transition": "1→1",
+      "mode_code": "low_hold_1",
+      "label_ko": "clk=0에서 D를 바꾸어도 Q=1을 유지",
+      "short_label_ko": "clk=0에서 유지",
+      "caption_ko": "21번 430 ns  clk=0에서 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "d_flip_flop",
+      "entity": "d_flip_flop",
+      "step_index": 21,
+      "display_index": 22,
+      "time_ns": 440,
+      "filename": "images/all_cases/logisim_d_flip_flop_21_t0440.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1
+      },
+      "inputs_text": "d=0 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 430,
+      "q_transition": "1→0",
+      "mode_code": "rising_capture_0",
+      "label_ko": "상승 에지에서 D=0을 저장",
+      "short_label_ko": "상승 에지 0 저장",
+      "caption_ko": "22번 440 ns  상승 에지 0 저장",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 0,
+      "display_index": 1,
+      "time_ns": 0,
+      "filename": "images/all_cases/logisim_jk_flip_flop_00_t0000.png",
+      "inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=0 clk=0",
+      "actual_outputs": {
+        "q": "E",
+        "q_bar": "E"
+      },
+      "previous_q": null,
+      "current_q": "E",
+      "previous_inputs": null,
+      "previous_time_ns": null,
+      "q_transition": "미정",
+      "mode_code": "startup",
+      "label_ko": "초기화 전 미정 상태",
+      "short_label_ko": "초기화 전",
+      "caption_ko": "1번 0 ns  초기화 전",
+      "reference_outputs": {
+        "q": "x"
+      },
+      "defined_output_comparisons": 0,
+      "undefined_startup": true,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 1,
+      "display_index": 2,
+      "time_ns": 450,
+      "filename": "images/all_cases/logisim_jk_flip_flop_01_t0450.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=1 clk=0",
+      "actual_outputs": {
+        "q": "E",
+        "q_bar": "E"
+      },
+      "previous_q": "E",
+      "current_q": "E",
+      "previous_inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 0,
+      "q_transition": "미정→미정",
+      "mode_code": "startup",
+      "label_ko": "초기화 전 미정 상태",
+      "short_label_ko": "초기화 전",
+      "caption_ko": "2번 450 ns  초기화 전",
+      "reference_outputs": {
+        "q": "x"
+      },
+      "defined_output_comparisons": 0,
+      "undefined_startup": true,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 2,
+      "display_index": 3,
+      "time_ns": 460,
+      "filename": "images/all_cases/logisim_jk_flip_flop_02_t0460.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "E",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 450,
+      "q_transition": "미정→0",
+      "mode_code": "rising_reset_E_0",
+      "label_ko": "상승 에지에서 Reset 동작으로 Q가 미정→0",
+      "short_label_ko": "Reset 0",
+      "caption_ko": "3번 460 ns  Reset 0",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 3,
+      "display_index": 4,
+      "time_ns": 470,
+      "filename": "images/all_cases/logisim_jk_flip_flop_03_t0470.png",
+      "inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=0 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 460,
+      "q_transition": "0→0",
+      "mode_code": "high_input_hold_0",
+      "label_ko": "clk=1에서 J와 K를 바꾸어도 Q=0을 유지",
+      "short_label_ko": "J와 K 변경 후 0 유지",
+      "caption_ko": "4번 470 ns  J와 K 변경 후 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 4,
+      "display_index": 5,
+      "time_ns": 480,
+      "filename": "images/all_cases/logisim_jk_flip_flop_04_t0480.png",
+      "inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=0 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 470,
+      "q_transition": "0→0",
+      "mode_code": "falling_hold_0",
+      "label_ko": "하강 에지에서 Q=0을 유지",
+      "short_label_ko": "하강 에지 0 유지",
+      "caption_ko": "5번 480 ns  하강 에지 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 5,
+      "display_index": 6,
+      "time_ns": 490,
+      "filename": "images/all_cases/logisim_jk_flip_flop_05_t0490.png",
+      "inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=0 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 480,
+      "q_transition": "0→0",
+      "mode_code": "rising_hold_0_0",
+      "label_ko": "상승 에지에서 Hold 동작으로 Q가 0→0",
+      "short_label_ko": "Hold 0",
+      "caption_ko": "6번 490 ns  Hold 0",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_jk_flip_flop_hold_zero.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Hold 0",
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 6,
+      "display_index": 7,
+      "time_ns": 500,
+      "filename": "images/all_cases/logisim_jk_flip_flop_06_t0500.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 490,
+      "q_transition": "0→0",
+      "mode_code": "falling_hold_0",
+      "label_ko": "하강 에지에서 Q=0을 유지",
+      "short_label_ko": "하강 에지 0 유지",
+      "caption_ko": "7번 500 ns  하강 에지 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 7,
+      "display_index": 8,
+      "time_ns": 510,
+      "filename": "images/all_cases/logisim_jk_flip_flop_07_t0510.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 500,
+      "q_transition": "0→0",
+      "mode_code": "rising_reset_0_0",
+      "label_ko": "상승 에지에서 Reset 동작으로 Q가 0→0",
+      "short_label_ko": "Reset 0",
+      "caption_ko": "8번 510 ns  Reset 0",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 8,
+      "display_index": 9,
+      "time_ns": 530,
+      "filename": "images/all_cases/logisim_jk_flip_flop_08_t0530.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 510,
+      "q_transition": "0→0",
+      "mode_code": "falling_hold_0",
+      "label_ko": "하강 에지에서 Q=0을 유지",
+      "short_label_ko": "하강 에지 0 유지",
+      "caption_ko": "9번 530 ns  하강 에지 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 9,
+      "display_index": 10,
+      "time_ns": 540,
+      "filename": "images/all_cases/logisim_jk_flip_flop_09_t0540.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 530,
+      "q_transition": "0→0",
+      "mode_code": "rising_reset_0_0",
+      "label_ko": "상승 에지에서 Reset 동작으로 Q가 0→0",
+      "short_label_ko": "Reset 0",
+      "caption_ko": "10번 540 ns  Reset 0",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 10,
+      "display_index": 11,
+      "time_ns": 550,
+      "filename": "images/all_cases/logisim_jk_flip_flop_10_t0550.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 540,
+      "q_transition": "0→0",
+      "mode_code": "falling_hold_0",
+      "label_ko": "하강 에지에서 Q=0을 유지",
+      "short_label_ko": "하강 에지 0 유지",
+      "caption_ko": "11번 550 ns  하강 에지 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 11,
+      "display_index": 12,
+      "time_ns": 560,
+      "filename": "images/all_cases/logisim_jk_flip_flop_11_t0560.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 550,
+      "q_transition": "0→0",
+      "mode_code": "rising_reset_0_0",
+      "label_ko": "상승 에지에서 Reset 동작으로 Q가 0→0",
+      "short_label_ko": "Reset 0",
+      "caption_ko": "12번 560 ns  Reset 0",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 12,
+      "display_index": 13,
+      "time_ns": 570,
+      "filename": "images/all_cases/logisim_jk_flip_flop_12_t0570.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=0 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 560,
+      "q_transition": "0→0",
+      "mode_code": "high_input_hold_0",
+      "label_ko": "clk=1에서 J와 K를 바꾸어도 Q=0을 유지",
+      "short_label_ko": "J와 K 변경 후 0 유지",
+      "caption_ko": "13번 570 ns  J와 K 변경 후 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 13,
+      "display_index": 14,
+      "time_ns": 580,
+      "filename": "images/all_cases/logisim_jk_flip_flop_13_t0580.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=0 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 570,
+      "q_transition": "0→0",
+      "mode_code": "falling_hold_0",
+      "label_ko": "하강 에지에서 Q=0을 유지",
+      "short_label_ko": "하강 에지 0 유지",
+      "caption_ko": "14번 580 ns  하강 에지 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 14,
+      "display_index": 15,
+      "time_ns": 590,
+      "filename": "images/all_cases/logisim_jk_flip_flop_14_t0590.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 580,
+      "q_transition": "0→1",
+      "mode_code": "rising_set_0_1",
+      "label_ko": "상승 에지에서 Set 동작으로 Q가 0→1",
+      "short_label_ko": "Set 1",
+      "caption_ko": "15번 590 ns  Set 1",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_jk_flip_flop_set.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Set",
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 15,
+      "display_index": 16,
+      "time_ns": 600,
+      "filename": "images/all_cases/logisim_jk_flip_flop_15_t0600.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=1 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 590,
+      "q_transition": "1→1",
+      "mode_code": "falling_hold_1",
+      "label_ko": "하강 에지에서 Q=1을 유지",
+      "short_label_ko": "하강 에지 1 유지",
+      "caption_ko": "16번 600 ns  하강 에지 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 16,
+      "display_index": 17,
+      "time_ns": 610,
+      "filename": "images/all_cases/logisim_jk_flip_flop_16_t0610.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 600,
+      "q_transition": "1→0",
+      "mode_code": "rising_reset_1_0",
+      "label_ko": "상승 에지에서 Reset 동작으로 Q가 1→0",
+      "short_label_ko": "Reset 0",
+      "caption_ko": "17번 610 ns  Reset 0",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": true,
+      "reported_table_condition": "Reset",
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 17,
+      "display_index": 18,
+      "time_ns": 620,
+      "filename": "images/all_cases/logisim_jk_flip_flop_17_t0620.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 610,
+      "q_transition": "0→0",
+      "mode_code": "high_input_hold_0",
+      "label_ko": "clk=1에서 J와 K를 바꾸어도 Q=0을 유지",
+      "short_label_ko": "J와 K 변경 후 0 유지",
+      "caption_ko": "18번 620 ns  J와 K 변경 후 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 18,
+      "display_index": 19,
+      "time_ns": 630,
+      "filename": "images/all_cases/logisim_jk_flip_flop_18_t0630.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 620,
+      "q_transition": "0→0",
+      "mode_code": "falling_hold_0",
+      "label_ko": "하강 에지에서 Q=0을 유지",
+      "short_label_ko": "하강 에지 0 유지",
+      "caption_ko": "19번 630 ns  하강 에지 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 19,
+      "display_index": 20,
+      "time_ns": 640,
+      "filename": "images/all_cases/logisim_jk_flip_flop_19_t0640.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=1 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 630,
+      "q_transition": "0→1",
+      "mode_code": "rising_toggle_0_1",
+      "label_ko": "상승 에지에서 Toggle 동작으로 Q가 0→1",
+      "short_label_ko": "Toggle 0→1",
+      "caption_ko": "20번 640 ns  Toggle 0→1",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_jk_flip_flop_toggle_zero_to_one.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Toggle 0→1",
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 20,
+      "display_index": 21,
+      "time_ns": 650,
+      "filename": "images/all_cases/logisim_jk_flip_flop_20_t0650.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=0 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 640,
+      "q_transition": "1→1",
+      "mode_code": "falling_hold_1",
+      "label_ko": "하강 에지에서 Q=1을 유지",
+      "short_label_ko": "하강 에지 1 유지",
+      "caption_ko": "21번 650 ns  하강 에지 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 21,
+      "display_index": 22,
+      "time_ns": 660,
+      "filename": "images/all_cases/logisim_jk_flip_flop_21_t0660.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 650,
+      "q_transition": "1→1",
+      "mode_code": "rising_set_1_1",
+      "label_ko": "상승 에지에서 Set 동작으로 Q가 1→1",
+      "short_label_ko": "Set 1",
+      "caption_ko": "22번 660 ns  Set 1",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 22,
+      "display_index": 23,
+      "time_ns": 670,
+      "filename": "images/all_cases/logisim_jk_flip_flop_22_t0670.png",
+      "inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 660,
+      "q_transition": "1→1",
+      "mode_code": "high_input_hold_1",
+      "label_ko": "clk=1에서 J와 K를 바꾸어도 Q=1을 유지",
+      "short_label_ko": "J와 K 변경 후 1 유지",
+      "caption_ko": "23번 670 ns  J와 K 변경 후 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 23,
+      "display_index": 24,
+      "time_ns": 680,
+      "filename": "images/all_cases/logisim_jk_flip_flop_23_t0680.png",
+      "inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=0 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 670,
+      "q_transition": "1→1",
+      "mode_code": "falling_hold_1",
+      "label_ko": "하강 에지에서 Q=1을 유지",
+      "short_label_ko": "하강 에지 1 유지",
+      "caption_ko": "24번 680 ns  하강 에지 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 24,
+      "display_index": 25,
+      "time_ns": 690,
+      "filename": "images/all_cases/logisim_jk_flip_flop_24_t0690.png",
+      "inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 680,
+      "q_transition": "1→1",
+      "mode_code": "rising_hold_1_1",
+      "label_ko": "상승 에지에서 Hold 동작으로 Q가 1→1",
+      "short_label_ko": "Hold 1",
+      "caption_ko": "25번 690 ns  Hold 1",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_jk_flip_flop_hold_one.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Hold 1",
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 25,
+      "display_index": 26,
+      "time_ns": 700,
+      "filename": "images/all_cases/logisim_jk_flip_flop_25_t0700.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=0 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 690,
+      "q_transition": "1→1",
+      "mode_code": "falling_hold_1",
+      "label_ko": "하강 에지에서 Q=1을 유지",
+      "short_label_ko": "하강 에지 1 유지",
+      "caption_ko": "26번 700 ns  하강 에지 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 26,
+      "display_index": 27,
+      "time_ns": 710,
+      "filename": "images/all_cases/logisim_jk_flip_flop_26_t0710.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 700,
+      "q_transition": "1→1",
+      "mode_code": "rising_set_1_1",
+      "label_ko": "상승 에지에서 Set 동작으로 Q가 1→1",
+      "short_label_ko": "Set 1",
+      "caption_ko": "27번 710 ns  Set 1",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 27,
+      "display_index": 28,
+      "time_ns": 720,
+      "filename": "images/all_cases/logisim_jk_flip_flop_27_t0720.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=1 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 710,
+      "q_transition": "1→1",
+      "mode_code": "high_input_hold_1",
+      "label_ko": "clk=1에서 J와 K를 바꾸어도 Q=1을 유지",
+      "short_label_ko": "J와 K 변경 후 1 유지",
+      "caption_ko": "28번 720 ns  J와 K 변경 후 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 28,
+      "display_index": 29,
+      "time_ns": 730,
+      "filename": "images/all_cases/logisim_jk_flip_flop_28_t0730.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=1 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 720,
+      "q_transition": "1→1",
+      "mode_code": "falling_hold_1",
+      "label_ko": "하강 에지에서 Q=1을 유지",
+      "short_label_ko": "하강 에지 1 유지",
+      "caption_ko": "29번 730 ns  하강 에지 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 29,
+      "display_index": 30,
+      "time_ns": 740,
+      "filename": "images/all_cases/logisim_jk_flip_flop_29_t0740.png",
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 730,
+      "q_transition": "1→0",
+      "mode_code": "rising_reset_1_0",
+      "label_ko": "상승 에지에서 Reset 동작으로 Q가 1→0",
+      "short_label_ko": "Reset 0",
+      "caption_ko": "30번 740 ns  Reset 0",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_jk_flip_flop_reset.png",
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 30,
+      "display_index": 31,
+      "time_ns": 750,
+      "filename": "images/all_cases/logisim_jk_flip_flop_30_t0750.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=0 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 740,
+      "q_transition": "0→0",
+      "mode_code": "falling_hold_0",
+      "label_ko": "하강 에지에서 Q=0을 유지",
+      "short_label_ko": "하강 에지 0 유지",
+      "caption_ko": "31번 750 ns  하강 에지 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 31,
+      "display_index": 32,
+      "time_ns": 760,
+      "filename": "images/all_cases/logisim_jk_flip_flop_31_t0760.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 750,
+      "q_transition": "0→1",
+      "mode_code": "rising_set_0_1",
+      "label_ko": "상승 에지에서 Set 동작으로 Q가 0→1",
+      "short_label_ko": "Set 1",
+      "caption_ko": "32번 760 ns  Set 1",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 32,
+      "display_index": 33,
+      "time_ns": 780,
+      "filename": "images/all_cases/logisim_jk_flip_flop_32_t0780.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=0 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 760,
+      "q_transition": "1→1",
+      "mode_code": "falling_hold_1",
+      "label_ko": "하강 에지에서 Q=1을 유지",
+      "short_label_ko": "하강 에지 1 유지",
+      "caption_ko": "33번 780 ns  하강 에지 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 33,
+      "display_index": 34,
+      "time_ns": 790,
+      "filename": "images/all_cases/logisim_jk_flip_flop_33_t0790.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 780,
+      "q_transition": "1→1",
+      "mode_code": "rising_set_1_1",
+      "label_ko": "상승 에지에서 Set 동작으로 Q가 1→1",
+      "short_label_ko": "Set 1",
+      "caption_ko": "34번 790 ns  Set 1",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 34,
+      "display_index": 35,
+      "time_ns": 800,
+      "filename": "images/all_cases/logisim_jk_flip_flop_34_t0800.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=0 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 790,
+      "q_transition": "1→1",
+      "mode_code": "falling_hold_1",
+      "label_ko": "하강 에지에서 Q=1을 유지",
+      "short_label_ko": "하강 에지 1 유지",
+      "caption_ko": "35번 800 ns  하강 에지 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 35,
+      "display_index": 36,
+      "time_ns": 810,
+      "filename": "images/all_cases/logisim_jk_flip_flop_35_t0810.png",
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "previous_time_ns": 800,
+      "q_transition": "1→1",
+      "mode_code": "rising_set_1_1",
+      "label_ko": "상승 에지에서 Set 동작으로 Q가 1→1",
+      "short_label_ko": "Set 1",
+      "caption_ko": "36번 810 ns  Set 1",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 36,
+      "display_index": 37,
+      "time_ns": 820,
+      "filename": "images/all_cases/logisim_jk_flip_flop_36_t0820.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=1 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "previous_time_ns": 810,
+      "q_transition": "1→1",
+      "mode_code": "high_input_hold_1",
+      "label_ko": "clk=1에서 J와 K를 바꾸어도 Q=1을 유지",
+      "short_label_ko": "J와 K 변경 후 1 유지",
+      "caption_ko": "37번 820 ns  J와 K 변경 후 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 37,
+      "display_index": 38,
+      "time_ns": 830,
+      "filename": "images/all_cases/logisim_jk_flip_flop_37_t0830.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=1 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 820,
+      "q_transition": "1→1",
+      "mode_code": "falling_hold_1",
+      "label_ko": "하강 에지에서 Q=1을 유지",
+      "short_label_ko": "하강 에지 1 유지",
+      "caption_ko": "38번 830 ns  하강 에지 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 38,
+      "display_index": 39,
+      "time_ns": 840,
+      "filename": "images/all_cases/logisim_jk_flip_flop_38_t0840.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 830,
+      "q_transition": "1→0",
+      "mode_code": "rising_toggle_1_0",
+      "label_ko": "상승 에지에서 Toggle 동작으로 Q가 1→0",
+      "short_label_ko": "Toggle 1→0",
+      "caption_ko": "39번 840 ns  Toggle 1→0",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_jk_flip_flop_toggle_one_to_zero.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Toggle 1→0",
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 39,
+      "display_index": 40,
+      "time_ns": 850,
+      "filename": "images/all_cases/logisim_jk_flip_flop_39_t0850.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 840,
+      "q_transition": "0→0",
+      "mode_code": "falling_hold_0",
+      "label_ko": "하강 에지에서 Q=0을 유지",
+      "short_label_ko": "하강 에지 0 유지",
+      "caption_ko": "40번 850 ns  하강 에지 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 40,
+      "display_index": 41,
+      "time_ns": 860,
+      "filename": "images/all_cases/logisim_jk_flip_flop_40_t0860.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=1 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 850,
+      "q_transition": "0→1",
+      "mode_code": "rising_toggle_0_1",
+      "label_ko": "상승 에지에서 Toggle 동작으로 Q가 0→1",
+      "short_label_ko": "Toggle 0→1",
+      "caption_ko": "41번 860 ns  Toggle 0→1",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_jk_flip_flop_repeat_toggle_zero_to_one.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Toggle 0→1",
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 41,
+      "display_index": 42,
+      "time_ns": 870,
+      "filename": "images/all_cases/logisim_jk_flip_flop_41_t0870.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=1 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 860,
+      "q_transition": "1→1",
+      "mode_code": "falling_hold_1",
+      "label_ko": "하강 에지에서 Q=1을 유지",
+      "short_label_ko": "하강 에지 1 유지",
+      "caption_ko": "42번 870 ns  하강 에지 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 42,
+      "display_index": 43,
+      "time_ns": 880,
+      "filename": "images/all_cases/logisim_jk_flip_flop_42_t0880.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 870,
+      "q_transition": "1→0",
+      "mode_code": "rising_toggle_1_0",
+      "label_ko": "상승 에지에서 Toggle 동작으로 Q가 1→0",
+      "short_label_ko": "Toggle 1→0",
+      "caption_ko": "43번 880 ns  Toggle 1→0",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_jk_flip_flop_repeat_toggle_one_to_zero.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Toggle 1→0",
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 43,
+      "display_index": 44,
+      "time_ns": 890,
+      "filename": "images/all_cases/logisim_jk_flip_flop_43_t0890.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 880,
+      "q_transition": "0→0",
+      "mode_code": "falling_hold_0",
+      "label_ko": "하강 에지에서 Q=0을 유지",
+      "short_label_ko": "하강 에지 0 유지",
+      "caption_ko": "44번 890 ns  하강 에지 0 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 44,
+      "display_index": 45,
+      "time_ns": 900,
+      "filename": "images/all_cases/logisim_jk_flip_flop_44_t0900.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=1 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 890,
+      "q_transition": "0→1",
+      "mode_code": "rising_toggle_0_1",
+      "label_ko": "상승 에지에서 Toggle 동작으로 Q가 0→1",
+      "short_label_ko": "Toggle 0→1",
+      "caption_ko": "45번 900 ns  Toggle 0→1",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 45,
+      "display_index": 46,
+      "time_ns": 910,
+      "filename": "images/all_cases/logisim_jk_flip_flop_45_t0910.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=1 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "previous_time_ns": 900,
+      "q_transition": "1→1",
+      "mode_code": "falling_hold_1",
+      "label_ko": "하강 에지에서 Q=1을 유지",
+      "short_label_ko": "하강 에지 1 유지",
+      "caption_ko": "46번 910 ns  하강 에지 1 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "entity": "jk_flip_flop",
+      "step_index": 46,
+      "display_index": 47,
+      "time_ns": 920,
+      "filename": "images/all_cases/logisim_jk_flip_flop_46_t0920.png",
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "previous_time_ns": 910,
+      "q_transition": "1→0",
+      "mode_code": "rising_toggle_1_0",
+      "label_ko": "상승 에지에서 Toggle 동작으로 Q가 1→0",
+      "short_label_ko": "Toggle 1→0",
+      "caption_ko": "47번 920 ns  Toggle 1→0",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
+      "stimulus_file": "verification/vhdl_stimuli_jk_flip_flop.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 0,
+      "display_index": 1,
+      "time_ns": 0,
+      "filename": "images/all_cases/logisim_d_ff_async_00_t0000.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=0 set=0 clr=0",
+      "actual_outputs": {
+        "q": "E",
+        "q_bar": "E"
+      },
+      "previous_q": null,
+      "current_q": "E",
+      "previous_inputs": null,
+      "previous_time_ns": null,
+      "q_transition": "미정",
+      "mode_code": "startup",
+      "label_ko": "초기화 전 미정 상태",
+      "short_label_ko": "초기화 전",
+      "caption_ko": "1번 0 ns  초기화 전",
+      "reference_outputs": {
+        "q": "x"
+      },
+      "defined_output_comparisons": 0,
+      "undefined_startup": true,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 1,
+      "display_index": 2,
+      "time_ns": 930,
+      "filename": "images/all_cases/logisim_d_ff_async_01_t0930.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=0 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "E",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "previous_time_ns": 0,
+      "q_transition": "미정→0",
+      "mode_code": "async_clear_clock_0",
+      "label_ko": "clk=0에서 비동기 Clear로 Q를 0으로 설정",
+      "short_label_ko": "비동기 Clear",
+      "caption_ko": "2번 930 ns  비동기 Clear",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 2,
+      "display_index": 3,
+      "time_ns": 960,
+      "filename": "images/all_cases/logisim_d_ff_async_02_t0960.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 1,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=0 set=1 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 1
+      },
+      "previous_time_ns": 930,
+      "q_transition": "0→1",
+      "mode_code": "clear_release_set_clock_0",
+      "label_ko": "clk=0에서 Clear를 해제하여 Set이 Q를 1로 설정",
+      "short_label_ko": "Clear 해제 후 Set",
+      "caption_ko": "3번 960 ns  Clear 해제 후 Set",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_ff_async_set.png",
+      "reported_table_row": true,
+      "reported_table_condition": "비동기 Set",
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 3,
+      "display_index": 4,
+      "time_ns": 970,
+      "filename": "images/all_cases/logisim_d_ff_async_03_t0970.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=0 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 1,
+        "clr": 0
+      },
+      "previous_time_ns": 960,
+      "q_transition": "1→0",
+      "mode_code": "async_clear_clock_0",
+      "label_ko": "clk=0에서 비동기 Clear로 Q를 0으로 설정",
+      "short_label_ko": "비동기 Clear",
+      "caption_ko": "4번 970 ns  비동기 Clear",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_ff_async_clear.png",
+      "reported_table_row": true,
+      "reported_table_condition": "비동기 Clear",
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 4,
+      "display_index": 5,
+      "time_ns": 1000,
+      "filename": "images/all_cases/logisim_d_ff_async_04_t1000.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 1,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=0 set=1 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 1
+      },
+      "previous_time_ns": 970,
+      "q_transition": "0→0",
+      "mode_code": "async_clear_priority_clock_0",
+      "label_ko": "clk=0에서 set=clr=1이므로 Clear가 우선",
+      "short_label_ko": "Clear 우선",
+      "caption_ko": "5번 1000 ns  Clear 우선",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_ff_async_clear_priority.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Clear 우선",
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 5,
+      "display_index": 6,
+      "time_ns": 1010,
+      "filename": "images/all_cases/logisim_d_ff_async_05_t1010.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=0 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 1,
+        "clr": 1
+      },
+      "previous_time_ns": 1000,
+      "q_transition": "0→0",
+      "mode_code": "async_clear_clock_0",
+      "label_ko": "clk=0에서 비동기 Clear로 Q를 0으로 설정",
+      "short_label_ko": "비동기 Clear",
+      "caption_ko": "6번 1010 ns  비동기 Clear",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 6,
+      "display_index": 7,
+      "time_ns": 1020,
+      "filename": "images/all_cases/logisim_d_ff_async_06_t1020.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 1,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=0 set=1 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 1
+      },
+      "previous_time_ns": 1010,
+      "q_transition": "0→1",
+      "mode_code": "clear_release_set_clock_0",
+      "label_ko": "clk=0에서 Clear를 해제하여 Set이 Q를 1로 설정",
+      "short_label_ko": "Clear 해제 후 Set",
+      "caption_ko": "7번 1020 ns  Clear 해제 후 Set",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 7,
+      "display_index": 8,
+      "time_ns": 1030,
+      "filename": "images/all_cases/logisim_d_ff_async_07_t1030.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=1 clk=0 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 1,
+        "clr": 0
+      },
+      "previous_time_ns": 1020,
+      "q_transition": "1→0",
+      "mode_code": "async_clear_clock_0",
+      "label_ko": "clk=0에서 비동기 Clear로 Q를 0으로 설정",
+      "short_label_ko": "비동기 Clear",
+      "caption_ko": "8번 1030 ns  비동기 Clear",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 8,
+      "display_index": 9,
+      "time_ns": 1060,
+      "filename": "images/all_cases/logisim_d_ff_async_08_t1060.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 1,
+        "clr": 1
+      },
+      "inputs_text": "d=1 clk=0 set=1 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 0,
+        "clr": 1
+      },
+      "previous_time_ns": 1030,
+      "q_transition": "0→0",
+      "mode_code": "async_clear_priority_clock_0",
+      "label_ko": "clk=0에서 set=clr=1이므로 Clear가 우선",
+      "short_label_ko": "Clear 우선",
+      "caption_ko": "9번 1060 ns  Clear 우선",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 9,
+      "display_index": 10,
+      "time_ns": 1070,
+      "filename": "images/all_cases/logisim_d_ff_async_09_t1070.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 1,
+        "clr": 1
+      },
+      "inputs_text": "d=1 clk=1 set=1 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 1,
+        "clr": 1
+      },
+      "previous_time_ns": 1060,
+      "q_transition": "0→0",
+      "mode_code": "async_clear_priority_clock_1",
+      "label_ko": "clk=1에서 set=clr=1이므로 Clear가 우선",
+      "short_label_ko": "Clear 우선",
+      "caption_ko": "10번 1070 ns  Clear 우선",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 10,
+      "display_index": 11,
+      "time_ns": 1080,
+      "filename": "images/all_cases/logisim_d_ff_async_10_t1080.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=1 clk=1 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 1,
+        "clr": 1
+      },
+      "previous_time_ns": 1070,
+      "q_transition": "0→0",
+      "mode_code": "async_clear_clock_1",
+      "label_ko": "clk=1에서 비동기 Clear로 Q를 0으로 설정",
+      "short_label_ko": "비동기 Clear",
+      "caption_ko": "11번 1080 ns  비동기 Clear",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 11,
+      "display_index": 12,
+      "time_ns": 1090,
+      "filename": "images/all_cases/logisim_d_ff_async_11_t1090.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 1,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=1 set=1 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 1
+      },
+      "previous_time_ns": 1080,
+      "q_transition": "0→1",
+      "mode_code": "clear_release_set_clock_1",
+      "label_ko": "clk=1에서 Clear를 해제하여 Set이 Q를 1로 설정",
+      "short_label_ko": "Clear 해제 후 Set",
+      "caption_ko": "12번 1090 ns  Clear 해제 후 Set",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_ff_async_set_clock_high.png",
+      "reported_table_row": true,
+      "reported_table_condition": "clk 1에서 Set",
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 12,
+      "display_index": 13,
+      "time_ns": 1100,
+      "filename": "images/all_cases/logisim_d_ff_async_12_t1100.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=1 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 1,
+        "clr": 0
+      },
+      "previous_time_ns": 1090,
+      "q_transition": "1→0",
+      "mode_code": "async_clear_clock_1",
+      "label_ko": "clk=1에서 비동기 Clear로 Q를 0으로 설정",
+      "short_label_ko": "비동기 Clear",
+      "caption_ko": "13번 1100 ns  비동기 Clear",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 13,
+      "display_index": 14,
+      "time_ns": 1130,
+      "filename": "images/all_cases/logisim_d_ff_async_13_t1130.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 1,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=1 set=1 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 1
+      },
+      "previous_time_ns": 1100,
+      "q_transition": "0→0",
+      "mode_code": "async_clear_priority_clock_1",
+      "label_ko": "clk=1에서 set=clr=1이므로 Clear가 우선",
+      "short_label_ko": "Clear 우선",
+      "caption_ko": "14번 1130 ns  Clear 우선",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 14,
+      "display_index": 15,
+      "time_ns": 1140,
+      "filename": "images/all_cases/logisim_d_ff_async_14_t1140.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=1 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 1,
+        "clr": 1
+      },
+      "previous_time_ns": 1130,
+      "q_transition": "0→0",
+      "mode_code": "async_clear_clock_1",
+      "label_ko": "clk=1에서 비동기 Clear로 Q를 0으로 설정",
+      "short_label_ko": "비동기 Clear",
+      "caption_ko": "15번 1140 ns  비동기 Clear",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 15,
+      "display_index": 16,
+      "time_ns": 1150,
+      "filename": "images/all_cases/logisim_d_ff_async_15_t1150.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 1,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=1 set=1 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 1
+      },
+      "previous_time_ns": 1140,
+      "q_transition": "0→1",
+      "mode_code": "clear_release_set_clock_1",
+      "label_ko": "clk=1에서 Clear를 해제하여 Set이 Q를 1로 설정",
+      "short_label_ko": "Clear 해제 후 Set",
+      "caption_ko": "16번 1150 ns  Clear 해제 후 Set",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 16,
+      "display_index": 17,
+      "time_ns": 1160,
+      "filename": "images/all_cases/logisim_d_ff_async_16_t1160.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=1 clk=1 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 1,
+        "clr": 0
+      },
+      "previous_time_ns": 1150,
+      "q_transition": "1→0",
+      "mode_code": "async_clear_clock_1",
+      "label_ko": "clk=1에서 비동기 Clear로 Q를 0으로 설정",
+      "short_label_ko": "비동기 Clear",
+      "caption_ko": "17번 1160 ns  비동기 Clear",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 17,
+      "display_index": 18,
+      "time_ns": 1190,
+      "filename": "images/all_cases/logisim_d_ff_async_17_t1190.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 1,
+        "clr": 1
+      },
+      "inputs_text": "d=1 clk=1 set=1 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 1
+      },
+      "previous_time_ns": 1160,
+      "q_transition": "0→0",
+      "mode_code": "async_clear_priority_clock_1",
+      "label_ko": "clk=1에서 set=clr=1이므로 Clear가 우선",
+      "short_label_ko": "Clear 우선",
+      "caption_ko": "18번 1190 ns  Clear 우선",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 18,
+      "display_index": 19,
+      "time_ns": 1200,
+      "filename": "images/all_cases/logisim_d_ff_async_18_t1200.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 1,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=0 set=1 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 1,
+        "clr": 1
+      },
+      "previous_time_ns": 1190,
+      "q_transition": "0→1",
+      "mode_code": "clear_release_set_clock_0",
+      "label_ko": "clk=0에서 Clear를 해제하여 Set이 Q를 1로 설정",
+      "short_label_ko": "Clear 해제 후 Set",
+      "caption_ko": "19번 1200 ns  Clear 해제 후 Set",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 19,
+      "display_index": 20,
+      "time_ns": 1210,
+      "filename": "images/all_cases/logisim_d_ff_async_19_t1210.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=0 set=0 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 1,
+        "clr": 0
+      },
+      "previous_time_ns": 1200,
+      "q_transition": "1→1",
+      "mode_code": "async_release_hold_clock_0",
+      "label_ko": "제어 입력을 해제한 뒤 clk=0에서 Q=1을 유지",
+      "short_label_ko": "제어 해제 후 유지",
+      "caption_ko": "20번 1210 ns  제어 해제 후 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 20,
+      "display_index": 21,
+      "time_ns": 1220,
+      "filename": "images/all_cases/logisim_d_ff_async_20_t1220.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=1 set=0 clr=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "previous_time_ns": 1210,
+      "q_transition": "1→0",
+      "mode_code": "normal_rising_0",
+      "label_ko": "제어 입력이 0인 상승 에지에서 D=0을 저장",
+      "short_label_ko": "정상 상승 에지 0 저장",
+      "caption_ko": "21번 1220 ns  정상 상승 에지 0 저장",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_ff_async_normal_capture_zero.png",
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 21,
+      "display_index": 22,
+      "time_ns": 1230,
+      "filename": "images/all_cases/logisim_d_ff_async_21_t1230.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=1 set=0 clr=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "previous_time_ns": 1220,
+      "q_transition": "0→0",
+      "mode_code": "normal_data_change_hold_clock_1",
+      "label_ko": "set=clr=0이고 clk=1인 상태에서 D를 0에서 1로 바꾸어도 Q=0을 유지",
+      "short_label_ko": "D 변경 후 유지",
+      "caption_ko": "22번 1230 ns  D 변경 후 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 22,
+      "display_index": 23,
+      "time_ns": 1240,
+      "filename": "images/all_cases/logisim_d_ff_async_22_t1240.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=0 set=0 clr=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "previous_time_ns": 1230,
+      "q_transition": "0→0",
+      "mode_code": "normal_falling_hold_0",
+      "label_ko": "정상 동작 중 하강 에지에서 Q=0을 유지",
+      "short_label_ko": "정상 하강 에지 유지",
+      "caption_ko": "23번 1240 ns  정상 하강 에지 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 23,
+      "display_index": 24,
+      "time_ns": 1250,
+      "filename": "images/all_cases/logisim_d_ff_async_23_t1250.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=1 set=0 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "previous_time_ns": 1240,
+      "q_transition": "0→1",
+      "mode_code": "normal_rising_1",
+      "label_ko": "제어 입력이 0인 상승 에지에서 D=1을 저장",
+      "short_label_ko": "정상 상승 에지 1 저장",
+      "caption_ko": "24번 1250 ns  정상 상승 에지 1 저장",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_ff_async_normal_capture_one.png",
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 24,
+      "display_index": 25,
+      "time_ns": 1260,
+      "filename": "images/all_cases/logisim_d_ff_async_24_t1260.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 1,
+        "clr": 1
+      },
+      "inputs_text": "d=1 clk=1 set=1 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "previous_time_ns": 1250,
+      "q_transition": "1→0",
+      "mode_code": "async_clear_priority_clock_1",
+      "label_ko": "clk=1에서 set=clr=1이므로 Clear가 우선",
+      "short_label_ko": "Clear 우선",
+      "caption_ko": "25번 1260 ns  Clear 우선",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 25,
+      "display_index": 26,
+      "time_ns": 1270,
+      "filename": "images/all_cases/logisim_d_ff_async_25_t1270.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 1,
+        "clr": 1
+      },
+      "inputs_text": "d=1 clk=0 set=1 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 1,
+        "clr": 1
+      },
+      "previous_time_ns": 1260,
+      "q_transition": "0→0",
+      "mode_code": "async_clear_priority_clock_0",
+      "label_ko": "clk=0에서 set=clr=1이므로 Clear가 우선",
+      "short_label_ko": "Clear 우선",
+      "caption_ko": "26번 1270 ns  Clear 우선",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 26,
+      "display_index": 27,
+      "time_ns": 1280,
+      "filename": "images/all_cases/logisim_d_ff_async_26_t1280.png",
+      "inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 1,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=0 set=1 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 1,
+        "clr": 1
+      },
+      "previous_time_ns": 1270,
+      "q_transition": "0→1",
+      "mode_code": "clear_release_set_clock_0",
+      "label_ko": "clk=0에서 Clear를 해제하여 Set이 Q를 1로 설정",
+      "short_label_ko": "Clear 해제 후 Set",
+      "caption_ko": "27번 1280 ns  Clear 해제 후 Set",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 27,
+      "display_index": 28,
+      "time_ns": 1290,
+      "filename": "images/all_cases/logisim_d_ff_async_27_t1290.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=0 set=0 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 1,
+        "clr": 0
+      },
+      "previous_time_ns": 1280,
+      "q_transition": "1→1",
+      "mode_code": "async_release_hold_clock_0",
+      "label_ko": "제어 입력을 해제한 뒤 clk=0에서 Q=1을 유지",
+      "short_label_ko": "제어 해제 후 유지",
+      "caption_ko": "28번 1290 ns  제어 해제 후 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 28,
+      "display_index": 29,
+      "time_ns": 1300,
+      "filename": "images/all_cases/logisim_d_ff_async_28_t1300.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=1 set=0 clr=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "previous_time_ns": 1290,
+      "q_transition": "1→0",
+      "mode_code": "normal_rising_0",
+      "label_ko": "제어 입력이 0인 상승 에지에서 D=0을 저장",
+      "short_label_ko": "정상 상승 에지 0 저장",
+      "caption_ko": "29번 1300 ns  정상 상승 에지 0 저장",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 29,
+      "display_index": 30,
+      "time_ns": 1310,
+      "filename": "images/all_cases/logisim_d_ff_async_29_t1310.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=1 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "previous_time_ns": 1300,
+      "q_transition": "0→0",
+      "mode_code": "async_clear_clock_1",
+      "label_ko": "clk=1에서 비동기 Clear로 Q를 0으로 설정",
+      "short_label_ko": "비동기 Clear",
+      "caption_ko": "30번 1310 ns  비동기 Clear",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 30,
+      "display_index": 31,
+      "time_ns": 1320,
+      "filename": "images/all_cases/logisim_d_ff_async_30_t1320.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=1 set=0 clr=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "0",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 1
+      },
+      "previous_time_ns": 1310,
+      "q_transition": "0→0",
+      "mode_code": "async_release_hold_clock_1",
+      "label_ko": "제어 입력을 해제한 뒤 clk=1에서 Q=0을 유지",
+      "short_label_ko": "제어 해제 후 유지",
+      "caption_ko": "31번 1320 ns  제어 해제 후 유지",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 31,
+      "display_index": 32,
+      "time_ns": 1330,
+      "filename": "images/all_cases/logisim_d_ff_async_31_t1330.png",
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 1,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=1 set=1 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "previous_time_ns": 1320,
+      "q_transition": "0→1",
+      "mode_code": "async_set_clock_1",
+      "label_ko": "clk=1에서 비동기 Set으로 Q를 1로 설정",
+      "short_label_ko": "비동기 Set",
+      "caption_ko": "32번 1330 ns  비동기 Set",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 32,
+      "display_index": 33,
+      "time_ns": 1340,
+      "filename": "images/all_cases/logisim_d_ff_async_32_t1340.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=1 set=0 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 1,
+        "clr": 0
+      },
+      "previous_time_ns": 1330,
+      "q_transition": "1→1",
+      "mode_code": "async_release_hold_clock_1",
+      "label_ko": "제어 입력을 해제한 뒤 clk=1에서 Q=1을 유지",
+      "short_label_ko": "제어 해제 후 유지",
+      "caption_ko": "33번 1340 ns  제어 해제 후 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_ff_async_set_release_high_hold.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Set 해제 후 유지",
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 33,
+      "display_index": 34,
+      "time_ns": 1350,
+      "filename": "images/all_cases/logisim_d_ff_async_33_t1350.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 1,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=1 set=1 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "previous_time_ns": 1340,
+      "q_transition": "1→0",
+      "mode_code": "async_clear_priority_clock_1",
+      "label_ko": "clk=1에서 set=clr=1이므로 Clear가 우선",
+      "short_label_ko": "Clear 우선",
+      "caption_ko": "34번 1350 ns  Clear 우선",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_ff_async_clear_priority_high.png",
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 34,
+      "display_index": 35,
+      "time_ns": 1360,
+      "filename": "images/all_cases/logisim_d_ff_async_34_t1360.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 1,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=1 set=1 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "0",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 1,
+        "clr": 1
+      },
+      "previous_time_ns": 1350,
+      "q_transition": "0→1",
+      "mode_code": "clear_release_set_clock_1",
+      "label_ko": "clk=1에서 Clear를 해제하여 Set이 Q를 1로 설정",
+      "short_label_ko": "Clear 해제 후 Set",
+      "caption_ko": "35번 1360 ns  Clear 해제 후 Set",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_ff_async_clear_release_set_high.png",
+      "reported_table_row": true,
+      "reported_table_condition": "Clear 해제 Set",
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 35,
+      "display_index": 36,
+      "time_ns": 1370,
+      "filename": "images/all_cases/logisim_d_ff_async_35_t1370.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=1 set=0 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 1,
+        "clr": 0
+      },
+      "previous_time_ns": 1360,
+      "q_transition": "1→1",
+      "mode_code": "async_release_hold_clock_1",
+      "label_ko": "제어 입력을 해제한 뒤 clk=1에서 Q=1을 유지",
+      "short_label_ko": "제어 해제 후 유지",
+      "caption_ko": "36번 1370 ns  제어 해제 후 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_ff_async_both_release_high_hold.png",
+      "reported_table_row": true,
+      "reported_table_condition": "둘 다 해제 후 유지",
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 36,
+      "display_index": 37,
+      "time_ns": 1380,
+      "filename": "images/all_cases/logisim_d_ff_async_36_t1380.png",
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=0 set=0 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "previous_q": "1",
+      "current_q": "1",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "previous_time_ns": 1370,
+      "q_transition": "1→1",
+      "mode_code": "normal_falling_hold_1",
+      "label_ko": "정상 동작 중 하강 에지에서 Q=1을 유지",
+      "short_label_ko": "정상 하강 에지 유지",
+      "caption_ko": "37번 1380 ns  정상 하강 에지 유지",
+      "reference_outputs": {
+        "q": "1"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": null,
+      "reported_table_row": false,
+      "reported_table_condition": null,
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    },
+    {
+      "circuit": "d_ff_async",
+      "entity": "d_flip_flop_async",
+      "step_index": 37,
+      "display_index": 38,
+      "time_ns": 1390,
+      "filename": "images/all_cases/logisim_d_ff_async_37_t1390.png",
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=1 set=0 clr=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "previous_q": "1",
+      "current_q": "0",
+      "previous_inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "previous_time_ns": 1380,
+      "q_transition": "1→0",
+      "mode_code": "normal_rising_0",
+      "label_ko": "제어 입력이 0인 상승 에지에서 D=0을 저장",
+      "short_label_ko": "정상 상승 에지 0 저장",
+      "caption_ko": "38번 1390 ns  정상 상승 에지 0 저장",
+      "reference_outputs": {
+        "q": "0"
+      },
+      "defined_output_comparisons": 1,
+      "undefined_startup": false,
+      "matches_reference": true,
+      "existing_snapshot": "images/logisim_d_ff_async_normal_capture_after_release.png",
+      "reported_table_row": true,
+      "reported_table_condition": "다음 상승 에지",
+      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
+      "stimulus_file": "verification/vhdl_stimuli_d_flip_flop_async.csv"
+    }
+  ],
+  "total_frames": 130,
+  "total_output_comparisons": 132,
+  "undefined_output_comparisons_skipped": 5,
+  "all_reported_table_rows_covered": true,
+  "original_manifest_frames": 40,
+  "new_frames_beyond_original_manifest": 90,
+  "original_table_rows_missing_images": [
+    {
+      "circuit": "rs_latch",
+      "time_ns": 60,
+      "condition": "Hold 0"
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "time_ns": 610,
+      "condition": "Reset"
+    }
+  ]
+}

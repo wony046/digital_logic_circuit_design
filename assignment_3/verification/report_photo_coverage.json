@@ -1,0 +1,1313 @@
+{
+  "all_frames_pictured": true,
+  "total_frames": 130,
+  "distinct_full_state_images": 59,
+  "grouping": "Exact identical full-state PNG bytes only; all times and Q transitions printed",
+  "all_reported_table_rows_pictured": true,
+  "frames": [
+    {
+      "circuit": "rs_latch",
+      "step_index": 0,
+      "time_ns": 0,
+      "panel_id": "RS01",
+      "source_image": "images/all_cases/logisim_rs_latch_00_t0000.png",
+      "original_image": "images/all_cases/logisim_rs_latch_00_t0000.png",
+      "image_sha256": "8f37a9628cfe1335fe14209b9b48d40b151a2c9e91ae090f4405d26d5ce2de94",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "rs_latch",
+      "step_index": 1,
+      "time_ns": 10,
+      "panel_id": "RS02",
+      "source_image": "images/all_cases/logisim_rs_latch_01_t0010.png",
+      "original_image": "images/all_cases/logisim_rs_latch_01_t0010.png",
+      "image_sha256": "2897e75fc4d4056fb382fb2bb373e6b902eea5b65d9deb11d57fe6f764f177fe",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "rs_latch",
+      "step_index": 6,
+      "time_ns": 60,
+      "panel_id": "RS02",
+      "source_image": "images/all_cases/logisim_rs_latch_01_t0010.png",
+      "original_image": "images/all_cases/logisim_rs_latch_06_t0060.png",
+      "image_sha256": "2897e75fc4d4056fb382fb2bb373e6b902eea5b65d9deb11d57fe6f764f177fe",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "rs_latch",
+      "step_index": 2,
+      "time_ns": 20,
+      "panel_id": "RS03",
+      "source_image": "images/all_cases/logisim_rs_latch_02_t0020.png",
+      "original_image": "images/all_cases/logisim_rs_latch_02_t0020.png",
+      "image_sha256": "89e567fd1fee24ea8e029ce68f5e820ae8aec11d6b90a7c585a0aa89b27e1319",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "rs_latch",
+      "step_index": 3,
+      "time_ns": 30,
+      "panel_id": "RS04",
+      "source_image": "images/all_cases/logisim_rs_latch_03_t0030.png",
+      "original_image": "images/all_cases/logisim_rs_latch_03_t0030.png",
+      "image_sha256": "4b3c9ae3a3df452abac6f4457c16315b299a69308aa8974440b83f4a4f13e8db",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "rs_latch",
+      "step_index": 4,
+      "time_ns": 40,
+      "panel_id": "RS05",
+      "source_image": "images/all_cases/logisim_rs_latch_04_t0040.png",
+      "original_image": "images/all_cases/logisim_rs_latch_04_t0040.png",
+      "image_sha256": "98ecf1a060be62edd7909a2ac4c56eda09e6537714000b8b6d9da6c06db8aefa",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "rs_latch",
+      "step_index": 5,
+      "time_ns": 50,
+      "panel_id": "RS06",
+      "source_image": "images/all_cases/logisim_rs_latch_05_t0050.png",
+      "original_image": "images/all_cases/logisim_rs_latch_05_t0050.png",
+      "image_sha256": "57988b1dac2f2908fe296dfdafc99392afddc0a227a18d1ab4dac23db32d3778",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 0,
+      "time_ns": 0,
+      "panel_id": "DL01",
+      "source_image": "images/all_cases/logisim_d_latch_00_t0000.png",
+      "original_image": "images/all_cases/logisim_d_latch_00_t0000.png",
+      "image_sha256": "8e9f127f5ff6162c05b5efab41922a125e7a7aa4ea6f91e5d3418ba0a2f6ba53",
+      "undefined_startup": true
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 1,
+      "time_ns": 70,
+      "panel_id": "DL02",
+      "source_image": "images/all_cases/logisim_d_latch_01_t0070.png",
+      "original_image": "images/all_cases/logisim_d_latch_01_t0070.png",
+      "image_sha256": "89db17bd4cc5ba52d9a52020d9478d84969caf5ce853971d20dfc4ddfac9b5d9",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 3,
+      "time_ns": 90,
+      "panel_id": "DL02",
+      "source_image": "images/all_cases/logisim_d_latch_01_t0070.png",
+      "original_image": "images/all_cases/logisim_d_latch_03_t0090.png",
+      "image_sha256": "89db17bd4cc5ba52d9a52020d9478d84969caf5ce853971d20dfc4ddfac9b5d9",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 5,
+      "time_ns": 110,
+      "panel_id": "DL02",
+      "source_image": "images/all_cases/logisim_d_latch_01_t0070.png",
+      "original_image": "images/all_cases/logisim_d_latch_05_t0110.png",
+      "image_sha256": "89db17bd4cc5ba52d9a52020d9478d84969caf5ce853971d20dfc4ddfac9b5d9",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 7,
+      "time_ns": 130,
+      "panel_id": "DL02",
+      "source_image": "images/all_cases/logisim_d_latch_01_t0070.png",
+      "original_image": "images/all_cases/logisim_d_latch_07_t0130.png",
+      "image_sha256": "89db17bd4cc5ba52d9a52020d9478d84969caf5ce853971d20dfc4ddfac9b5d9",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 2,
+      "time_ns": 80,
+      "panel_id": "DL03",
+      "source_image": "images/all_cases/logisim_d_latch_02_t0080.png",
+      "original_image": "images/all_cases/logisim_d_latch_02_t0080.png",
+      "image_sha256": "27c7ae21ddcf35a9bc5e030e4fdb07c4cd63375452a793279457014a1ebb8283",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 4,
+      "time_ns": 100,
+      "panel_id": "DL03",
+      "source_image": "images/all_cases/logisim_d_latch_02_t0080.png",
+      "original_image": "images/all_cases/logisim_d_latch_04_t0100.png",
+      "image_sha256": "27c7ae21ddcf35a9bc5e030e4fdb07c4cd63375452a793279457014a1ebb8283",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 6,
+      "time_ns": 120,
+      "panel_id": "DL03",
+      "source_image": "images/all_cases/logisim_d_latch_02_t0080.png",
+      "original_image": "images/all_cases/logisim_d_latch_06_t0120.png",
+      "image_sha256": "27c7ae21ddcf35a9bc5e030e4fdb07c4cd63375452a793279457014a1ebb8283",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 11,
+      "time_ns": 180,
+      "panel_id": "DL03",
+      "source_image": "images/all_cases/logisim_d_latch_02_t0080.png",
+      "original_image": "images/all_cases/logisim_d_latch_11_t0180.png",
+      "image_sha256": "27c7ae21ddcf35a9bc5e030e4fdb07c4cd63375452a793279457014a1ebb8283",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 15,
+      "time_ns": 220,
+      "panel_id": "DL03",
+      "source_image": "images/all_cases/logisim_d_latch_02_t0080.png",
+      "original_image": "images/all_cases/logisim_d_latch_15_t0220.png",
+      "image_sha256": "27c7ae21ddcf35a9bc5e030e4fdb07c4cd63375452a793279457014a1ebb8283",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 8,
+      "time_ns": 150,
+      "panel_id": "DL04",
+      "source_image": "images/all_cases/logisim_d_latch_08_t0150.png",
+      "original_image": "images/all_cases/logisim_d_latch_08_t0150.png",
+      "image_sha256": "f7dbdf0030b2651fc66b71f05fb7e34e133bb68220fefb4e017992d6d066176a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 10,
+      "time_ns": 170,
+      "panel_id": "DL04",
+      "source_image": "images/all_cases/logisim_d_latch_08_t0150.png",
+      "original_image": "images/all_cases/logisim_d_latch_10_t0170.png",
+      "image_sha256": "f7dbdf0030b2651fc66b71f05fb7e34e133bb68220fefb4e017992d6d066176a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 9,
+      "time_ns": 160,
+      "panel_id": "DL05",
+      "source_image": "images/all_cases/logisim_d_latch_09_t0160.png",
+      "original_image": "images/all_cases/logisim_d_latch_09_t0160.png",
+      "image_sha256": "7837595998abecf2fdb53d0d2668b177c95513f9703064b0c77dd3a94cda18ef",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 12,
+      "time_ns": 190,
+      "panel_id": "DL06",
+      "source_image": "images/all_cases/logisim_d_latch_12_t0190.png",
+      "original_image": "images/all_cases/logisim_d_latch_12_t0190.png",
+      "image_sha256": "db9bf36ddfa81c968a6e9609b4e2d2179523f2f8bca6d70d5a257a494236be7f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 14,
+      "time_ns": 210,
+      "panel_id": "DL06",
+      "source_image": "images/all_cases/logisim_d_latch_12_t0190.png",
+      "original_image": "images/all_cases/logisim_d_latch_14_t0210.png",
+      "image_sha256": "db9bf36ddfa81c968a6e9609b4e2d2179523f2f8bca6d70d5a257a494236be7f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_latch",
+      "step_index": 13,
+      "time_ns": 200,
+      "panel_id": "DL07",
+      "source_image": "images/all_cases/logisim_d_latch_13_t0200.png",
+      "original_image": "images/all_cases/logisim_d_latch_13_t0200.png",
+      "image_sha256": "6481aa3017bfde679a07fb64481fcff3a14e28f9b8c7199e177dcd007b99e523",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 0,
+      "time_ns": 0,
+      "panel_id": "DF01",
+      "source_image": "images/all_cases/logisim_d_flip_flop_00_t0000.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_00_t0000.png",
+      "image_sha256": "a9ed46ca12f2f4ab62031549730f5bd2b64addff58d58b0a233a0b5fce4fe79f",
+      "undefined_startup": true
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 1,
+      "time_ns": 240,
+      "panel_id": "DF02",
+      "source_image": "images/all_cases/logisim_d_flip_flop_01_t0240.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_01_t0240.png",
+      "image_sha256": "d2106016c5f1891144c7778ce14b4a8eefc4dac57847763d7be9e65b295d91c7",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 11,
+      "time_ns": 340,
+      "panel_id": "DF02",
+      "source_image": "images/all_cases/logisim_d_flip_flop_01_t0240.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_11_t0340.png",
+      "image_sha256": "d2106016c5f1891144c7778ce14b4a8eefc4dac57847763d7be9e65b295d91c7",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 21,
+      "time_ns": 440,
+      "panel_id": "DF02",
+      "source_image": "images/all_cases/logisim_d_flip_flop_01_t0240.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_21_t0440.png",
+      "image_sha256": "d2106016c5f1891144c7778ce14b4a8eefc4dac57847763d7be9e65b295d91c7",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 2,
+      "time_ns": 250,
+      "panel_id": "DF03",
+      "source_image": "images/all_cases/logisim_d_flip_flop_02_t0250.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_02_t0250.png",
+      "image_sha256": "78b9616a6edb3726c927031faaa732f1ccc4f5fe8f4639ec7ead65b9c62ff75d",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 12,
+      "time_ns": 350,
+      "panel_id": "DF03",
+      "source_image": "images/all_cases/logisim_d_flip_flop_02_t0250.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_12_t0350.png",
+      "image_sha256": "78b9616a6edb3726c927031faaa732f1ccc4f5fe8f4639ec7ead65b9c62ff75d",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 3,
+      "time_ns": 260,
+      "panel_id": "DF04",
+      "source_image": "images/all_cases/logisim_d_flip_flop_03_t0260.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_03_t0260.png",
+      "image_sha256": "83de4fe9a75bfff7043beec292b338c5093c9b248ec4f49ffd604ecdd3071139",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 5,
+      "time_ns": 280,
+      "panel_id": "DF04",
+      "source_image": "images/all_cases/logisim_d_flip_flop_03_t0260.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_05_t0280.png",
+      "image_sha256": "83de4fe9a75bfff7043beec292b338c5093c9b248ec4f49ffd604ecdd3071139",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 13,
+      "time_ns": 360,
+      "panel_id": "DF04",
+      "source_image": "images/all_cases/logisim_d_flip_flop_03_t0260.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_13_t0360.png",
+      "image_sha256": "83de4fe9a75bfff7043beec292b338c5093c9b248ec4f49ffd604ecdd3071139",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 15,
+      "time_ns": 380,
+      "panel_id": "DF04",
+      "source_image": "images/all_cases/logisim_d_flip_flop_03_t0260.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_15_t0380.png",
+      "image_sha256": "83de4fe9a75bfff7043beec292b338c5093c9b248ec4f49ffd604ecdd3071139",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 4,
+      "time_ns": 270,
+      "panel_id": "DF05",
+      "source_image": "images/all_cases/logisim_d_flip_flop_04_t0270.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_04_t0270.png",
+      "image_sha256": "c61475198505de82699609449c9dca93dd50d017b2946d98013f8824ba4ac32f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 14,
+      "time_ns": 370,
+      "panel_id": "DF05",
+      "source_image": "images/all_cases/logisim_d_flip_flop_04_t0270.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_14_t0370.png",
+      "image_sha256": "c61475198505de82699609449c9dca93dd50d017b2946d98013f8824ba4ac32f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 6,
+      "time_ns": 290,
+      "panel_id": "DF06",
+      "source_image": "images/all_cases/logisim_d_flip_flop_06_t0290.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_06_t0290.png",
+      "image_sha256": "5797a04236b47a13fc50968b38e872b50c7a8e59450cd1bd8b83413e6087618a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 16,
+      "time_ns": 390,
+      "panel_id": "DF06",
+      "source_image": "images/all_cases/logisim_d_flip_flop_06_t0290.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_16_t0390.png",
+      "image_sha256": "5797a04236b47a13fc50968b38e872b50c7a8e59450cd1bd8b83413e6087618a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 7,
+      "time_ns": 300,
+      "panel_id": "DF07",
+      "source_image": "images/all_cases/logisim_d_flip_flop_07_t0300.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_07_t0300.png",
+      "image_sha256": "ebabf4549e987d58a2aefefd71da163147a96fe017cb7718e2efc3410a2582c0",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 17,
+      "time_ns": 400,
+      "panel_id": "DF07",
+      "source_image": "images/all_cases/logisim_d_flip_flop_07_t0300.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_17_t0400.png",
+      "image_sha256": "ebabf4549e987d58a2aefefd71da163147a96fe017cb7718e2efc3410a2582c0",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 8,
+      "time_ns": 310,
+      "panel_id": "DF08",
+      "source_image": "images/all_cases/logisim_d_flip_flop_08_t0310.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_08_t0310.png",
+      "image_sha256": "2538a75a7d7dfd004d5587b79e45d5061b58f0dd0fcdc7f74a7de68d04b5b4af",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 10,
+      "time_ns": 330,
+      "panel_id": "DF08",
+      "source_image": "images/all_cases/logisim_d_flip_flop_08_t0310.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_10_t0330.png",
+      "image_sha256": "2538a75a7d7dfd004d5587b79e45d5061b58f0dd0fcdc7f74a7de68d04b5b4af",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 18,
+      "time_ns": 410,
+      "panel_id": "DF08",
+      "source_image": "images/all_cases/logisim_d_flip_flop_08_t0310.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_18_t0410.png",
+      "image_sha256": "2538a75a7d7dfd004d5587b79e45d5061b58f0dd0fcdc7f74a7de68d04b5b4af",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 20,
+      "time_ns": 430,
+      "panel_id": "DF08",
+      "source_image": "images/all_cases/logisim_d_flip_flop_08_t0310.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_20_t0430.png",
+      "image_sha256": "2538a75a7d7dfd004d5587b79e45d5061b58f0dd0fcdc7f74a7de68d04b5b4af",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 9,
+      "time_ns": 320,
+      "panel_id": "DF09",
+      "source_image": "images/all_cases/logisim_d_flip_flop_09_t0320.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_09_t0320.png",
+      "image_sha256": "fb0a54faf177cde971129f5bf05b4a2cf046fa4eb842ce95ec078e61fafd4557",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_flip_flop",
+      "step_index": 19,
+      "time_ns": 420,
+      "panel_id": "DF09",
+      "source_image": "images/all_cases/logisim_d_flip_flop_09_t0320.png",
+      "original_image": "images/all_cases/logisim_d_flip_flop_19_t0420.png",
+      "image_sha256": "fb0a54faf177cde971129f5bf05b4a2cf046fa4eb842ce95ec078e61fafd4557",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 0,
+      "time_ns": 0,
+      "panel_id": "JK01",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_00_t0000.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_00_t0000.png",
+      "image_sha256": "3b071c1157ede4280be1f0dc2df998caa3de0ce42fdf86dcbd1b72afa4dad0ba",
+      "undefined_startup": true
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 1,
+      "time_ns": 450,
+      "panel_id": "JK02",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_01_t0450.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_01_t0450.png",
+      "image_sha256": "c695793696e4a9b014500466a4006935fed011ef8e55469c13960e2e52f13860",
+      "undefined_startup": true
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 2,
+      "time_ns": 460,
+      "panel_id": "JK03",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_02_t0460.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_02_t0460.png",
+      "image_sha256": "fcc1f0e892e9f6c5216545622178b0084b6b839f915a506f45b461a18540b37a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 7,
+      "time_ns": 510,
+      "panel_id": "JK03",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_02_t0460.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_07_t0510.png",
+      "image_sha256": "fcc1f0e892e9f6c5216545622178b0084b6b839f915a506f45b461a18540b37a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 9,
+      "time_ns": 540,
+      "panel_id": "JK03",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_02_t0460.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_09_t0540.png",
+      "image_sha256": "fcc1f0e892e9f6c5216545622178b0084b6b839f915a506f45b461a18540b37a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 11,
+      "time_ns": 560,
+      "panel_id": "JK03",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_02_t0460.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_11_t0560.png",
+      "image_sha256": "fcc1f0e892e9f6c5216545622178b0084b6b839f915a506f45b461a18540b37a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 16,
+      "time_ns": 610,
+      "panel_id": "JK03",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_02_t0460.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_16_t0610.png",
+      "image_sha256": "fcc1f0e892e9f6c5216545622178b0084b6b839f915a506f45b461a18540b37a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 29,
+      "time_ns": 740,
+      "panel_id": "JK03",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_02_t0460.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_29_t0740.png",
+      "image_sha256": "fcc1f0e892e9f6c5216545622178b0084b6b839f915a506f45b461a18540b37a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 3,
+      "time_ns": 470,
+      "panel_id": "JK04",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_03_t0470.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_03_t0470.png",
+      "image_sha256": "91a75bb4ab167bed833e2439973ae555e069af56476b5f3bca4a7d84c0734de5",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 5,
+      "time_ns": 490,
+      "panel_id": "JK04",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_03_t0470.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_05_t0490.png",
+      "image_sha256": "91a75bb4ab167bed833e2439973ae555e069af56476b5f3bca4a7d84c0734de5",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 4,
+      "time_ns": 480,
+      "panel_id": "JK05",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_04_t0480.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_04_t0480.png",
+      "image_sha256": "f4d8e0b5fedbea4c0bf22f485ef87390cdb7072e11bade98f46d52b220375fa4",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 6,
+      "time_ns": 500,
+      "panel_id": "JK06",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_06_t0500.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_06_t0500.png",
+      "image_sha256": "8394b39abba4fcc2bb18678359d755973b76f5b494653399b1e8065ede9bdd7f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 8,
+      "time_ns": 530,
+      "panel_id": "JK06",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_06_t0500.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_08_t0530.png",
+      "image_sha256": "8394b39abba4fcc2bb18678359d755973b76f5b494653399b1e8065ede9bdd7f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 10,
+      "time_ns": 550,
+      "panel_id": "JK06",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_06_t0500.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_10_t0550.png",
+      "image_sha256": "8394b39abba4fcc2bb18678359d755973b76f5b494653399b1e8065ede9bdd7f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 12,
+      "time_ns": 570,
+      "panel_id": "JK07",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_12_t0570.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_12_t0570.png",
+      "image_sha256": "21da1abae8037622c780391f0d40f77702cf5aee6a0f7f56498509c738db38b9",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 13,
+      "time_ns": 580,
+      "panel_id": "JK08",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_13_t0580.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_13_t0580.png",
+      "image_sha256": "cca407e1fb4bc1a8f0203f161c92d5bef40375522e05cb9ae17fad3f8bf932cf",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 30,
+      "time_ns": 750,
+      "panel_id": "JK08",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_13_t0580.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_30_t0750.png",
+      "image_sha256": "cca407e1fb4bc1a8f0203f161c92d5bef40375522e05cb9ae17fad3f8bf932cf",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 14,
+      "time_ns": 590,
+      "panel_id": "JK09",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_14_t0590.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_14_t0590.png",
+      "image_sha256": "4e14f65b2bbee129e4b878ac1923b31571c15559ee548c51e2c112803bee315c",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 21,
+      "time_ns": 660,
+      "panel_id": "JK09",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_14_t0590.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_21_t0660.png",
+      "image_sha256": "4e14f65b2bbee129e4b878ac1923b31571c15559ee548c51e2c112803bee315c",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 26,
+      "time_ns": 710,
+      "panel_id": "JK09",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_14_t0590.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_26_t0710.png",
+      "image_sha256": "4e14f65b2bbee129e4b878ac1923b31571c15559ee548c51e2c112803bee315c",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 31,
+      "time_ns": 760,
+      "panel_id": "JK09",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_14_t0590.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_31_t0760.png",
+      "image_sha256": "4e14f65b2bbee129e4b878ac1923b31571c15559ee548c51e2c112803bee315c",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 33,
+      "time_ns": 790,
+      "panel_id": "JK09",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_14_t0590.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_33_t0790.png",
+      "image_sha256": "4e14f65b2bbee129e4b878ac1923b31571c15559ee548c51e2c112803bee315c",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 35,
+      "time_ns": 810,
+      "panel_id": "JK09",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_14_t0590.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_35_t0810.png",
+      "image_sha256": "4e14f65b2bbee129e4b878ac1923b31571c15559ee548c51e2c112803bee315c",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 15,
+      "time_ns": 600,
+      "panel_id": "JK10",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_15_t0600.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_15_t0600.png",
+      "image_sha256": "3da041ecb8e86d241a65ba78094ceb65e3d274c4e92c621ce846145810cc5f0f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 28,
+      "time_ns": 730,
+      "panel_id": "JK10",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_15_t0600.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_28_t0730.png",
+      "image_sha256": "3da041ecb8e86d241a65ba78094ceb65e3d274c4e92c621ce846145810cc5f0f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 17,
+      "time_ns": 620,
+      "panel_id": "JK11",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_17_t0620.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_17_t0620.png",
+      "image_sha256": "4de12e1398a08a64a65fccba5a2bec026fc905a9bd33bd8b4ad7e6983f90de01",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 38,
+      "time_ns": 840,
+      "panel_id": "JK11",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_17_t0620.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_38_t0840.png",
+      "image_sha256": "4de12e1398a08a64a65fccba5a2bec026fc905a9bd33bd8b4ad7e6983f90de01",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 42,
+      "time_ns": 880,
+      "panel_id": "JK11",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_17_t0620.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_42_t0880.png",
+      "image_sha256": "4de12e1398a08a64a65fccba5a2bec026fc905a9bd33bd8b4ad7e6983f90de01",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 46,
+      "time_ns": 920,
+      "panel_id": "JK11",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_17_t0620.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_46_t0920.png",
+      "image_sha256": "4de12e1398a08a64a65fccba5a2bec026fc905a9bd33bd8b4ad7e6983f90de01",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 18,
+      "time_ns": 630,
+      "panel_id": "JK12",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_18_t0630.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_18_t0630.png",
+      "image_sha256": "0b3f96303abdf4f73c0c9f15aa5e88b8a9f4f030bf7ac9708dccb55bb697c326",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 39,
+      "time_ns": 850,
+      "panel_id": "JK12",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_18_t0630.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_39_t0850.png",
+      "image_sha256": "0b3f96303abdf4f73c0c9f15aa5e88b8a9f4f030bf7ac9708dccb55bb697c326",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 43,
+      "time_ns": 890,
+      "panel_id": "JK12",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_18_t0630.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_43_t0890.png",
+      "image_sha256": "0b3f96303abdf4f73c0c9f15aa5e88b8a9f4f030bf7ac9708dccb55bb697c326",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 19,
+      "time_ns": 640,
+      "panel_id": "JK13",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_19_t0640.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_19_t0640.png",
+      "image_sha256": "6c0d24f3170a5ab7df3583f8577b55b84fddc766e743be891292fd1aea46a937",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 36,
+      "time_ns": 820,
+      "panel_id": "JK13",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_19_t0640.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_36_t0820.png",
+      "image_sha256": "6c0d24f3170a5ab7df3583f8577b55b84fddc766e743be891292fd1aea46a937",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 40,
+      "time_ns": 860,
+      "panel_id": "JK13",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_19_t0640.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_40_t0860.png",
+      "image_sha256": "6c0d24f3170a5ab7df3583f8577b55b84fddc766e743be891292fd1aea46a937",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 44,
+      "time_ns": 900,
+      "panel_id": "JK13",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_19_t0640.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_44_t0900.png",
+      "image_sha256": "6c0d24f3170a5ab7df3583f8577b55b84fddc766e743be891292fd1aea46a937",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 20,
+      "time_ns": 650,
+      "panel_id": "JK14",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_20_t0650.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_20_t0650.png",
+      "image_sha256": "3e07b3e5100220b7973410a3744d533e06af30e6e66072d64fddbd18503700fb",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 25,
+      "time_ns": 700,
+      "panel_id": "JK14",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_20_t0650.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_25_t0700.png",
+      "image_sha256": "3e07b3e5100220b7973410a3744d533e06af30e6e66072d64fddbd18503700fb",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 32,
+      "time_ns": 780,
+      "panel_id": "JK14",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_20_t0650.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_32_t0780.png",
+      "image_sha256": "3e07b3e5100220b7973410a3744d533e06af30e6e66072d64fddbd18503700fb",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 34,
+      "time_ns": 800,
+      "panel_id": "JK14",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_20_t0650.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_34_t0800.png",
+      "image_sha256": "3e07b3e5100220b7973410a3744d533e06af30e6e66072d64fddbd18503700fb",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 22,
+      "time_ns": 670,
+      "panel_id": "JK15",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_22_t0670.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_22_t0670.png",
+      "image_sha256": "ca179ac4630da8cf9fa0ea7308cff43fbfa26634bf7f355184c2abef0f1a39cc",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 24,
+      "time_ns": 690,
+      "panel_id": "JK15",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_22_t0670.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_24_t0690.png",
+      "image_sha256": "ca179ac4630da8cf9fa0ea7308cff43fbfa26634bf7f355184c2abef0f1a39cc",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 23,
+      "time_ns": 680,
+      "panel_id": "JK16",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_23_t0680.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_23_t0680.png",
+      "image_sha256": "177974656a4b51bb114b64eda2c4be919e361f3cfbdecf280fff2c12582ba045",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 27,
+      "time_ns": 720,
+      "panel_id": "JK17",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_27_t0720.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_27_t0720.png",
+      "image_sha256": "bccc8937271293c6c9a8e2bac6b724913eca102dda091acc4526b7089f661100",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 37,
+      "time_ns": 830,
+      "panel_id": "JK18",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_37_t0830.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_37_t0830.png",
+      "image_sha256": "5ddc17e27524fb44bcd3d819181a2da1b0fccad93420f0f24a0a414609f916c4",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 41,
+      "time_ns": 870,
+      "panel_id": "JK18",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_37_t0830.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_41_t0870.png",
+      "image_sha256": "5ddc17e27524fb44bcd3d819181a2da1b0fccad93420f0f24a0a414609f916c4",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "step_index": 45,
+      "time_ns": 910,
+      "panel_id": "JK18",
+      "source_image": "images/all_cases/logisim_jk_flip_flop_37_t0830.png",
+      "original_image": "images/all_cases/logisim_jk_flip_flop_45_t0910.png",
+      "image_sha256": "5ddc17e27524fb44bcd3d819181a2da1b0fccad93420f0f24a0a414609f916c4",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 0,
+      "time_ns": 0,
+      "panel_id": "AS01",
+      "source_image": "images/all_cases/logisim_d_ff_async_00_t0000.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_00_t0000.png",
+      "image_sha256": "998df901b2dba4fa799bddcdf616d8a4f0cd607363692a8b04605ecb8b47955a",
+      "undefined_startup": true
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 1,
+      "time_ns": 930,
+      "panel_id": "AS02",
+      "source_image": "images/all_cases/logisim_d_ff_async_01_t0930.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_01_t0930.png",
+      "image_sha256": "ef703a68e45248229dedd1b5c80d735d3e9229a82802a7de4929202157dd8463",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 3,
+      "time_ns": 970,
+      "panel_id": "AS02",
+      "source_image": "images/all_cases/logisim_d_ff_async_01_t0930.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_03_t0970.png",
+      "image_sha256": "ef703a68e45248229dedd1b5c80d735d3e9229a82802a7de4929202157dd8463",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 5,
+      "time_ns": 1010,
+      "panel_id": "AS02",
+      "source_image": "images/all_cases/logisim_d_ff_async_01_t0930.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_05_t1010.png",
+      "image_sha256": "ef703a68e45248229dedd1b5c80d735d3e9229a82802a7de4929202157dd8463",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 2,
+      "time_ns": 960,
+      "panel_id": "AS03",
+      "source_image": "images/all_cases/logisim_d_ff_async_02_t0960.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_02_t0960.png",
+      "image_sha256": "37ac3216f42073e9b133fac099b8e4be8ed05f1b8c9f44d3b2caaa2ad2549093",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 4,
+      "time_ns": 1000,
+      "panel_id": "AS04",
+      "source_image": "images/all_cases/logisim_d_ff_async_04_t1000.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_04_t1000.png",
+      "image_sha256": "d9b1dbf8aab88385212494512a463e2760a7263b03d996d4f7ccc7a44e8021f8",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 6,
+      "time_ns": 1020,
+      "panel_id": "AS05",
+      "source_image": "images/all_cases/logisim_d_ff_async_06_t1020.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_06_t1020.png",
+      "image_sha256": "aac1d6ad4e6dfd9294afeb048d2116cf7c2728a5b840bd41c92486d31b44bf0f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 18,
+      "time_ns": 1200,
+      "panel_id": "AS05",
+      "source_image": "images/all_cases/logisim_d_ff_async_06_t1020.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_18_t1200.png",
+      "image_sha256": "aac1d6ad4e6dfd9294afeb048d2116cf7c2728a5b840bd41c92486d31b44bf0f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 26,
+      "time_ns": 1280,
+      "panel_id": "AS05",
+      "source_image": "images/all_cases/logisim_d_ff_async_06_t1020.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_26_t1280.png",
+      "image_sha256": "aac1d6ad4e6dfd9294afeb048d2116cf7c2728a5b840bd41c92486d31b44bf0f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 7,
+      "time_ns": 1030,
+      "panel_id": "AS06",
+      "source_image": "images/all_cases/logisim_d_ff_async_07_t1030.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_07_t1030.png",
+      "image_sha256": "afd9dc9d5ade814db142c424407373068c62343718aac45e7f655c6e8ed009b3",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 8,
+      "time_ns": 1060,
+      "panel_id": "AS07",
+      "source_image": "images/all_cases/logisim_d_ff_async_08_t1060.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_08_t1060.png",
+      "image_sha256": "92ea473f5769b48d88bcd701618572f07b3e53aa65d07c77bbc74bbd7ec31d15",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 25,
+      "time_ns": 1270,
+      "panel_id": "AS07",
+      "source_image": "images/all_cases/logisim_d_ff_async_08_t1060.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_25_t1270.png",
+      "image_sha256": "92ea473f5769b48d88bcd701618572f07b3e53aa65d07c77bbc74bbd7ec31d15",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 9,
+      "time_ns": 1070,
+      "panel_id": "AS08",
+      "source_image": "images/all_cases/logisim_d_ff_async_09_t1070.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_09_t1070.png",
+      "image_sha256": "83a68d082c46b86122b3c85cab50d04e7faf07657083d68d0fb6ea593464375a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 17,
+      "time_ns": 1190,
+      "panel_id": "AS08",
+      "source_image": "images/all_cases/logisim_d_ff_async_09_t1070.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_17_t1190.png",
+      "image_sha256": "83a68d082c46b86122b3c85cab50d04e7faf07657083d68d0fb6ea593464375a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 24,
+      "time_ns": 1260,
+      "panel_id": "AS08",
+      "source_image": "images/all_cases/logisim_d_ff_async_09_t1070.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_24_t1260.png",
+      "image_sha256": "83a68d082c46b86122b3c85cab50d04e7faf07657083d68d0fb6ea593464375a",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 10,
+      "time_ns": 1080,
+      "panel_id": "AS09",
+      "source_image": "images/all_cases/logisim_d_ff_async_10_t1080.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_10_t1080.png",
+      "image_sha256": "758afb3a1a3d1731ec6e669df8ce746d3c11cf58d3777f44b16f48c870110014",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 16,
+      "time_ns": 1160,
+      "panel_id": "AS09",
+      "source_image": "images/all_cases/logisim_d_ff_async_10_t1080.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_16_t1160.png",
+      "image_sha256": "758afb3a1a3d1731ec6e669df8ce746d3c11cf58d3777f44b16f48c870110014",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 11,
+      "time_ns": 1090,
+      "panel_id": "AS10",
+      "source_image": "images/all_cases/logisim_d_ff_async_11_t1090.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_11_t1090.png",
+      "image_sha256": "a7972f8f99e652c85d39cef97548fb83f562e8fd0394434912fe9ad0a46305ac",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 34,
+      "time_ns": 1360,
+      "panel_id": "AS10",
+      "source_image": "images/all_cases/logisim_d_ff_async_11_t1090.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_34_t1360.png",
+      "image_sha256": "a7972f8f99e652c85d39cef97548fb83f562e8fd0394434912fe9ad0a46305ac",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 12,
+      "time_ns": 1100,
+      "panel_id": "AS11",
+      "source_image": "images/all_cases/logisim_d_ff_async_12_t1100.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_12_t1100.png",
+      "image_sha256": "b7e32ab7ec1a64afc7f6953b27b261b5d80d501702d1f74be4602238ac0a7cfb",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 14,
+      "time_ns": 1140,
+      "panel_id": "AS11",
+      "source_image": "images/all_cases/logisim_d_ff_async_12_t1100.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_14_t1140.png",
+      "image_sha256": "b7e32ab7ec1a64afc7f6953b27b261b5d80d501702d1f74be4602238ac0a7cfb",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 29,
+      "time_ns": 1310,
+      "panel_id": "AS11",
+      "source_image": "images/all_cases/logisim_d_ff_async_12_t1100.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_29_t1310.png",
+      "image_sha256": "b7e32ab7ec1a64afc7f6953b27b261b5d80d501702d1f74be4602238ac0a7cfb",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 13,
+      "time_ns": 1130,
+      "panel_id": "AS12",
+      "source_image": "images/all_cases/logisim_d_ff_async_13_t1130.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_13_t1130.png",
+      "image_sha256": "d048da08f118134bd9f18deafcf62d1132a19e9047daa534ed8fc1870bf932d9",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 33,
+      "time_ns": 1350,
+      "panel_id": "AS12",
+      "source_image": "images/all_cases/logisim_d_ff_async_13_t1130.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_33_t1350.png",
+      "image_sha256": "d048da08f118134bd9f18deafcf62d1132a19e9047daa534ed8fc1870bf932d9",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 15,
+      "time_ns": 1150,
+      "panel_id": "AS13",
+      "source_image": "images/all_cases/logisim_d_ff_async_15_t1150.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_15_t1150.png",
+      "image_sha256": "c09e8c600ba6315afd36110e9986db1820df42d6914d30477b11c5236e18be72",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 31,
+      "time_ns": 1330,
+      "panel_id": "AS13",
+      "source_image": "images/all_cases/logisim_d_ff_async_15_t1150.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_31_t1330.png",
+      "image_sha256": "c09e8c600ba6315afd36110e9986db1820df42d6914d30477b11c5236e18be72",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 19,
+      "time_ns": 1210,
+      "panel_id": "AS14",
+      "source_image": "images/all_cases/logisim_d_ff_async_19_t1210.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_19_t1210.png",
+      "image_sha256": "dc7384d2002cf1e3059b7ed7fe0e66267ebef9d805d9af4f84bb40c69988253e",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 27,
+      "time_ns": 1290,
+      "panel_id": "AS14",
+      "source_image": "images/all_cases/logisim_d_ff_async_19_t1210.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_27_t1290.png",
+      "image_sha256": "dc7384d2002cf1e3059b7ed7fe0e66267ebef9d805d9af4f84bb40c69988253e",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 36,
+      "time_ns": 1380,
+      "panel_id": "AS14",
+      "source_image": "images/all_cases/logisim_d_ff_async_19_t1210.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_36_t1380.png",
+      "image_sha256": "dc7384d2002cf1e3059b7ed7fe0e66267ebef9d805d9af4f84bb40c69988253e",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 20,
+      "time_ns": 1220,
+      "panel_id": "AS15",
+      "source_image": "images/all_cases/logisim_d_ff_async_20_t1220.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_20_t1220.png",
+      "image_sha256": "58c32b3e84839fe2d66707550b72fc15a409be50824807e64d0f9a5e79ab1d5c",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 28,
+      "time_ns": 1300,
+      "panel_id": "AS15",
+      "source_image": "images/all_cases/logisim_d_ff_async_20_t1220.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_28_t1300.png",
+      "image_sha256": "58c32b3e84839fe2d66707550b72fc15a409be50824807e64d0f9a5e79ab1d5c",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 37,
+      "time_ns": 1390,
+      "panel_id": "AS15",
+      "source_image": "images/all_cases/logisim_d_ff_async_20_t1220.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_37_t1390.png",
+      "image_sha256": "58c32b3e84839fe2d66707550b72fc15a409be50824807e64d0f9a5e79ab1d5c",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 21,
+      "time_ns": 1230,
+      "panel_id": "AS16",
+      "source_image": "images/all_cases/logisim_d_ff_async_21_t1230.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_21_t1230.png",
+      "image_sha256": "a5f440efc470c6d00a4b7afcc30451de7e02a5c93ad4fbc70ed3232112bb303f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 30,
+      "time_ns": 1320,
+      "panel_id": "AS16",
+      "source_image": "images/all_cases/logisim_d_ff_async_21_t1230.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_30_t1320.png",
+      "image_sha256": "a5f440efc470c6d00a4b7afcc30451de7e02a5c93ad4fbc70ed3232112bb303f",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 22,
+      "time_ns": 1240,
+      "panel_id": "AS17",
+      "source_image": "images/all_cases/logisim_d_ff_async_22_t1240.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_22_t1240.png",
+      "image_sha256": "c42360221bbffacf0474fbb0ef6e9488a029996ad7ac33c0b16fccd40fc318ce",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 23,
+      "time_ns": 1250,
+      "panel_id": "AS18",
+      "source_image": "images/all_cases/logisim_d_ff_async_23_t1250.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_23_t1250.png",
+      "image_sha256": "79c8d1784e6c6cbd6180163ac85f03937ac4356ba43632334d2bb91ca546baa7",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 32,
+      "time_ns": 1340,
+      "panel_id": "AS19",
+      "source_image": "images/all_cases/logisim_d_ff_async_32_t1340.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_32_t1340.png",
+      "image_sha256": "1ef880d92df44d3ce94861f0df8783a64f3c2dd57a06b2b3de039bc906a22f87",
+      "undefined_startup": false
+    },
+    {
+      "circuit": "d_ff_async",
+      "step_index": 35,
+      "time_ns": 1370,
+      "panel_id": "AS19",
+      "source_image": "images/all_cases/logisim_d_ff_async_32_t1340.png",
+      "original_image": "images/all_cases/logisim_d_ff_async_35_t1370.png",
+      "image_sha256": "1ef880d92df44d3ce94861f0df8783a64f3c2dd57a06b2b3de039bc906a22f87",
+      "undefined_startup": false
+    }
+  ],
+  "io_layout": "Separate input/output columns with photo row immediately followed by description row",
+  "native_pin_appearance": "NewPins",
+  "table_structure": "Flat six-row table with merged circuit/header/history cells and split input/output cells; no nested tables",
+  "case_layout": "One full-width circuit state per page"
+}

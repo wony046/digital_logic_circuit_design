@@ -1,0 +1,3342 @@
+{
+  "grouping_method": "Exact SHA256 of complete PNG file bytes; no images modified or deleted",
+  "total_frames": 130,
+  "circuits": {
+    "rs_latch": {
+      "frames": 7,
+      "unique_pngs": 6,
+      "duplicate_frames": 1,
+      "unique_defined_state_pngs": 6,
+      "unique_startup_pngs": 0,
+      "groups_containing_reported_table_rows": 6
+    },
+    "d_latch": {
+      "frames": 16,
+      "unique_pngs": 7,
+      "duplicate_frames": 9,
+      "unique_defined_state_pngs": 6,
+      "unique_startup_pngs": 1,
+      "groups_containing_reported_table_rows": 6
+    },
+    "d_flip_flop": {
+      "frames": 22,
+      "unique_pngs": 9,
+      "duplicate_frames": 13,
+      "unique_defined_state_pngs": 8,
+      "unique_startup_pngs": 1,
+      "groups_containing_reported_table_rows": 5
+    },
+    "jk_flip_flop": {
+      "frames": 47,
+      "unique_pngs": 18,
+      "duplicate_frames": 29,
+      "unique_defined_state_pngs": 16,
+      "unique_startup_pngs": 2,
+      "groups_containing_reported_table_rows": 6
+    },
+    "d_ff_async": {
+      "frames": 38,
+      "unique_pngs": 19,
+      "duplicate_frames": 19,
+      "unique_defined_state_pngs": 18,
+      "unique_startup_pngs": 1,
+      "groups_containing_reported_table_rows": 6
+    }
+  },
+  "groups": [
+    {
+      "circuit": "rs_latch",
+      "group_index": 1,
+      "representative_file": "images/all_cases/logisim_rs_latch_00_t0000.png",
+      "image_sha256": "8f37a9628cfe1335fe14209b9b48d40b151a2c9e91ae090f4405d26d5ce2de94",
+      "frame_count": 1,
+      "time_ns": [
+        0
+      ],
+      "step_indices": [
+        0
+      ],
+      "inputs": {
+        "s": 0,
+        "r": 1
+      },
+      "inputs_text": "s=0 r=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_rs_latch_00_t0000.png",
+          "step_index": 0,
+          "time_ns": 0,
+          "previous_q": null,
+          "current_q": "0",
+          "q_transition": "0",
+          "mode_code": "reset",
+          "label_ko": "Reset으로 Q를 0으로 설정",
+          "short_label_ko": "Reset",
+          "reported_table_condition": "Reset"
+        }
+      ]
+    },
+    {
+      "circuit": "rs_latch",
+      "group_index": 2,
+      "representative_file": "images/all_cases/logisim_rs_latch_01_t0010.png",
+      "image_sha256": "2897e75fc4d4056fb382fb2bb373e6b902eea5b65d9deb11d57fe6f764f177fe",
+      "frame_count": 2,
+      "time_ns": [
+        10,
+        60
+      ],
+      "step_indices": [
+        1,
+        6
+      ],
+      "inputs": {
+        "s": 0,
+        "r": 0
+      },
+      "inputs_text": "s=0 r=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_rs_latch_01_t0010.png",
+          "step_index": 1,
+          "time_ns": 10,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "hold_0",
+          "label_ko": "Hold로 Q=0을 유지",
+          "short_label_ko": "Hold 0",
+          "reported_table_condition": "Hold 0"
+        },
+        {
+          "filename": "images/all_cases/logisim_rs_latch_06_t0060.png",
+          "step_index": 6,
+          "time_ns": 60,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "hold_0",
+          "label_ko": "Hold로 Q=0을 유지",
+          "short_label_ko": "Hold 0",
+          "reported_table_condition": "Hold 0"
+        }
+      ]
+    },
+    {
+      "circuit": "rs_latch",
+      "group_index": 3,
+      "representative_file": "images/all_cases/logisim_rs_latch_02_t0020.png",
+      "image_sha256": "89e567fd1fee24ea8e029ce68f5e820ae8aec11d6b90a7c585a0aa89b27e1319",
+      "frame_count": 1,
+      "time_ns": [
+        20
+      ],
+      "step_indices": [
+        2
+      ],
+      "inputs": {
+        "s": 1,
+        "r": 0
+      },
+      "inputs_text": "s=1 r=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_rs_latch_02_t0020.png",
+          "step_index": 2,
+          "time_ns": 20,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "set",
+          "label_ko": "Set으로 Q를 1로 설정",
+          "short_label_ko": "Set",
+          "reported_table_condition": "Set"
+        }
+      ]
+    },
+    {
+      "circuit": "rs_latch",
+      "group_index": 4,
+      "representative_file": "images/all_cases/logisim_rs_latch_03_t0030.png",
+      "image_sha256": "4b3c9ae3a3df452abac6f4457c16315b299a69308aa8974440b83f4a4f13e8db",
+      "frame_count": 1,
+      "time_ns": [
+        30
+      ],
+      "step_indices": [
+        3
+      ],
+      "inputs": {
+        "s": 0,
+        "r": 0
+      },
+      "inputs_text": "s=0 r=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_rs_latch_03_t0030.png",
+          "step_index": 3,
+          "time_ns": 30,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "hold_1",
+          "label_ko": "Hold로 Q=1을 유지",
+          "short_label_ko": "Hold 1",
+          "reported_table_condition": "Hold 1"
+        }
+      ]
+    },
+    {
+      "circuit": "rs_latch",
+      "group_index": 5,
+      "representative_file": "images/all_cases/logisim_rs_latch_04_t0040.png",
+      "image_sha256": "98ecf1a060be62edd7909a2ac4c56eda09e6537714000b8b6d9da6c06db8aefa",
+      "frame_count": 1,
+      "time_ns": [
+        40
+      ],
+      "step_indices": [
+        4
+      ],
+      "inputs": {
+        "s": 1,
+        "r": 1
+      },
+      "inputs_text": "s=1 r=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_rs_latch_04_t0040.png",
+          "step_index": 4,
+          "time_ns": 40,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "forbidden",
+          "label_ko": "금지 입력으로 두 출력이 0이 됨",
+          "short_label_ko": "금지 입력",
+          "reported_table_condition": "금지 입력"
+        }
+      ]
+    },
+    {
+      "circuit": "rs_latch",
+      "group_index": 6,
+      "representative_file": "images/all_cases/logisim_rs_latch_05_t0050.png",
+      "image_sha256": "57988b1dac2f2908fe296dfdafc99392afddc0a227a18d1ab4dac23db32d3778",
+      "frame_count": 1,
+      "time_ns": [
+        50
+      ],
+      "step_indices": [
+        5
+      ],
+      "inputs": {
+        "s": 0,
+        "r": 1
+      },
+      "inputs_text": "s=0 r=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_rs_latch_05_t0050.png",
+          "step_index": 5,
+          "time_ns": 50,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "reset_recovery",
+          "label_ko": "금지 입력에서 Reset으로 복구",
+          "short_label_ko": "Reset 복구",
+          "reported_table_condition": "Reset 복구"
+        }
+      ]
+    },
+    {
+      "circuit": "d_latch",
+      "group_index": 1,
+      "representative_file": "images/all_cases/logisim_d_latch_00_t0000.png",
+      "image_sha256": "8e9f127f5ff6162c05b5efab41922a125e7a7aa4ea6f91e5d3418ba0a2f6ba53",
+      "frame_count": 1,
+      "time_ns": [
+        0
+      ],
+      "step_indices": [
+        0
+      ],
+      "inputs": {
+        "d": 0,
+        "en": 0
+      },
+      "inputs_text": "d=0 en=0",
+      "actual_outputs": {
+        "q": "E",
+        "q_bar": "E"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": true,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_latch_00_t0000.png",
+          "step_index": 0,
+          "time_ns": 0,
+          "previous_q": null,
+          "current_q": "E",
+          "q_transition": "미정",
+          "mode_code": "startup",
+          "label_ko": "초기화 전 미정 상태",
+          "short_label_ko": "초기화 전",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_latch",
+      "group_index": 2,
+      "representative_file": "images/all_cases/logisim_d_latch_01_t0070.png",
+      "image_sha256": "89db17bd4cc5ba52d9a52020d9478d84969caf5ce853971d20dfc4ddfac9b5d9",
+      "frame_count": 4,
+      "time_ns": [
+        70,
+        90,
+        110,
+        130
+      ],
+      "step_indices": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "inputs": {
+        "d": 0,
+        "en": 1
+      },
+      "inputs_text": "d=0 en=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_latch_01_t0070.png",
+          "step_index": 1,
+          "time_ns": 70,
+          "previous_q": "E",
+          "current_q": "0",
+          "q_transition": "미정→0",
+          "mode_code": "reenable_0",
+          "label_ko": "en=1에서 D=0을 Q에 전달",
+          "short_label_ko": "입력 0 전달",
+          "reported_table_condition": "0 전달"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_latch_03_t0090.png",
+          "step_index": 3,
+          "time_ns": 90,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "transparent_0",
+          "label_ko": "en=1에서 D=0을 Q에 전달",
+          "short_label_ko": "입력 0 전달",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_latch_05_t0110.png",
+          "step_index": 5,
+          "time_ns": 110,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "transparent_0",
+          "label_ko": "en=1에서 D=0을 Q에 전달",
+          "short_label_ko": "입력 0 전달",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_latch_07_t0130.png",
+          "step_index": 7,
+          "time_ns": 130,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "transparent_0",
+          "label_ko": "en=1에서 D=0을 Q에 전달",
+          "short_label_ko": "입력 0 전달",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_latch",
+      "group_index": 3,
+      "representative_file": "images/all_cases/logisim_d_latch_02_t0080.png",
+      "image_sha256": "27c7ae21ddcf35a9bc5e030e4fdb07c4cd63375452a793279457014a1ebb8283",
+      "frame_count": 5,
+      "time_ns": [
+        80,
+        100,
+        120,
+        180,
+        220
+      ],
+      "step_indices": [
+        2,
+        4,
+        6,
+        11,
+        15
+      ],
+      "inputs": {
+        "d": 1,
+        "en": 1
+      },
+      "inputs_text": "d=1 en=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_latch_02_t0080.png",
+          "step_index": 2,
+          "time_ns": 80,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "transparent_1",
+          "label_ko": "en=1에서 D=1을 Q에 전달",
+          "short_label_ko": "입력 1 전달",
+          "reported_table_condition": "1 전달"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_latch_04_t0100.png",
+          "step_index": 4,
+          "time_ns": 100,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "transparent_1",
+          "label_ko": "en=1에서 D=1을 Q에 전달",
+          "short_label_ko": "입력 1 전달",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_latch_06_t0120.png",
+          "step_index": 6,
+          "time_ns": 120,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "transparent_1",
+          "label_ko": "en=1에서 D=1을 Q에 전달",
+          "short_label_ko": "입력 1 전달",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_latch_11_t0180.png",
+          "step_index": 11,
+          "time_ns": 180,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "reenable_1",
+          "label_ko": "en=1에서 D=1을 Q에 전달",
+          "short_label_ko": "입력 1 전달",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_latch_15_t0220.png",
+          "step_index": 15,
+          "time_ns": 220,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "reenable_1",
+          "label_ko": "en=1에서 D=1을 Q에 전달",
+          "short_label_ko": "입력 1 전달",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_latch",
+      "group_index": 4,
+      "representative_file": "images/all_cases/logisim_d_latch_08_t0150.png",
+      "image_sha256": "f7dbdf0030b2651fc66b71f05fb7e34e133bb68220fefb4e017992d6d066176a",
+      "frame_count": 2,
+      "time_ns": [
+        150,
+        170
+      ],
+      "step_indices": [
+        8,
+        10
+      ],
+      "inputs": {
+        "d": 0,
+        "en": 0
+      },
+      "inputs_text": "d=0 en=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_latch_08_t0150.png",
+          "step_index": 8,
+          "time_ns": 150,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "disable_hold_0",
+          "label_ko": "en을 0으로 바꾸어 Q=0을 저장",
+          "short_label_ko": "0 저장",
+          "reported_table_condition": "0 저장"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_latch_10_t0170.png",
+          "step_index": 10,
+          "time_ns": 170,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "disabled_data_hold_0",
+          "label_ko": "en=0에서 D를 바꾸어도 Q=0을 유지",
+          "short_label_ko": "D 변경 후 0 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_latch",
+      "group_index": 5,
+      "representative_file": "images/all_cases/logisim_d_latch_09_t0160.png",
+      "image_sha256": "7837595998abecf2fdb53d0d2668b177c95513f9703064b0c77dd3a94cda18ef",
+      "frame_count": 1,
+      "time_ns": [
+        160
+      ],
+      "step_indices": [
+        9
+      ],
+      "inputs": {
+        "d": 1,
+        "en": 0
+      },
+      "inputs_text": "d=1 en=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_latch_09_t0160.png",
+          "step_index": 9,
+          "time_ns": 160,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "disabled_data_hold_0",
+          "label_ko": "en=0에서 D를 바꾸어도 Q=0을 유지",
+          "short_label_ko": "D 변경 후 0 유지",
+          "reported_table_condition": "D 변경 후 유지"
+        }
+      ]
+    },
+    {
+      "circuit": "d_latch",
+      "group_index": 6,
+      "representative_file": "images/all_cases/logisim_d_latch_12_t0190.png",
+      "image_sha256": "db9bf36ddfa81c968a6e9609b4e2d2179523f2f8bca6d70d5a257a494236be7f",
+      "frame_count": 2,
+      "time_ns": [
+        190,
+        210
+      ],
+      "step_indices": [
+        12,
+        14
+      ],
+      "inputs": {
+        "d": 1,
+        "en": 0
+      },
+      "inputs_text": "d=1 en=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_latch_12_t0190.png",
+          "step_index": 12,
+          "time_ns": 190,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "disable_hold_1",
+          "label_ko": "en을 0으로 바꾸어 Q=1을 저장",
+          "short_label_ko": "1 저장",
+          "reported_table_condition": "1 저장"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_latch_14_t0210.png",
+          "step_index": 14,
+          "time_ns": 210,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "disabled_data_hold_1",
+          "label_ko": "en=0에서 D를 바꾸어도 Q=1을 유지",
+          "short_label_ko": "D 변경 후 1 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_latch",
+      "group_index": 7,
+      "representative_file": "images/all_cases/logisim_d_latch_13_t0200.png",
+      "image_sha256": "6481aa3017bfde679a07fb64481fcff3a14e28f9b8c7199e177dcd007b99e523",
+      "frame_count": 1,
+      "time_ns": [
+        200
+      ],
+      "step_indices": [
+        13
+      ],
+      "inputs": {
+        "d": 0,
+        "en": 0
+      },
+      "inputs_text": "d=0 en=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_latch_13_t0200.png",
+          "step_index": 13,
+          "time_ns": 200,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "disabled_data_hold_1",
+          "label_ko": "en=0에서 D를 바꾸어도 Q=1을 유지",
+          "short_label_ko": "D 변경 후 1 유지",
+          "reported_table_condition": "D 변경 후 유지"
+        }
+      ]
+    },
+    {
+      "circuit": "d_flip_flop",
+      "group_index": 1,
+      "representative_file": "images/all_cases/logisim_d_flip_flop_00_t0000.png",
+      "image_sha256": "a9ed46ca12f2f4ab62031549730f5bd2b64addff58d58b0a233a0b5fce4fe79f",
+      "frame_count": 1,
+      "time_ns": [
+        0
+      ],
+      "step_indices": [
+        0
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "inputs_text": "d=0 clk=0",
+      "actual_outputs": {
+        "q": "E",
+        "q_bar": "E"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": true,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_00_t0000.png",
+          "step_index": 0,
+          "time_ns": 0,
+          "previous_q": null,
+          "current_q": "E",
+          "q_transition": "미정",
+          "mode_code": "startup",
+          "label_ko": "초기화 전 미정 상태",
+          "short_label_ko": "초기화 전",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_flip_flop",
+      "group_index": 2,
+      "representative_file": "images/all_cases/logisim_d_flip_flop_01_t0240.png",
+      "image_sha256": "d2106016c5f1891144c7778ce14b4a8eefc4dac57847763d7be9e65b295d91c7",
+      "frame_count": 3,
+      "time_ns": [
+        240,
+        340,
+        440
+      ],
+      "step_indices": [
+        1,
+        11,
+        21
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 1
+      },
+      "inputs_text": "d=0 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_01_t0240.png",
+          "step_index": 1,
+          "time_ns": 240,
+          "previous_q": "E",
+          "current_q": "0",
+          "q_transition": "미정→0",
+          "mode_code": "rising_capture_0",
+          "label_ko": "상승 에지에서 D=0을 저장",
+          "short_label_ko": "상승 에지 0 저장",
+          "reported_table_condition": "상승 에지 0 저장"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_11_t0340.png",
+          "step_index": 11,
+          "time_ns": 340,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "rising_capture_0",
+          "label_ko": "상승 에지에서 D=0을 저장",
+          "short_label_ko": "상승 에지 0 저장",
+          "reported_table_condition": "다음 상승 에지"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_21_t0440.png",
+          "step_index": 21,
+          "time_ns": 440,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "rising_capture_0",
+          "label_ko": "상승 에지에서 D=0을 저장",
+          "short_label_ko": "상승 에지 0 저장",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_flip_flop",
+      "group_index": 3,
+      "representative_file": "images/all_cases/logisim_d_flip_flop_02_t0250.png",
+      "image_sha256": "78b9616a6edb3726c927031faaa732f1ccc4f5fe8f4639ec7ead65b9c62ff75d",
+      "frame_count": 2,
+      "time_ns": [
+        250,
+        350
+      ],
+      "step_indices": [
+        2,
+        12
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 1
+      },
+      "inputs_text": "d=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_02_t0250.png",
+          "step_index": 2,
+          "time_ns": 250,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "high_hold_0",
+          "label_ko": "clk=1에서 D를 바꾸어도 Q=0을 유지",
+          "short_label_ko": "clk=1에서 유지",
+          "reported_table_condition": "높은 구간 유지"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_12_t0350.png",
+          "step_index": 12,
+          "time_ns": 350,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "high_hold_0",
+          "label_ko": "clk=1에서 D를 바꾸어도 Q=0을 유지",
+          "short_label_ko": "clk=1에서 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_flip_flop",
+      "group_index": 4,
+      "representative_file": "images/all_cases/logisim_d_flip_flop_03_t0260.png",
+      "image_sha256": "83de4fe9a75bfff7043beec292b338c5093c9b248ec4f49ffd604ecdd3071139",
+      "frame_count": 4,
+      "time_ns": [
+        260,
+        280,
+        360,
+        380
+      ],
+      "step_indices": [
+        3,
+        5,
+        13,
+        15
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "inputs_text": "d=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_03_t0260.png",
+          "step_index": 3,
+          "time_ns": 260,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "falling_hold_0",
+          "label_ko": "하강 에지에서 Q=0을 유지",
+          "short_label_ko": "하강 에지 0 유지",
+          "reported_table_condition": "하강 에지 유지"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_05_t0280.png",
+          "step_index": 5,
+          "time_ns": 280,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "low_hold_0",
+          "label_ko": "clk=0에서 D를 바꾸어도 Q=0을 유지",
+          "short_label_ko": "clk=0에서 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_13_t0360.png",
+          "step_index": 13,
+          "time_ns": 360,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "falling_hold_0",
+          "label_ko": "하강 에지에서 Q=0을 유지",
+          "short_label_ko": "하강 에지 0 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_15_t0380.png",
+          "step_index": 15,
+          "time_ns": 380,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "low_hold_0",
+          "label_ko": "clk=0에서 D를 바꾸어도 Q=0을 유지",
+          "short_label_ko": "clk=0에서 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_flip_flop",
+      "group_index": 5,
+      "representative_file": "images/all_cases/logisim_d_flip_flop_04_t0270.png",
+      "image_sha256": "c61475198505de82699609449c9dca93dd50d017b2946d98013f8824ba4ac32f",
+      "frame_count": 2,
+      "time_ns": [
+        270,
+        370
+      ],
+      "step_indices": [
+        4,
+        14
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "inputs_text": "d=0 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_04_t0270.png",
+          "step_index": 4,
+          "time_ns": 270,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "low_hold_0",
+          "label_ko": "clk=0에서 D를 바꾸어도 Q=0을 유지",
+          "short_label_ko": "clk=0에서 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_14_t0370.png",
+          "step_index": 14,
+          "time_ns": 370,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "low_hold_0",
+          "label_ko": "clk=0에서 D를 바꾸어도 Q=0을 유지",
+          "short_label_ko": "clk=0에서 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_flip_flop",
+      "group_index": 6,
+      "representative_file": "images/all_cases/logisim_d_flip_flop_06_t0290.png",
+      "image_sha256": "5797a04236b47a13fc50968b38e872b50c7a8e59450cd1bd8b83413e6087618a",
+      "frame_count": 2,
+      "time_ns": [
+        290,
+        390
+      ],
+      "step_indices": [
+        6,
+        16
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 1
+      },
+      "inputs_text": "d=1 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_06_t0290.png",
+          "step_index": 6,
+          "time_ns": 290,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "rising_capture_1",
+          "label_ko": "상승 에지에서 D=1을 저장",
+          "short_label_ko": "상승 에지 1 저장",
+          "reported_table_condition": "상승 에지 1 저장"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_16_t0390.png",
+          "step_index": 16,
+          "time_ns": 390,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "rising_capture_1",
+          "label_ko": "상승 에지에서 D=1을 저장",
+          "short_label_ko": "상승 에지 1 저장",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_flip_flop",
+      "group_index": 7,
+      "representative_file": "images/all_cases/logisim_d_flip_flop_07_t0300.png",
+      "image_sha256": "ebabf4549e987d58a2aefefd71da163147a96fe017cb7718e2efc3410a2582c0",
+      "frame_count": 2,
+      "time_ns": [
+        300,
+        400
+      ],
+      "step_indices": [
+        7,
+        17
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 1
+      },
+      "inputs_text": "d=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_07_t0300.png",
+          "step_index": 7,
+          "time_ns": 300,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "high_hold_1",
+          "label_ko": "clk=1에서 D를 바꾸어도 Q=1을 유지",
+          "short_label_ko": "clk=1에서 유지",
+          "reported_table_condition": "D 변경 후 유지"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_17_t0400.png",
+          "step_index": 17,
+          "time_ns": 400,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "high_hold_1",
+          "label_ko": "clk=1에서 D를 바꾸어도 Q=1을 유지",
+          "short_label_ko": "clk=1에서 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_flip_flop",
+      "group_index": 8,
+      "representative_file": "images/all_cases/logisim_d_flip_flop_08_t0310.png",
+      "image_sha256": "2538a75a7d7dfd004d5587b79e45d5061b58f0dd0fcdc7f74a7de68d04b5b4af",
+      "frame_count": 4,
+      "time_ns": [
+        310,
+        330,
+        410,
+        430
+      ],
+      "step_indices": [
+        8,
+        10,
+        18,
+        20
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 0
+      },
+      "inputs_text": "d=0 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_08_t0310.png",
+          "step_index": 8,
+          "time_ns": 310,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "falling_hold_1",
+          "label_ko": "하강 에지에서 Q=1을 유지",
+          "short_label_ko": "하강 에지 1 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_10_t0330.png",
+          "step_index": 10,
+          "time_ns": 330,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "low_hold_1",
+          "label_ko": "clk=0에서 D를 바꾸어도 Q=1을 유지",
+          "short_label_ko": "clk=0에서 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_18_t0410.png",
+          "step_index": 18,
+          "time_ns": 410,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "falling_hold_1",
+          "label_ko": "하강 에지에서 Q=1을 유지",
+          "short_label_ko": "하강 에지 1 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_20_t0430.png",
+          "step_index": 20,
+          "time_ns": 430,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "low_hold_1",
+          "label_ko": "clk=0에서 D를 바꾸어도 Q=1을 유지",
+          "short_label_ko": "clk=0에서 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_flip_flop",
+      "group_index": 9,
+      "representative_file": "images/all_cases/logisim_d_flip_flop_09_t0320.png",
+      "image_sha256": "fb0a54faf177cde971129f5bf05b4a2cf046fa4eb842ce95ec078e61fafd4557",
+      "frame_count": 2,
+      "time_ns": [
+        320,
+        420
+      ],
+      "step_indices": [
+        9,
+        19
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 0
+      },
+      "inputs_text": "d=1 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_09_t0320.png",
+          "step_index": 9,
+          "time_ns": 320,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "low_hold_1",
+          "label_ko": "clk=0에서 D를 바꾸어도 Q=1을 유지",
+          "short_label_ko": "clk=0에서 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_flip_flop_19_t0420.png",
+          "step_index": 19,
+          "time_ns": 420,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "low_hold_1",
+          "label_ko": "clk=0에서 D를 바꾸어도 Q=1을 유지",
+          "short_label_ko": "clk=0에서 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 1,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_00_t0000.png",
+      "image_sha256": "3b071c1157ede4280be1f0dc2df998caa3de0ce42fdf86dcbd1b72afa4dad0ba",
+      "frame_count": 1,
+      "time_ns": [
+        0
+      ],
+      "step_indices": [
+        0
+      ],
+      "inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=0 clk=0",
+      "actual_outputs": {
+        "q": "E",
+        "q_bar": "E"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": true,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_00_t0000.png",
+          "step_index": 0,
+          "time_ns": 0,
+          "previous_q": null,
+          "current_q": "E",
+          "q_transition": "미정",
+          "mode_code": "startup",
+          "label_ko": "초기화 전 미정 상태",
+          "short_label_ko": "초기화 전",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 2,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_01_t0450.png",
+      "image_sha256": "c695793696e4a9b014500466a4006935fed011ef8e55469c13960e2e52f13860",
+      "frame_count": 1,
+      "time_ns": [
+        450
+      ],
+      "step_indices": [
+        1
+      ],
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=1 clk=0",
+      "actual_outputs": {
+        "q": "E",
+        "q_bar": "E"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": true,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_01_t0450.png",
+          "step_index": 1,
+          "time_ns": 450,
+          "previous_q": "E",
+          "current_q": "E",
+          "q_transition": "미정→미정",
+          "mode_code": "startup",
+          "label_ko": "초기화 전 미정 상태",
+          "short_label_ko": "초기화 전",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 3,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_02_t0460.png",
+      "image_sha256": "fcc1f0e892e9f6c5216545622178b0084b6b839f915a506f45b461a18540b37a",
+      "frame_count": 6,
+      "time_ns": [
+        460,
+        510,
+        540,
+        560,
+        610,
+        740
+      ],
+      "step_indices": [
+        2,
+        7,
+        9,
+        11,
+        16,
+        29
+      ],
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_02_t0460.png",
+          "step_index": 2,
+          "time_ns": 460,
+          "previous_q": "E",
+          "current_q": "0",
+          "q_transition": "미정→0",
+          "mode_code": "rising_reset_E_0",
+          "label_ko": "상승 에지에서 Reset 동작으로 Q가 미정→0",
+          "short_label_ko": "Reset 0",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_07_t0510.png",
+          "step_index": 7,
+          "time_ns": 510,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "rising_reset_0_0",
+          "label_ko": "상승 에지에서 Reset 동작으로 Q가 0→0",
+          "short_label_ko": "Reset 0",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_09_t0540.png",
+          "step_index": 9,
+          "time_ns": 540,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "rising_reset_0_0",
+          "label_ko": "상승 에지에서 Reset 동작으로 Q가 0→0",
+          "short_label_ko": "Reset 0",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_11_t0560.png",
+          "step_index": 11,
+          "time_ns": 560,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "rising_reset_0_0",
+          "label_ko": "상승 에지에서 Reset 동작으로 Q가 0→0",
+          "short_label_ko": "Reset 0",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_16_t0610.png",
+          "step_index": 16,
+          "time_ns": 610,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "rising_reset_1_0",
+          "label_ko": "상승 에지에서 Reset 동작으로 Q가 1→0",
+          "short_label_ko": "Reset 0",
+          "reported_table_condition": "Reset"
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_29_t0740.png",
+          "step_index": 29,
+          "time_ns": 740,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "rising_reset_1_0",
+          "label_ko": "상승 에지에서 Reset 동작으로 Q가 1→0",
+          "short_label_ko": "Reset 0",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 4,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_03_t0470.png",
+      "image_sha256": "91a75bb4ab167bed833e2439973ae555e069af56476b5f3bca4a7d84c0734de5",
+      "frame_count": 2,
+      "time_ns": [
+        470,
+        490
+      ],
+      "step_indices": [
+        3,
+        5
+      ],
+      "inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=0 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_03_t0470.png",
+          "step_index": 3,
+          "time_ns": 470,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "high_input_hold_0",
+          "label_ko": "clk=1에서 J와 K를 바꾸어도 Q=0을 유지",
+          "short_label_ko": "J와 K 변경 후 0 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_05_t0490.png",
+          "step_index": 5,
+          "time_ns": 490,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "rising_hold_0_0",
+          "label_ko": "상승 에지에서 Hold 동작으로 Q가 0→0",
+          "short_label_ko": "Hold 0",
+          "reported_table_condition": "Hold 0"
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 5,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_04_t0480.png",
+      "image_sha256": "f4d8e0b5fedbea4c0bf22f485ef87390cdb7072e11bade98f46d52b220375fa4",
+      "frame_count": 1,
+      "time_ns": [
+        480
+      ],
+      "step_indices": [
+        4
+      ],
+      "inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=0 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_04_t0480.png",
+          "step_index": 4,
+          "time_ns": 480,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "falling_hold_0",
+          "label_ko": "하강 에지에서 Q=0을 유지",
+          "short_label_ko": "하강 에지 0 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 6,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_06_t0500.png",
+      "image_sha256": "8394b39abba4fcc2bb18678359d755973b76f5b494653399b1e8065ede9bdd7f",
+      "frame_count": 3,
+      "time_ns": [
+        500,
+        530,
+        550
+      ],
+      "step_indices": [
+        6,
+        8,
+        10
+      ],
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_06_t0500.png",
+          "step_index": 6,
+          "time_ns": 500,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "falling_hold_0",
+          "label_ko": "하강 에지에서 Q=0을 유지",
+          "short_label_ko": "하강 에지 0 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_08_t0530.png",
+          "step_index": 8,
+          "time_ns": 530,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "falling_hold_0",
+          "label_ko": "하강 에지에서 Q=0을 유지",
+          "short_label_ko": "하강 에지 0 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_10_t0550.png",
+          "step_index": 10,
+          "time_ns": 550,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "falling_hold_0",
+          "label_ko": "하강 에지에서 Q=0을 유지",
+          "short_label_ko": "하강 에지 0 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 7,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_12_t0570.png",
+      "image_sha256": "21da1abae8037622c780391f0d40f77702cf5aee6a0f7f56498509c738db38b9",
+      "frame_count": 1,
+      "time_ns": [
+        570
+      ],
+      "step_indices": [
+        12
+      ],
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=0 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_12_t0570.png",
+          "step_index": 12,
+          "time_ns": 570,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "high_input_hold_0",
+          "label_ko": "clk=1에서 J와 K를 바꾸어도 Q=0을 유지",
+          "short_label_ko": "J와 K 변경 후 0 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 8,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_13_t0580.png",
+      "image_sha256": "cca407e1fb4bc1a8f0203f161c92d5bef40375522e05cb9ae17fad3f8bf932cf",
+      "frame_count": 2,
+      "time_ns": [
+        580,
+        750
+      ],
+      "step_indices": [
+        13,
+        30
+      ],
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=0 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_13_t0580.png",
+          "step_index": 13,
+          "time_ns": 580,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "falling_hold_0",
+          "label_ko": "하강 에지에서 Q=0을 유지",
+          "short_label_ko": "하강 에지 0 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_30_t0750.png",
+          "step_index": 30,
+          "time_ns": 750,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "falling_hold_0",
+          "label_ko": "하강 에지에서 Q=0을 유지",
+          "short_label_ko": "하강 에지 0 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 9,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_14_t0590.png",
+      "image_sha256": "4e14f65b2bbee129e4b878ac1923b31571c15559ee548c51e2c112803bee315c",
+      "frame_count": 6,
+      "time_ns": [
+        590,
+        660,
+        710,
+        760,
+        790,
+        810
+      ],
+      "step_indices": [
+        14,
+        21,
+        26,
+        31,
+        33,
+        35
+      ],
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_14_t0590.png",
+          "step_index": 14,
+          "time_ns": 590,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "rising_set_0_1",
+          "label_ko": "상승 에지에서 Set 동작으로 Q가 0→1",
+          "short_label_ko": "Set 1",
+          "reported_table_condition": "Set"
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_21_t0660.png",
+          "step_index": 21,
+          "time_ns": 660,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "rising_set_1_1",
+          "label_ko": "상승 에지에서 Set 동작으로 Q가 1→1",
+          "short_label_ko": "Set 1",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_26_t0710.png",
+          "step_index": 26,
+          "time_ns": 710,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "rising_set_1_1",
+          "label_ko": "상승 에지에서 Set 동작으로 Q가 1→1",
+          "short_label_ko": "Set 1",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_31_t0760.png",
+          "step_index": 31,
+          "time_ns": 760,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "rising_set_0_1",
+          "label_ko": "상승 에지에서 Set 동작으로 Q가 0→1",
+          "short_label_ko": "Set 1",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_33_t0790.png",
+          "step_index": 33,
+          "time_ns": 790,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "rising_set_1_1",
+          "label_ko": "상승 에지에서 Set 동작으로 Q가 1→1",
+          "short_label_ko": "Set 1",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_35_t0810.png",
+          "step_index": 35,
+          "time_ns": 810,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "rising_set_1_1",
+          "label_ko": "상승 에지에서 Set 동작으로 Q가 1→1",
+          "short_label_ko": "Set 1",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 10,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_15_t0600.png",
+      "image_sha256": "3da041ecb8e86d241a65ba78094ceb65e3d274c4e92c621ce846145810cc5f0f",
+      "frame_count": 2,
+      "time_ns": [
+        600,
+        730
+      ],
+      "step_indices": [
+        15,
+        28
+      ],
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=1 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_15_t0600.png",
+          "step_index": 15,
+          "time_ns": 600,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "falling_hold_1",
+          "label_ko": "하강 에지에서 Q=1을 유지",
+          "short_label_ko": "하강 에지 1 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_28_t0730.png",
+          "step_index": 28,
+          "time_ns": 730,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "falling_hold_1",
+          "label_ko": "하강 에지에서 Q=1을 유지",
+          "short_label_ko": "하강 에지 1 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 11,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_17_t0620.png",
+      "image_sha256": "4de12e1398a08a64a65fccba5a2bec026fc905a9bd33bd8b4ad7e6983f90de01",
+      "frame_count": 4,
+      "time_ns": [
+        620,
+        840,
+        880,
+        920
+      ],
+      "step_indices": [
+        17,
+        38,
+        42,
+        46
+      ],
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=1 clk=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_17_t0620.png",
+          "step_index": 17,
+          "time_ns": 620,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "high_input_hold_0",
+          "label_ko": "clk=1에서 J와 K를 바꾸어도 Q=0을 유지",
+          "short_label_ko": "J와 K 변경 후 0 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_38_t0840.png",
+          "step_index": 38,
+          "time_ns": 840,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "rising_toggle_1_0",
+          "label_ko": "상승 에지에서 Toggle 동작으로 Q가 1→0",
+          "short_label_ko": "Toggle 1→0",
+          "reported_table_condition": "Toggle 1→0"
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_42_t0880.png",
+          "step_index": 42,
+          "time_ns": 880,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "rising_toggle_1_0",
+          "label_ko": "상승 에지에서 Toggle 동작으로 Q가 1→0",
+          "short_label_ko": "Toggle 1→0",
+          "reported_table_condition": "Toggle 1→0"
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_46_t0920.png",
+          "step_index": 46,
+          "time_ns": 920,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "rising_toggle_1_0",
+          "label_ko": "상승 에지에서 Toggle 동작으로 Q가 1→0",
+          "short_label_ko": "Toggle 1→0",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 12,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_18_t0630.png",
+      "image_sha256": "0b3f96303abdf4f73c0c9f15aa5e88b8a9f4f030bf7ac9708dccb55bb697c326",
+      "frame_count": 3,
+      "time_ns": [
+        630,
+        850,
+        890
+      ],
+      "step_indices": [
+        18,
+        39,
+        43
+      ],
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=1 clk=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_18_t0630.png",
+          "step_index": 18,
+          "time_ns": 630,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "falling_hold_0",
+          "label_ko": "하강 에지에서 Q=0을 유지",
+          "short_label_ko": "하강 에지 0 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_39_t0850.png",
+          "step_index": 39,
+          "time_ns": 850,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "falling_hold_0",
+          "label_ko": "하강 에지에서 Q=0을 유지",
+          "short_label_ko": "하강 에지 0 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_43_t0890.png",
+          "step_index": 43,
+          "time_ns": 890,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "falling_hold_0",
+          "label_ko": "하강 에지에서 Q=0을 유지",
+          "short_label_ko": "하강 에지 0 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 13,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_19_t0640.png",
+      "image_sha256": "6c0d24f3170a5ab7df3583f8577b55b84fddc766e743be891292fd1aea46a937",
+      "frame_count": 4,
+      "time_ns": [
+        640,
+        820,
+        860,
+        900
+      ],
+      "step_indices": [
+        19,
+        36,
+        40,
+        44
+      ],
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=1 k=1 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_19_t0640.png",
+          "step_index": 19,
+          "time_ns": 640,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "rising_toggle_0_1",
+          "label_ko": "상승 에지에서 Toggle 동작으로 Q가 0→1",
+          "short_label_ko": "Toggle 0→1",
+          "reported_table_condition": "Toggle 0→1"
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_36_t0820.png",
+          "step_index": 36,
+          "time_ns": 820,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "high_input_hold_1",
+          "label_ko": "clk=1에서 J와 K를 바꾸어도 Q=1을 유지",
+          "short_label_ko": "J와 K 변경 후 1 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_40_t0860.png",
+          "step_index": 40,
+          "time_ns": 860,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "rising_toggle_0_1",
+          "label_ko": "상승 에지에서 Toggle 동작으로 Q가 0→1",
+          "short_label_ko": "Toggle 0→1",
+          "reported_table_condition": "Toggle 0→1"
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_44_t0900.png",
+          "step_index": 44,
+          "time_ns": 900,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "rising_toggle_0_1",
+          "label_ko": "상승 에지에서 Toggle 동작으로 Q가 0→1",
+          "short_label_ko": "Toggle 0→1",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 14,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_20_t0650.png",
+      "image_sha256": "3e07b3e5100220b7973410a3744d533e06af30e6e66072d64fddbd18503700fb",
+      "frame_count": 4,
+      "time_ns": [
+        650,
+        700,
+        780,
+        800
+      ],
+      "step_indices": [
+        20,
+        25,
+        32,
+        34
+      ],
+      "inputs": {
+        "j": 1,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=0 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_20_t0650.png",
+          "step_index": 20,
+          "time_ns": 650,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "falling_hold_1",
+          "label_ko": "하강 에지에서 Q=1을 유지",
+          "short_label_ko": "하강 에지 1 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_25_t0700.png",
+          "step_index": 25,
+          "time_ns": 700,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "falling_hold_1",
+          "label_ko": "하강 에지에서 Q=1을 유지",
+          "short_label_ko": "하강 에지 1 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_32_t0780.png",
+          "step_index": 32,
+          "time_ns": 780,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "falling_hold_1",
+          "label_ko": "하강 에지에서 Q=1을 유지",
+          "short_label_ko": "하강 에지 1 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_34_t0800.png",
+          "step_index": 34,
+          "time_ns": 800,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "falling_hold_1",
+          "label_ko": "하강 에지에서 Q=1을 유지",
+          "short_label_ko": "하강 에지 1 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 15,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_22_t0670.png",
+      "image_sha256": "ca179ac4630da8cf9fa0ea7308cff43fbfa26634bf7f355184c2abef0f1a39cc",
+      "frame_count": 2,
+      "time_ns": [
+        670,
+        690
+      ],
+      "step_indices": [
+        22,
+        24
+      ],
+      "inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=0 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_22_t0670.png",
+          "step_index": 22,
+          "time_ns": 670,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "high_input_hold_1",
+          "label_ko": "clk=1에서 J와 K를 바꾸어도 Q=1을 유지",
+          "short_label_ko": "J와 K 변경 후 1 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_24_t0690.png",
+          "step_index": 24,
+          "time_ns": 690,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "rising_hold_1_1",
+          "label_ko": "상승 에지에서 Hold 동작으로 Q가 1→1",
+          "short_label_ko": "Hold 1",
+          "reported_table_condition": "Hold 1"
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 16,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_23_t0680.png",
+      "image_sha256": "177974656a4b51bb114b64eda2c4be919e361f3cfbdecf280fff2c12582ba045",
+      "frame_count": 1,
+      "time_ns": [
+        680
+      ],
+      "step_indices": [
+        23
+      ],
+      "inputs": {
+        "j": 0,
+        "k": 0,
+        "clk": 0
+      },
+      "inputs_text": "j=0 k=0 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_23_t0680.png",
+          "step_index": 23,
+          "time_ns": 680,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "falling_hold_1",
+          "label_ko": "하강 에지에서 Q=1을 유지",
+          "short_label_ko": "하강 에지 1 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 17,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_27_t0720.png",
+      "image_sha256": "bccc8937271293c6c9a8e2bac6b724913eca102dda091acc4526b7089f661100",
+      "frame_count": 1,
+      "time_ns": [
+        720
+      ],
+      "step_indices": [
+        27
+      ],
+      "inputs": {
+        "j": 0,
+        "k": 1,
+        "clk": 1
+      },
+      "inputs_text": "j=0 k=1 clk=1",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_27_t0720.png",
+          "step_index": 27,
+          "time_ns": 720,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "high_input_hold_1",
+          "label_ko": "clk=1에서 J와 K를 바꾸어도 Q=1을 유지",
+          "short_label_ko": "J와 K 변경 후 1 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "jk_flip_flop",
+      "group_index": 18,
+      "representative_file": "images/all_cases/logisim_jk_flip_flop_37_t0830.png",
+      "image_sha256": "5ddc17e27524fb44bcd3d819181a2da1b0fccad93420f0f24a0a414609f916c4",
+      "frame_count": 3,
+      "time_ns": [
+        830,
+        870,
+        910
+      ],
+      "step_indices": [
+        37,
+        41,
+        45
+      ],
+      "inputs": {
+        "j": 1,
+        "k": 1,
+        "clk": 0
+      },
+      "inputs_text": "j=1 k=1 clk=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_37_t0830.png",
+          "step_index": 37,
+          "time_ns": 830,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "falling_hold_1",
+          "label_ko": "하강 에지에서 Q=1을 유지",
+          "short_label_ko": "하강 에지 1 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_41_t0870.png",
+          "step_index": 41,
+          "time_ns": 870,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "falling_hold_1",
+          "label_ko": "하강 에지에서 Q=1을 유지",
+          "short_label_ko": "하강 에지 1 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_jk_flip_flop_45_t0910.png",
+          "step_index": 45,
+          "time_ns": 910,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "falling_hold_1",
+          "label_ko": "하강 에지에서 Q=1을 유지",
+          "short_label_ko": "하강 에지 1 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 1,
+      "representative_file": "images/all_cases/logisim_d_ff_async_00_t0000.png",
+      "image_sha256": "998df901b2dba4fa799bddcdf616d8a4f0cd607363692a8b04605ecb8b47955a",
+      "frame_count": 1,
+      "time_ns": [
+        0
+      ],
+      "step_indices": [
+        0
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=0 set=0 clr=0",
+      "actual_outputs": {
+        "q": "E",
+        "q_bar": "E"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": true,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_00_t0000.png",
+          "step_index": 0,
+          "time_ns": 0,
+          "previous_q": null,
+          "current_q": "E",
+          "q_transition": "미정",
+          "mode_code": "startup",
+          "label_ko": "초기화 전 미정 상태",
+          "short_label_ko": "초기화 전",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 2,
+      "representative_file": "images/all_cases/logisim_d_ff_async_01_t0930.png",
+      "image_sha256": "ef703a68e45248229dedd1b5c80d735d3e9229a82802a7de4929202157dd8463",
+      "frame_count": 3,
+      "time_ns": [
+        930,
+        970,
+        1010
+      ],
+      "step_indices": [
+        1,
+        3,
+        5
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=0 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_01_t0930.png",
+          "step_index": 1,
+          "time_ns": 930,
+          "previous_q": "E",
+          "current_q": "0",
+          "q_transition": "미정→0",
+          "mode_code": "async_clear_clock_0",
+          "label_ko": "clk=0에서 비동기 Clear로 Q를 0으로 설정",
+          "short_label_ko": "비동기 Clear",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_03_t0970.png",
+          "step_index": 3,
+          "time_ns": 970,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "async_clear_clock_0",
+          "label_ko": "clk=0에서 비동기 Clear로 Q를 0으로 설정",
+          "short_label_ko": "비동기 Clear",
+          "reported_table_condition": "비동기 Clear"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_05_t1010.png",
+          "step_index": 5,
+          "time_ns": 1010,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "async_clear_clock_0",
+          "label_ko": "clk=0에서 비동기 Clear로 Q를 0으로 설정",
+          "short_label_ko": "비동기 Clear",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 3,
+      "representative_file": "images/all_cases/logisim_d_ff_async_02_t0960.png",
+      "image_sha256": "37ac3216f42073e9b133fac099b8e4be8ed05f1b8c9f44d3b2caaa2ad2549093",
+      "frame_count": 1,
+      "time_ns": [
+        960
+      ],
+      "step_indices": [
+        2
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 1,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=0 set=1 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_02_t0960.png",
+          "step_index": 2,
+          "time_ns": 960,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "clear_release_set_clock_0",
+          "label_ko": "clk=0에서 Clear를 해제하여 Set이 Q를 1로 설정",
+          "short_label_ko": "Clear 해제 후 Set",
+          "reported_table_condition": "비동기 Set"
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 4,
+      "representative_file": "images/all_cases/logisim_d_ff_async_04_t1000.png",
+      "image_sha256": "d9b1dbf8aab88385212494512a463e2760a7263b03d996d4f7ccc7a44e8021f8",
+      "frame_count": 1,
+      "time_ns": [
+        1000
+      ],
+      "step_indices": [
+        4
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 1,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=0 set=1 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_04_t1000.png",
+          "step_index": 4,
+          "time_ns": 1000,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "async_clear_priority_clock_0",
+          "label_ko": "clk=0에서 set=clr=1이므로 Clear가 우선",
+          "short_label_ko": "Clear 우선",
+          "reported_table_condition": "Clear 우선"
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 5,
+      "representative_file": "images/all_cases/logisim_d_ff_async_06_t1020.png",
+      "image_sha256": "aac1d6ad4e6dfd9294afeb048d2116cf7c2728a5b840bd41c92486d31b44bf0f",
+      "frame_count": 3,
+      "time_ns": [
+        1020,
+        1200,
+        1280
+      ],
+      "step_indices": [
+        6,
+        18,
+        26
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 1,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=0 set=1 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_06_t1020.png",
+          "step_index": 6,
+          "time_ns": 1020,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "clear_release_set_clock_0",
+          "label_ko": "clk=0에서 Clear를 해제하여 Set이 Q를 1로 설정",
+          "short_label_ko": "Clear 해제 후 Set",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_18_t1200.png",
+          "step_index": 18,
+          "time_ns": 1200,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "clear_release_set_clock_0",
+          "label_ko": "clk=0에서 Clear를 해제하여 Set이 Q를 1로 설정",
+          "short_label_ko": "Clear 해제 후 Set",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_26_t1280.png",
+          "step_index": 26,
+          "time_ns": 1280,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "clear_release_set_clock_0",
+          "label_ko": "clk=0에서 Clear를 해제하여 Set이 Q를 1로 설정",
+          "short_label_ko": "Clear 해제 후 Set",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 6,
+      "representative_file": "images/all_cases/logisim_d_ff_async_07_t1030.png",
+      "image_sha256": "afd9dc9d5ade814db142c424407373068c62343718aac45e7f655c6e8ed009b3",
+      "frame_count": 1,
+      "time_ns": [
+        1030
+      ],
+      "step_indices": [
+        7
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=1 clk=0 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_07_t1030.png",
+          "step_index": 7,
+          "time_ns": 1030,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "async_clear_clock_0",
+          "label_ko": "clk=0에서 비동기 Clear로 Q를 0으로 설정",
+          "short_label_ko": "비동기 Clear",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 7,
+      "representative_file": "images/all_cases/logisim_d_ff_async_08_t1060.png",
+      "image_sha256": "92ea473f5769b48d88bcd701618572f07b3e53aa65d07c77bbc74bbd7ec31d15",
+      "frame_count": 2,
+      "time_ns": [
+        1060,
+        1270
+      ],
+      "step_indices": [
+        8,
+        25
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 1,
+        "clr": 1
+      },
+      "inputs_text": "d=1 clk=0 set=1 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_08_t1060.png",
+          "step_index": 8,
+          "time_ns": 1060,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "async_clear_priority_clock_0",
+          "label_ko": "clk=0에서 set=clr=1이므로 Clear가 우선",
+          "short_label_ko": "Clear 우선",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_25_t1270.png",
+          "step_index": 25,
+          "time_ns": 1270,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "async_clear_priority_clock_0",
+          "label_ko": "clk=0에서 set=clr=1이므로 Clear가 우선",
+          "short_label_ko": "Clear 우선",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 8,
+      "representative_file": "images/all_cases/logisim_d_ff_async_09_t1070.png",
+      "image_sha256": "83a68d082c46b86122b3c85cab50d04e7faf07657083d68d0fb6ea593464375a",
+      "frame_count": 3,
+      "time_ns": [
+        1070,
+        1190,
+        1260
+      ],
+      "step_indices": [
+        9,
+        17,
+        24
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 1,
+        "clr": 1
+      },
+      "inputs_text": "d=1 clk=1 set=1 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_09_t1070.png",
+          "step_index": 9,
+          "time_ns": 1070,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "async_clear_priority_clock_1",
+          "label_ko": "clk=1에서 set=clr=1이므로 Clear가 우선",
+          "short_label_ko": "Clear 우선",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_17_t1190.png",
+          "step_index": 17,
+          "time_ns": 1190,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "async_clear_priority_clock_1",
+          "label_ko": "clk=1에서 set=clr=1이므로 Clear가 우선",
+          "short_label_ko": "Clear 우선",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_24_t1260.png",
+          "step_index": 24,
+          "time_ns": 1260,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "async_clear_priority_clock_1",
+          "label_ko": "clk=1에서 set=clr=1이므로 Clear가 우선",
+          "short_label_ko": "Clear 우선",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 9,
+      "representative_file": "images/all_cases/logisim_d_ff_async_10_t1080.png",
+      "image_sha256": "758afb3a1a3d1731ec6e669df8ce746d3c11cf58d3777f44b16f48c870110014",
+      "frame_count": 2,
+      "time_ns": [
+        1080,
+        1160
+      ],
+      "step_indices": [
+        10,
+        16
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=1 clk=1 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_10_t1080.png",
+          "step_index": 10,
+          "time_ns": 1080,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "async_clear_clock_1",
+          "label_ko": "clk=1에서 비동기 Clear로 Q를 0으로 설정",
+          "short_label_ko": "비동기 Clear",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_16_t1160.png",
+          "step_index": 16,
+          "time_ns": 1160,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "async_clear_clock_1",
+          "label_ko": "clk=1에서 비동기 Clear로 Q를 0으로 설정",
+          "short_label_ko": "비동기 Clear",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 10,
+      "representative_file": "images/all_cases/logisim_d_ff_async_11_t1090.png",
+      "image_sha256": "a7972f8f99e652c85d39cef97548fb83f562e8fd0394434912fe9ad0a46305ac",
+      "frame_count": 2,
+      "time_ns": [
+        1090,
+        1360
+      ],
+      "step_indices": [
+        11,
+        34
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 1,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=1 set=1 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_11_t1090.png",
+          "step_index": 11,
+          "time_ns": 1090,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "clear_release_set_clock_1",
+          "label_ko": "clk=1에서 Clear를 해제하여 Set이 Q를 1로 설정",
+          "short_label_ko": "Clear 해제 후 Set",
+          "reported_table_condition": "clk 1에서 Set"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_34_t1360.png",
+          "step_index": 34,
+          "time_ns": 1360,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "clear_release_set_clock_1",
+          "label_ko": "clk=1에서 Clear를 해제하여 Set이 Q를 1로 설정",
+          "short_label_ko": "Clear 해제 후 Set",
+          "reported_table_condition": "Clear 해제 Set"
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 11,
+      "representative_file": "images/all_cases/logisim_d_ff_async_12_t1100.png",
+      "image_sha256": "b7e32ab7ec1a64afc7f6953b27b261b5d80d501702d1f74be4602238ac0a7cfb",
+      "frame_count": 3,
+      "time_ns": [
+        1100,
+        1140,
+        1310
+      ],
+      "step_indices": [
+        12,
+        14,
+        29
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=1 set=0 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_12_t1100.png",
+          "step_index": 12,
+          "time_ns": 1100,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "async_clear_clock_1",
+          "label_ko": "clk=1에서 비동기 Clear로 Q를 0으로 설정",
+          "short_label_ko": "비동기 Clear",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_14_t1140.png",
+          "step_index": 14,
+          "time_ns": 1140,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "async_clear_clock_1",
+          "label_ko": "clk=1에서 비동기 Clear로 Q를 0으로 설정",
+          "short_label_ko": "비동기 Clear",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_29_t1310.png",
+          "step_index": 29,
+          "time_ns": 1310,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "async_clear_clock_1",
+          "label_ko": "clk=1에서 비동기 Clear로 Q를 0으로 설정",
+          "short_label_ko": "비동기 Clear",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 12,
+      "representative_file": "images/all_cases/logisim_d_ff_async_13_t1130.png",
+      "image_sha256": "d048da08f118134bd9f18deafcf62d1132a19e9047daa534ed8fc1870bf932d9",
+      "frame_count": 2,
+      "time_ns": [
+        1130,
+        1350
+      ],
+      "step_indices": [
+        13,
+        33
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 1,
+        "clr": 1
+      },
+      "inputs_text": "d=0 clk=1 set=1 clr=1",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_13_t1130.png",
+          "step_index": 13,
+          "time_ns": 1130,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "async_clear_priority_clock_1",
+          "label_ko": "clk=1에서 set=clr=1이므로 Clear가 우선",
+          "short_label_ko": "Clear 우선",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_33_t1350.png",
+          "step_index": 33,
+          "time_ns": 1350,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "async_clear_priority_clock_1",
+          "label_ko": "clk=1에서 set=clr=1이므로 Clear가 우선",
+          "short_label_ko": "Clear 우선",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 13,
+      "representative_file": "images/all_cases/logisim_d_ff_async_15_t1150.png",
+      "image_sha256": "c09e8c600ba6315afd36110e9986db1820df42d6914d30477b11c5236e18be72",
+      "frame_count": 2,
+      "time_ns": [
+        1150,
+        1330
+      ],
+      "step_indices": [
+        15,
+        31
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 1,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=1 set=1 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_15_t1150.png",
+          "step_index": 15,
+          "time_ns": 1150,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "clear_release_set_clock_1",
+          "label_ko": "clk=1에서 Clear를 해제하여 Set이 Q를 1로 설정",
+          "short_label_ko": "Clear 해제 후 Set",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_31_t1330.png",
+          "step_index": 31,
+          "time_ns": 1330,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "async_set_clock_1",
+          "label_ko": "clk=1에서 비동기 Set으로 Q를 1로 설정",
+          "short_label_ko": "비동기 Set",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 14,
+      "representative_file": "images/all_cases/logisim_d_ff_async_19_t1210.png",
+      "image_sha256": "dc7384d2002cf1e3059b7ed7fe0e66267ebef9d805d9af4f84bb40c69988253e",
+      "frame_count": 3,
+      "time_ns": [
+        1210,
+        1290,
+        1380
+      ],
+      "step_indices": [
+        19,
+        27,
+        36
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=0 set=0 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_19_t1210.png",
+          "step_index": 19,
+          "time_ns": 1210,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "async_release_hold_clock_0",
+          "label_ko": "제어 입력을 해제한 뒤 clk=0에서 Q=1을 유지",
+          "short_label_ko": "제어 해제 후 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_27_t1290.png",
+          "step_index": 27,
+          "time_ns": 1290,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "async_release_hold_clock_0",
+          "label_ko": "제어 입력을 해제한 뒤 clk=0에서 Q=1을 유지",
+          "short_label_ko": "제어 해제 후 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_36_t1380.png",
+          "step_index": 36,
+          "time_ns": 1380,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "normal_falling_hold_1",
+          "label_ko": "정상 동작 중 하강 에지에서 Q=1을 유지",
+          "short_label_ko": "정상 하강 에지 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 15,
+      "representative_file": "images/all_cases/logisim_d_ff_async_20_t1220.png",
+      "image_sha256": "58c32b3e84839fe2d66707550b72fc15a409be50824807e64d0f9a5e79ab1d5c",
+      "frame_count": 3,
+      "time_ns": [
+        1220,
+        1300,
+        1390
+      ],
+      "step_indices": [
+        20,
+        28,
+        37
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=1 set=0 clr=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_20_t1220.png",
+          "step_index": 20,
+          "time_ns": 1220,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "normal_rising_0",
+          "label_ko": "제어 입력이 0인 상승 에지에서 D=0을 저장",
+          "short_label_ko": "정상 상승 에지 0 저장",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_28_t1300.png",
+          "step_index": 28,
+          "time_ns": 1300,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "normal_rising_0",
+          "label_ko": "제어 입력이 0인 상승 에지에서 D=0을 저장",
+          "short_label_ko": "정상 상승 에지 0 저장",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_37_t1390.png",
+          "step_index": 37,
+          "time_ns": 1390,
+          "previous_q": "1",
+          "current_q": "0",
+          "q_transition": "1→0",
+          "mode_code": "normal_rising_0",
+          "label_ko": "제어 입력이 0인 상승 에지에서 D=0을 저장",
+          "short_label_ko": "정상 상승 에지 0 저장",
+          "reported_table_condition": "다음 상승 에지"
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 16,
+      "representative_file": "images/all_cases/logisim_d_ff_async_21_t1230.png",
+      "image_sha256": "a5f440efc470c6d00a4b7afcc30451de7e02a5c93ad4fbc70ed3232112bb303f",
+      "frame_count": 2,
+      "time_ns": [
+        1230,
+        1320
+      ],
+      "step_indices": [
+        21,
+        30
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=1 set=0 clr=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_21_t1230.png",
+          "step_index": 21,
+          "time_ns": 1230,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "normal_data_change_hold_clock_1",
+          "label_ko": "set=clr=0이고 clk=1인 상태에서 D를 0에서 1로 바꾸어도 Q=0을 유지",
+          "short_label_ko": "D 변경 후 유지",
+          "reported_table_condition": null
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_30_t1320.png",
+          "step_index": 30,
+          "time_ns": 1320,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "async_release_hold_clock_1",
+          "label_ko": "제어 입력을 해제한 뒤 clk=1에서 Q=0을 유지",
+          "short_label_ko": "제어 해제 후 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 17,
+      "representative_file": "images/all_cases/logisim_d_ff_async_22_t1240.png",
+      "image_sha256": "c42360221bbffacf0474fbb0ef6e9488a029996ad7ac33c0b16fccd40fc318ce",
+      "frame_count": 1,
+      "time_ns": [
+        1240
+      ],
+      "step_indices": [
+        22
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 0,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=0 set=0 clr=0",
+      "actual_outputs": {
+        "q": "0",
+        "q_bar": "1"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_22_t1240.png",
+          "step_index": 22,
+          "time_ns": 1240,
+          "previous_q": "0",
+          "current_q": "0",
+          "q_transition": "0→0",
+          "mode_code": "normal_falling_hold_0",
+          "label_ko": "정상 동작 중 하강 에지에서 Q=0을 유지",
+          "short_label_ko": "정상 하강 에지 유지",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 18,
+      "representative_file": "images/all_cases/logisim_d_ff_async_23_t1250.png",
+      "image_sha256": "79c8d1784e6c6cbd6180163ac85f03937ac4356ba43632334d2bb91ca546baa7",
+      "frame_count": 1,
+      "time_ns": [
+        1250
+      ],
+      "step_indices": [
+        23
+      ],
+      "inputs": {
+        "d": 1,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=1 clk=1 set=0 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": false,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_23_t1250.png",
+          "step_index": 23,
+          "time_ns": 1250,
+          "previous_q": "0",
+          "current_q": "1",
+          "q_transition": "0→1",
+          "mode_code": "normal_rising_1",
+          "label_ko": "제어 입력이 0인 상승 에지에서 D=1을 저장",
+          "short_label_ko": "정상 상승 에지 1 저장",
+          "reported_table_condition": null
+        }
+      ]
+    },
+    {
+      "circuit": "d_ff_async",
+      "group_index": 19,
+      "representative_file": "images/all_cases/logisim_d_ff_async_32_t1340.png",
+      "image_sha256": "1ef880d92df44d3ce94861f0df8783a64f3c2dd57a06b2b3de039bc906a22f87",
+      "frame_count": 2,
+      "time_ns": [
+        1340,
+        1370
+      ],
+      "step_indices": [
+        32,
+        35
+      ],
+      "inputs": {
+        "d": 0,
+        "clk": 1,
+        "set": 0,
+        "clr": 0
+      },
+      "inputs_text": "d=0 clk=1 set=0 clr=0",
+      "actual_outputs": {
+        "q": "1",
+        "q_bar": "0"
+      },
+      "has_reported_table_row": true,
+      "undefined_startup": false,
+      "members": [
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_32_t1340.png",
+          "step_index": 32,
+          "time_ns": 1340,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "async_release_hold_clock_1",
+          "label_ko": "제어 입력을 해제한 뒤 clk=1에서 Q=1을 유지",
+          "short_label_ko": "제어 해제 후 유지",
+          "reported_table_condition": "Set 해제 후 유지"
+        },
+        {
+          "filename": "images/all_cases/logisim_d_ff_async_35_t1370.png",
+          "step_index": 35,
+          "time_ns": 1370,
+          "previous_q": "1",
+          "current_q": "1",
+          "q_transition": "1→1",
+          "mode_code": "async_release_hold_clock_1",
+          "label_ko": "제어 입력을 해제한 뒤 clk=1에서 Q=1을 유지",
+          "short_label_ko": "제어 해제 후 유지",
+          "reported_table_condition": "둘 다 해제 후 유지"
+        }
+      ]
+    }
+  ],
+  "total_unique_pngs": 59,
+  "total_duplicate_frames": 71
+}

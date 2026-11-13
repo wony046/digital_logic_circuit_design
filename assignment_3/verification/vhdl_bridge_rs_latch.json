@@ -1,0 +1,10 @@
+{
+  "circuit": "rs_latch",
+  "valid_logisim_source": true,
+  "bridge_reached_running": true,
+  "samples": 7,
+  "output_comparisons": 14,
+  "failures": 0,
+  "all_passed": true,
+  "source_sha256": "4c582120ca719d2b1d47f769bc6f934b3b02e2f4d331e57a1ba458cb7861bb6c"
+}

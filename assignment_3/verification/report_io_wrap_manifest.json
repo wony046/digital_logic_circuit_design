@@ -1,0 +1,3527 @@
+{
+  "by_source": {
+    "images/all_cases/logisim_jk_flip_flop_00_t0000.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_00.png",
+      "source_image_sha256": "3b071c1157ede4280be1f0dc2df998caa3de0ce42fdf86dcbd1b72afa4dad0ba",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            252,
+            148,
+            312
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "13b1fbe4120cadf89c01937f69d8a7be7fdf6fdf5922399c3d9be4a5fd60cd7a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            812,
+            148,
+            872
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "b49d6b7c241ac7e691996e263fed810245ec2a25f8c144a5eec2f80647ada676"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1172,
+            148,
+            1232
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            332,
+            4048,
+            392
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "2ebd245ed0cff4a95838ab2e50038c9516d426d233b67a043b7b971deb58ef05"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            652,
+            4106,
+            712
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "79c537ab1be8be80341b1ce461f532a6bcc55c875bde26dd750411aa9e33c9d4"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_01_t0450.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_01.png",
+      "source_image_sha256": "c695793696e4a9b014500466a4006935fed011ef8e55469c13960e2e52f13860",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "13b1fbe4120cadf89c01937f69d8a7be7fdf6fdf5922399c3d9be4a5fd60cd7a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "7c2edd100d148bb52a49d40cc2af4c4d4c0bece448ab09b5ffe91cba4bfd281d"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "2ebd245ed0cff4a95838ab2e50038c9516d426d233b67a043b7b971deb58ef05"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "79c537ab1be8be80341b1ce461f532a6bcc55c875bde26dd750411aa9e33c9d4"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_02_t0460.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_02.png",
+      "source_image_sha256": "fcc1f0e892e9f6c5216545622178b0084b6b839f915a506f45b461a18540b37a",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "13b1fbe4120cadf89c01937f69d8a7be7fdf6fdf5922399c3d9be4a5fd60cd7a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "7c2edd100d148bb52a49d40cc2af4c4d4c0bece448ab09b5ffe91cba4bfd281d"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_03_t0470.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_03.png",
+      "source_image_sha256": "91a75bb4ab167bed833e2439973ae555e069af56476b5f3bca4a7d84c0734de5",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "13b1fbe4120cadf89c01937f69d8a7be7fdf6fdf5922399c3d9be4a5fd60cd7a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "b49d6b7c241ac7e691996e263fed810245ec2a25f8c144a5eec2f80647ada676"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_04_t0480.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_04.png",
+      "source_image_sha256": "f4d8e0b5fedbea4c0bf22f485ef87390cdb7072e11bade98f46d52b220375fa4",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "13b1fbe4120cadf89c01937f69d8a7be7fdf6fdf5922399c3d9be4a5fd60cd7a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "b49d6b7c241ac7e691996e263fed810245ec2a25f8c144a5eec2f80647ada676"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_06_t0500.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_06.png",
+      "source_image_sha256": "8394b39abba4fcc2bb18678359d755973b76f5b494653399b1e8065ede9bdd7f",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "13b1fbe4120cadf89c01937f69d8a7be7fdf6fdf5922399c3d9be4a5fd60cd7a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "7c2edd100d148bb52a49d40cc2af4c4d4c0bece448ab09b5ffe91cba4bfd281d"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_12_t0570.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_12.png",
+      "source_image_sha256": "21da1abae8037622c780391f0d40f77702cf5aee6a0f7f56498509c738db38b9",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "5ea64f9de319ad3215befe405daae595531bb4ed0341bc9cfc68a034fbef567a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "b49d6b7c241ac7e691996e263fed810245ec2a25f8c144a5eec2f80647ada676"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_13_t0580.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_13.png",
+      "source_image_sha256": "cca407e1fb4bc1a8f0203f161c92d5bef40375522e05cb9ae17fad3f8bf932cf",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "5ea64f9de319ad3215befe405daae595531bb4ed0341bc9cfc68a034fbef567a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "b49d6b7c241ac7e691996e263fed810245ec2a25f8c144a5eec2f80647ada676"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_14_t0590.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_14.png",
+      "source_image_sha256": "4e14f65b2bbee129e4b878ac1923b31571c15559ee548c51e2c112803bee315c",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "5ea64f9de319ad3215befe405daae595531bb4ed0341bc9cfc68a034fbef567a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "b49d6b7c241ac7e691996e263fed810245ec2a25f8c144a5eec2f80647ada676"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_15_t0600.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_15.png",
+      "source_image_sha256": "3da041ecb8e86d241a65ba78094ceb65e3d274c4e92c621ce846145810cc5f0f",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "13b1fbe4120cadf89c01937f69d8a7be7fdf6fdf5922399c3d9be4a5fd60cd7a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "7c2edd100d148bb52a49d40cc2af4c4d4c0bece448ab09b5ffe91cba4bfd281d"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_17_t0620.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_17.png",
+      "source_image_sha256": "4de12e1398a08a64a65fccba5a2bec026fc905a9bd33bd8b4ad7e6983f90de01",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "5ea64f9de319ad3215befe405daae595531bb4ed0341bc9cfc68a034fbef567a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "7c2edd100d148bb52a49d40cc2af4c4d4c0bece448ab09b5ffe91cba4bfd281d"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_18_t0630.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_18.png",
+      "source_image_sha256": "0b3f96303abdf4f73c0c9f15aa5e88b8a9f4f030bf7ac9708dccb55bb697c326",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "5ea64f9de319ad3215befe405daae595531bb4ed0341bc9cfc68a034fbef567a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "7c2edd100d148bb52a49d40cc2af4c4d4c0bece448ab09b5ffe91cba4bfd281d"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_19_t0640.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_19.png",
+      "source_image_sha256": "6c0d24f3170a5ab7df3583f8577b55b84fddc766e743be891292fd1aea46a937",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "5ea64f9de319ad3215befe405daae595531bb4ed0341bc9cfc68a034fbef567a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "7c2edd100d148bb52a49d40cc2af4c4d4c0bece448ab09b5ffe91cba4bfd281d"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_20_t0650.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_20.png",
+      "source_image_sha256": "3e07b3e5100220b7973410a3744d533e06af30e6e66072d64fddbd18503700fb",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "5ea64f9de319ad3215befe405daae595531bb4ed0341bc9cfc68a034fbef567a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "b49d6b7c241ac7e691996e263fed810245ec2a25f8c144a5eec2f80647ada676"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_22_t0670.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_22.png",
+      "source_image_sha256": "ca179ac4630da8cf9fa0ea7308cff43fbfa26634bf7f355184c2abef0f1a39cc",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "13b1fbe4120cadf89c01937f69d8a7be7fdf6fdf5922399c3d9be4a5fd60cd7a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "b49d6b7c241ac7e691996e263fed810245ec2a25f8c144a5eec2f80647ada676"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_23_t0680.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_23.png",
+      "source_image_sha256": "177974656a4b51bb114b64eda2c4be919e361f3cfbdecf280fff2c12582ba045",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "13b1fbe4120cadf89c01937f69d8a7be7fdf6fdf5922399c3d9be4a5fd60cd7a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "b49d6b7c241ac7e691996e263fed810245ec2a25f8c144a5eec2f80647ada676"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_27_t0720.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_27.png",
+      "source_image_sha256": "bccc8937271293c6c9a8e2bac6b724913eca102dda091acc4526b7089f661100",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "13b1fbe4120cadf89c01937f69d8a7be7fdf6fdf5922399c3d9be4a5fd60cd7a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "7c2edd100d148bb52a49d40cc2af4c4d4c0bece448ab09b5ffe91cba4bfd281d"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_jk_flip_flop_37_t0830.png": {
+      "strip_filename": "images/all_cases_io_wrapped/jk_flip_flop_37.png",
+      "source_image_sha256": "5ddc17e27524fb44bcd3d819181a2da1b0fccad93420f0f24a0a414609f916c4",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "j",
+          "source_box": [
+            42,
+            264,
+            148,
+            324
+          ],
+          "destination_box": [
+            8,
+            8,
+            114,
+            68
+          ],
+          "pixel_sha256": "5ea64f9de319ad3215befe405daae595531bb4ed0341bc9cfc68a034fbef567a"
+        },
+        {
+          "pin": "k",
+          "source_box": [
+            34,
+            824,
+            148,
+            884
+          ],
+          "destination_box": [
+            122,
+            8,
+            236,
+            68
+          ],
+          "pixel_sha256": "7c2edd100d148bb52a49d40cc2af4c4d4c0bece448ab09b5ffe91cba4bfd281d"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1184,
+            148,
+            1244
+          ],
+          "destination_box": [
+            244,
+            8,
+            378,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3932,
+            344,
+            4048,
+            404
+          ],
+          "destination_box": [
+            44,
+            76,
+            160,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3932,
+            664,
+            4106,
+            724
+          ],
+          "destination_box": [
+            168,
+            76,
+            342,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_00_t0000.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_00.png",
+      "source_image_sha256": "998df901b2dba4fa799bddcdf616d8a4f0cd607363692a8b04605ecb8b47955a",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            292,
+            148,
+            352
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "21a7c423659b07a836cfc8b22c6b294f49994d15cde2ac274be30e233e88cbac"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1272,
+            148,
+            1332
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1672,
+            148,
+            1732
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "46790e887d3d78a8c8edfe8eda3968429e5c9fadf5176c4282c16175e3babda3"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2072,
+            148,
+            2132
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "9a112d0268bf4a9d7ecf33cdb2823c7f3a83ed9c00c749b2f393333384a14ac5"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            332,
+            3788,
+            392
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "2ebd245ed0cff4a95838ab2e50038c9516d426d233b67a043b7b971deb58ef05"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            732,
+            3846,
+            792
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "79c537ab1be8be80341b1ce461f532a6bcc55c875bde26dd750411aa9e33c9d4"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_01_t0930.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_01.png",
+      "source_image_sha256": "ef703a68e45248229dedd1b5c80d735d3e9229a82802a7de4929202157dd8463",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "21a7c423659b07a836cfc8b22c6b294f49994d15cde2ac274be30e233e88cbac"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "46790e887d3d78a8c8edfe8eda3968429e5c9fadf5176c4282c16175e3babda3"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "1aca125860dbf74369234ecb0c6afaa3cb7a32815fbfbe5b8799f567216c0e5a"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_02_t0960.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_02.png",
+      "source_image_sha256": "37ac3216f42073e9b133fac099b8e4be8ed05f1b8c9f44d3b2caaa2ad2549093",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "21a7c423659b07a836cfc8b22c6b294f49994d15cde2ac274be30e233e88cbac"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "a001a0a9723b2914b1e7eb679cc1644c82a3aa06893809ce6d16cb44f027710f"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "9a112d0268bf4a9d7ecf33cdb2823c7f3a83ed9c00c749b2f393333384a14ac5"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_04_t1000.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_04.png",
+      "source_image_sha256": "d9b1dbf8aab88385212494512a463e2760a7263b03d996d4f7ccc7a44e8021f8",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "21a7c423659b07a836cfc8b22c6b294f49994d15cde2ac274be30e233e88cbac"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "a001a0a9723b2914b1e7eb679cc1644c82a3aa06893809ce6d16cb44f027710f"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "1aca125860dbf74369234ecb0c6afaa3cb7a32815fbfbe5b8799f567216c0e5a"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_06_t1020.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_06.png",
+      "source_image_sha256": "aac1d6ad4e6dfd9294afeb048d2116cf7c2728a5b840bd41c92486d31b44bf0f",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "45488ee76cd9eed0524222387c062bdecb63199623786ad77465a425f5a12e8b"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "a001a0a9723b2914b1e7eb679cc1644c82a3aa06893809ce6d16cb44f027710f"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "9a112d0268bf4a9d7ecf33cdb2823c7f3a83ed9c00c749b2f393333384a14ac5"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_07_t1030.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_07.png",
+      "source_image_sha256": "afd9dc9d5ade814db142c424407373068c62343718aac45e7f655c6e8ed009b3",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "45488ee76cd9eed0524222387c062bdecb63199623786ad77465a425f5a12e8b"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "46790e887d3d78a8c8edfe8eda3968429e5c9fadf5176c4282c16175e3babda3"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "1aca125860dbf74369234ecb0c6afaa3cb7a32815fbfbe5b8799f567216c0e5a"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_08_t1060.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_08.png",
+      "source_image_sha256": "92ea473f5769b48d88bcd701618572f07b3e53aa65d07c77bbc74bbd7ec31d15",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "45488ee76cd9eed0524222387c062bdecb63199623786ad77465a425f5a12e8b"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "a001a0a9723b2914b1e7eb679cc1644c82a3aa06893809ce6d16cb44f027710f"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "1aca125860dbf74369234ecb0c6afaa3cb7a32815fbfbe5b8799f567216c0e5a"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_09_t1070.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_09.png",
+      "source_image_sha256": "83a68d082c46b86122b3c85cab50d04e7faf07657083d68d0fb6ea593464375a",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "45488ee76cd9eed0524222387c062bdecb63199623786ad77465a425f5a12e8b"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "a001a0a9723b2914b1e7eb679cc1644c82a3aa06893809ce6d16cb44f027710f"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "1aca125860dbf74369234ecb0c6afaa3cb7a32815fbfbe5b8799f567216c0e5a"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_10_t1080.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_10.png",
+      "source_image_sha256": "758afb3a1a3d1731ec6e669df8ce746d3c11cf58d3777f44b16f48c870110014",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "45488ee76cd9eed0524222387c062bdecb63199623786ad77465a425f5a12e8b"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "46790e887d3d78a8c8edfe8eda3968429e5c9fadf5176c4282c16175e3babda3"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "1aca125860dbf74369234ecb0c6afaa3cb7a32815fbfbe5b8799f567216c0e5a"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_11_t1090.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_11.png",
+      "source_image_sha256": "a7972f8f99e652c85d39cef97548fb83f562e8fd0394434912fe9ad0a46305ac",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "21a7c423659b07a836cfc8b22c6b294f49994d15cde2ac274be30e233e88cbac"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "a001a0a9723b2914b1e7eb679cc1644c82a3aa06893809ce6d16cb44f027710f"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "9a112d0268bf4a9d7ecf33cdb2823c7f3a83ed9c00c749b2f393333384a14ac5"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_12_t1100.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_12.png",
+      "source_image_sha256": "b7e32ab7ec1a64afc7f6953b27b261b5d80d501702d1f74be4602238ac0a7cfb",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "21a7c423659b07a836cfc8b22c6b294f49994d15cde2ac274be30e233e88cbac"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "46790e887d3d78a8c8edfe8eda3968429e5c9fadf5176c4282c16175e3babda3"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "1aca125860dbf74369234ecb0c6afaa3cb7a32815fbfbe5b8799f567216c0e5a"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_13_t1130.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_13.png",
+      "source_image_sha256": "d048da08f118134bd9f18deafcf62d1132a19e9047daa534ed8fc1870bf932d9",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "21a7c423659b07a836cfc8b22c6b294f49994d15cde2ac274be30e233e88cbac"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "a001a0a9723b2914b1e7eb679cc1644c82a3aa06893809ce6d16cb44f027710f"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "1aca125860dbf74369234ecb0c6afaa3cb7a32815fbfbe5b8799f567216c0e5a"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_15_t1150.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_15.png",
+      "source_image_sha256": "c09e8c600ba6315afd36110e9986db1820df42d6914d30477b11c5236e18be72",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "45488ee76cd9eed0524222387c062bdecb63199623786ad77465a425f5a12e8b"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "a001a0a9723b2914b1e7eb679cc1644c82a3aa06893809ce6d16cb44f027710f"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "9a112d0268bf4a9d7ecf33cdb2823c7f3a83ed9c00c749b2f393333384a14ac5"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_19_t1210.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_19.png",
+      "source_image_sha256": "dc7384d2002cf1e3059b7ed7fe0e66267ebef9d805d9af4f84bb40c69988253e",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "21a7c423659b07a836cfc8b22c6b294f49994d15cde2ac274be30e233e88cbac"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "46790e887d3d78a8c8edfe8eda3968429e5c9fadf5176c4282c16175e3babda3"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "9a112d0268bf4a9d7ecf33cdb2823c7f3a83ed9c00c749b2f393333384a14ac5"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_20_t1220.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_20.png",
+      "source_image_sha256": "58c32b3e84839fe2d66707550b72fc15a409be50824807e64d0f9a5e79ab1d5c",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "21a7c423659b07a836cfc8b22c6b294f49994d15cde2ac274be30e233e88cbac"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "46790e887d3d78a8c8edfe8eda3968429e5c9fadf5176c4282c16175e3babda3"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "9a112d0268bf4a9d7ecf33cdb2823c7f3a83ed9c00c749b2f393333384a14ac5"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_21_t1230.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_21.png",
+      "source_image_sha256": "a5f440efc470c6d00a4b7afcc30451de7e02a5c93ad4fbc70ed3232112bb303f",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "45488ee76cd9eed0524222387c062bdecb63199623786ad77465a425f5a12e8b"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "46790e887d3d78a8c8edfe8eda3968429e5c9fadf5176c4282c16175e3babda3"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "9a112d0268bf4a9d7ecf33cdb2823c7f3a83ed9c00c749b2f393333384a14ac5"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_22_t1240.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_22.png",
+      "source_image_sha256": "c42360221bbffacf0474fbb0ef6e9488a029996ad7ac33c0b16fccd40fc318ce",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "45488ee76cd9eed0524222387c062bdecb63199623786ad77465a425f5a12e8b"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "33f2b3696f7d5be111a66b6db2db8762bd28eb5ba4742ba61dbab80d2c544e48"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "46790e887d3d78a8c8edfe8eda3968429e5c9fadf5176c4282c16175e3babda3"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "9a112d0268bf4a9d7ecf33cdb2823c7f3a83ed9c00c749b2f393333384a14ac5"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "b40ef092adbbee2a4cd2cf44884061449fec502df7db2b3c57a6f8a3d8bd61a8"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "ae402c528c829570519fe8ea335f64742d35dcb29aba6d39aa9389f51ebcbcb9"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_23_t1250.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_23.png",
+      "source_image_sha256": "79c8d1784e6c6cbd6180163ac85f03937ac4356ba43632334d2bb91ca546baa7",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "45488ee76cd9eed0524222387c062bdecb63199623786ad77465a425f5a12e8b"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "46790e887d3d78a8c8edfe8eda3968429e5c9fadf5176c4282c16175e3babda3"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "9a112d0268bf4a9d7ecf33cdb2823c7f3a83ed9c00c749b2f393333384a14ac5"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    },
+    "images/all_cases/logisim_d_ff_async_32_t1340.png": {
+      "strip_filename": "images/all_cases_io_wrapped/d_ff_async_32.png",
+      "source_image_sha256": "1ef880d92df44d3ce94861f0df8783a64f3c2dd57a06b2b3de039bc906a22f87",
+      "all_native_crop_pixels_preserved": true,
+      "crops": [
+        {
+          "pin": "d",
+          "source_box": [
+            32,
+            304,
+            148,
+            364
+          ],
+          "destination_box": [
+            24,
+            8,
+            140,
+            68
+          ],
+          "pixel_sha256": "21a7c423659b07a836cfc8b22c6b294f49994d15cde2ac274be30e233e88cbac"
+        },
+        {
+          "pin": "clk",
+          "source_box": [
+            14,
+            1284,
+            148,
+            1344
+          ],
+          "destination_box": [
+            148,
+            8,
+            282,
+            68
+          ],
+          "pixel_sha256": "c51ee5db3f264da281a3922b58c8731af85b54e2c6fb835b6227177fa3a75aa9"
+        },
+        {
+          "pin": "set",
+          "source_box": [
+            10,
+            1684,
+            148,
+            1744
+          ],
+          "destination_box": [
+            290,
+            8,
+            428,
+            68
+          ],
+          "pixel_sha256": "46790e887d3d78a8c8edfe8eda3968429e5c9fadf5176c4282c16175e3babda3"
+        },
+        {
+          "pin": "clr",
+          "source_box": [
+            18,
+            2084,
+            148,
+            2144
+          ],
+          "destination_box": [
+            8,
+            76,
+            138,
+            136
+          ],
+          "pixel_sha256": "9a112d0268bf4a9d7ecf33cdb2823c7f3a83ed9c00c749b2f393333384a14ac5"
+        },
+        {
+          "pin": "q",
+          "source_box": [
+            3672,
+            344,
+            3788,
+            404
+          ],
+          "destination_box": [
+            146,
+            76,
+            262,
+            136
+          ],
+          "pixel_sha256": "58823d9911072bbd43110763c29b9b24d81756075eb2de943584dc34658a4727"
+        },
+        {
+          "pin": "q_bar",
+          "source_box": [
+            3672,
+            744,
+            3846,
+            804
+          ],
+          "destination_box": [
+            270,
+            76,
+            444,
+            136
+          ],
+          "pixel_sha256": "94d71e8f2d073de6a1cd17a9b646bf24f607bec60408efa4a5f801edbdce1144"
+        }
+      ]
+    }
+  }
+}

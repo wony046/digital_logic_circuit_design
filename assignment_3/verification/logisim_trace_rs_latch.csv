@@ -1,0 +1,8 @@
+time_ns,s,r,q_vhdl,q_logisim,q_bar_logisim,qbar_vhdl,pass
+0,0,1,0,0,1,1,PASS
+10,0,0,0,0,1,1,PASS
+20,1,0,1,1,0,0,PASS
+30,0,0,1,1,0,0,PASS
+40,1,1,0,0,0,0,PASS
+50,0,1,0,0,1,1,PASS
+60,0,0,0,0,1,1,PASS

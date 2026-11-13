@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project source="5.0.0" version="1.0">
+  <lib name="0" desc="#Wiring" />
+  <lib name="1" desc="#Gates" />
+  <lib name="9" desc="#Base" />
+  <main name="d_latch" />
+  <options>
+    <a name="gateUndefined" val="ignore" />
+    <a name="simlimit" val="1000" />
+    <a name="simrand" val="0" />
+  </options>
+  <circuit name="d_latch">
+    <a name="appearance" val="logisim_evolution" />
+    <a name="circuit" val="d_latch" />
+    <comp name="Text" loc="(60,50)" lib="9">
+      <a name="text" val="D LATCH" />
+      <a name="font" val="SansSerif bold 20" />
+      <a name="halign" val="left" />
+    </comp>
+    <comp name="Pin" loc="(60,160)" lib="0">
+      <a name="label" val="d" />
+      <a name="appearance" val="NewPins" />
+      <a name="facing" val="east" />
+      <a name="type" val="input" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <comp name="Pin" loc="(60,460)" lib="0">
+      <a name="label" val="en" />
+      <a name="appearance" val="NewPins" />
+      <a name="facing" val="east" />
+      <a name="type" val="input" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <comp name="NAND Gate" loc="(400,180)" lib="1">
+      <a name="inputs" val="2" />
+      <a name="size" val="50" />
+    </comp>
+    <comp name="NAND Gate" loc="(400,340)" lib="1">
+      <a name="inputs" val="2" />
+      <a name="size" val="50" />
+    </comp>
+    <comp name="NAND Gate" loc="(650,180)" lib="1">
+      <a name="inputs" val="2" />
+      <a name="size" val="50" />
+    </comp>
+    <comp name="NAND Gate" loc="(650,340)" lib="1">
+      <a name="inputs" val="2" />
+      <a name="size" val="50" />
+    </comp>
+    <wire from="(650,180)" to="(710,180)" />
+    <wire from="(710,180)" to="(710,260)" />
+    <wire from="(710,260)" to="(500,260)" />
+    <wire from="(500,260)" to="(500,320)" />
+    <wire from="(500,320)" to="(590,320)" />
+    <wire from="(650,340)" to="(690,340)" />
+    <wire from="(690,340)" to="(690,240)" />
+    <wire from="(690,240)" to="(480,240)" />
+    <wire from="(480,240)" to="(480,200)" />
+    <wire from="(480,200)" to="(590,200)" />
+    <wire from="(400,180)" to="(450,180)" />
+    <wire from="(450,180)" to="(450,160)" />
+    <wire from="(450,160)" to="(590,160)" />
+    <wire from="(400,340)" to="(450,340)" />
+    <wire from="(450,340)" to="(450,360)" />
+    <wire from="(450,360)" to="(590,360)" />
+    <wire from="(60,160)" to="(110,160)" />
+    <wire from="(110,160)" to="(340,160)" />
+    <comp name="NAND Gate" loc="(220,360)" lib="1">
+      <a name="inputs" val="2" />
+      <a name="size" val="50" />
+    </comp>
+    <wire from="(110,160)" to="(120,160)" />
+    <wire from="(120,160)" to="(120,360)" />
+    <wire from="(120,360)" to="(120,340)" />
+    <wire from="(120,340)" to="(160,340)" />
+    <wire from="(120,360)" to="(120,380)" />
+    <wire from="(120,380)" to="(160,380)" />
+    <wire from="(220,360)" to="(260,360)" />
+    <wire from="(260,360)" to="(260,320)" />
+    <wire from="(260,320)" to="(340,320)" />
+    <wire from="(60,460)" to="(300,460)" />
+    <wire from="(300,460)" to="(300,360)" />
+    <wire from="(300,360)" to="(340,360)" />
+    <wire from="(300,360)" to="(300,200)" />
+    <wire from="(300,200)" to="(340,200)" />
+    <comp name="Pin" loc="(850,180)" lib="0">
+      <a name="label" val="q" />
+      <a name="appearance" val="NewPins" />
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(650,180)" to="(850,180)" />
+    <comp name="Pin" loc="(850,340)" lib="0">
+      <a name="label" val="q_bar" />
+      <a name="appearance" val="NewPins" />
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+      <a name="labelfont" val="SansSerif plain 14" />
+    </comp>
+    <wire from="(650,340)" to="(850,340)" />
+    <comp name="Text" loc="(300,100)" lib="9">
+      <a name="text" val="ENABLE GATING" />
+      <a name="font" val="SansSerif bold 14" />
+      <a name="halign" val="left" />
+    </comp>
+    <comp name="Text" loc="(550,100)" lib="9">
+      <a name="text" val="NAND STORAGE" />
+      <a name="font" val="SansSerif bold 14" />
+      <a name="halign" val="left" />
+    </comp>
+  </circuit>
+</project>

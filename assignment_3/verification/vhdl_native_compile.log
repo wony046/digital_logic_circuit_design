@@ -1,0 +1,28 @@
+Questa Altera Starter FPGA Edition-64 vcom 2025.2 Compiler 2025.05 May 31 2025
+Start time: 16:04:02 on Nov 11,2026
+vcom -2008 sources/rs_latch.vhd sources/d_latch.vhd sources/d_flip_flop.vhd sources/jk_flip_flop.vhd sources/d_flip_flop_async.vhd sources/tb_sequential.vhd 
+** Note: (vcom-220) 'modelsim.ini' is used as the ini file.
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity rs_latch
+-- Compiling architecture rtl of rs_latch
+-- Compiling entity d_latch
+-- Compiling architecture rtl of d_latch
+-- Compiling entity d_flip_flop
+-- Compiling architecture rtl of d_flip_flop
+-- Compiling entity jk_flip_flop
+-- Compiling architecture rtl of jk_flip_flop
+-- Compiling entity d_flip_flop_async
+-- Compiling architecture rtl of d_flip_flop_async
+-- Loading package NUMERIC_STD
+-- Loading package ENV
+-- Compiling entity tb_sequential
+-- Compiling architecture test of tb_sequential
+-- Loading entity rs_latch
+-- Loading entity d_latch
+-- Loading entity d_flip_flop
+-- Loading entity jk_flip_flop
+-- Loading entity d_flip_flop_async
+End time: 16:04:02 on Nov 11,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

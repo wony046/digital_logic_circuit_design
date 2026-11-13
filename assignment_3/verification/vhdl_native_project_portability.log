@@ -1,0 +1,53 @@
+Reading pref.tcl
+
+# 2025.2
+
+# do validate.do
+# Loading project sequential_vhdl
+C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sources/d_flip_flop.vhd C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sources/d_latch.vhd C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sources/jk_flip_flop.vhd C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sources/d_flip_flop_async.vhd C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sources/rs_latch.vhd
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work work 
+# ** Note: (vmap-220) 'C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sequential_vhdl.mpf' is used as the ini file.
+# Modifying C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sequential_vhdl.mpf
+# vcom -work work -2002 -explicit -vopt -stats=none C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sources/rs_latch.vhd
+# Questa Altera Starter FPGA Edition-64 vcom 2025.2 Compiler 2025.05 May 31 2025
+# ** Note: (vcom-220) 'C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sequential_vhdl.mpf' is used as the ini file.
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rs_latch
+# -- Compiling architecture rtl of rs_latch
+Questa> # vcom -work work -2002 -explicit -vopt -stats=none C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sources/d_latch.vhd
+# Questa Altera Starter FPGA Edition-64 vcom 2025.2 Compiler 2025.05 May 31 2025
+# ** Note: (vcom-220) 'C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sequential_vhdl.mpf' is used as the ini file.
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_latch
+# -- Compiling architecture rtl of d_latch
+Questa> # vcom -work work -2002 -explicit -vopt -stats=none C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sources/d_flip_flop.vhd
+# Questa Altera Starter FPGA Edition-64 vcom 2025.2 Compiler 2025.05 May 31 2025
+# ** Note: (vcom-220) 'C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sequential_vhdl.mpf' is used as the ini file.
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_flip_flop
+# -- Compiling architecture rtl of d_flip_flop
+Questa> # vcom -work work -2002 -explicit -vopt -stats=none C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sources/jk_flip_flop.vhd
+# Questa Altera Starter FPGA Edition-64 vcom 2025.2 Compiler 2025.05 May 31 2025
+# ** Note: (vcom-220) 'C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sequential_vhdl.mpf' is used as the ini file.
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity jk_flip_flop
+# -- Compiling architecture rtl of jk_flip_flop
+Questa> # vcom -work work -2002 -explicit -vopt -stats=none C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sources/d_flip_flop_async.vhd
+# Questa Altera Starter FPGA Edition-64 vcom 2025.2 Compiler 2025.05 May 31 2025
+# ** Note: (vcom-220) 'C:/Users/wony046/AppData/Local/Temp/codex_assignment3_project_relocated_113738/sequential_vhdl.mpf' is used as the ini file.
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity d_flip_flop_async
+# -- Compiling architecture rtl of d_flip_flop_async
+Questa> # 5 compiles, 0 failed with no errors.
+# reading modelsim.ini

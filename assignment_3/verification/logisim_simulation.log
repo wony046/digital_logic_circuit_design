@@ -1,0 +1,6 @@
+PASS rs_latch samples=7 comparisons=14 failures=0
+PASS d_latch samples=16 comparisons=15 failures=0
+PASS d_flip_flop samples=22 comparisons=21 failures=0
+PASS jk_flip_flop samples=47 comparisons=45 failures=0
+PASS d_ff_async samples=38 comparisons=37 failures=0
+ALL_LOGISIM_TESTS_PASSED

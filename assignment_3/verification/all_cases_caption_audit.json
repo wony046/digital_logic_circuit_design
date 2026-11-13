@@ -1,0 +1,23 @@
+{
+  "checked_frames": 130,
+  "changed_frames": 1,
+  "pixel_files_modified": false,
+  "circuits_modified": false,
+  "simulation_results_modified": false,
+  "changes": [
+    {
+      "circuit": "d_ff_async",
+      "time_ns": 1230,
+      "before": {
+        "mode_code": "normal_hold_clock_1",
+        "label_ko": "정상 동작 중 clk=1에서 D를 바꾸어도 Q=0을 유지",
+        "short_label_ko": "정상 동작 중 유지"
+      },
+      "after": {
+        "mode_code": "normal_data_change_hold_clock_1",
+        "label_ko": "set=clr=0이고 clk=1인 상태에서 D를 0에서 1로 바꾸어도 Q=0을 유지",
+        "short_label_ko": "D 변경 후 유지"
+      }
+    }
+  ]
+}
