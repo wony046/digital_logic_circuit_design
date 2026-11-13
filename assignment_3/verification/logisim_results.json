@@ -1,7 +1,7 @@
 {
   "simulator": "Logisim-evolution 5.0.0 bundled OpenJDK 21 JNI API",
   "vhdl_reference": "Questa RTL VCD settled transition samples",
-  "timestamp": "2026-11-13T07:01:27.774734+00:00",
+  "timestamp": "2026-11-13T12:15:57.173000+00:00",
   "circuits": {
     "rs_latch": {
       "samples": 7,
@@ -11,8 +11,9 @@
       "all_passed": true,
       "individual_gate_count": 2,
       "prebuilt_storage_components": 0,
-      "source_sha256": "a88e87ebc0b289a5f7862f9d7c0f237cb6132497a82ced219b71f7142b08233d",
-      "trace": "logisim_trace_rs_latch.csv"
+      "source_sha256": "d5a5102d9415d4406ec66f9097301c9501817f4ba894beae6121b9700a59d880",
+      "trace": "logisim_trace_rs_latch.csv",
+      "default_tool_verified": "Poke Tool"
     },
     "d_latch": {
       "samples": 16,
@@ -22,8 +23,9 @@
       "all_passed": true,
       "individual_gate_count": 5,
       "prebuilt_storage_components": 0,
-      "source_sha256": "15adc0d0e04279832419ca758b68e2e87663949a4dc2f47567469c6163c68351",
-      "trace": "logisim_trace_d_latch.csv"
+      "source_sha256": "89eb2fb0418bc25498daedd4b8163aa97cab9f294765e1d5aa339528d8f3fbd7",
+      "trace": "logisim_trace_d_latch.csv",
+      "default_tool_verified": "Poke Tool"
     },
     "d_flip_flop": {
       "samples": 22,
@@ -33,8 +35,9 @@
       "all_passed": true,
       "individual_gate_count": 10,
       "prebuilt_storage_components": 0,
-      "source_sha256": "e5f64542c9babd5bab58dc8911f7ca87bcbd0ca7f329c414d8d60ff9ab0053d1",
-      "trace": "logisim_trace_d_flip_flop.csv"
+      "source_sha256": "ee145414183b1c3c1a26404b31f951f47c723d451ced9fc405414426675a873c",
+      "trace": "logisim_trace_d_flip_flop.csv",
+      "default_tool_verified": "Poke Tool"
     },
     "jk_flip_flop": {
       "samples": 47,
@@ -44,8 +47,9 @@
       "all_passed": true,
       "individual_gate_count": 14,
       "prebuilt_storage_components": 0,
-      "source_sha256": "484ca1b77f1c001715106e66fe36fd1b9f18d5e119cfb8dd201b9a67a3ff2ff6",
-      "trace": "logisim_trace_jk_flip_flop.csv"
+      "source_sha256": "3683220e25fcaca859ae6ea7a94df356f62df015a8da1c4f522df27a065dde77",
+      "trace": "logisim_trace_jk_flip_flop.csv",
+      "default_tool_verified": "Poke Tool"
     },
     "d_ff_async": {
       "samples": 38,
@@ -55,11 +59,13 @@
       "all_passed": true,
       "individual_gate_count": 16,
       "prebuilt_storage_components": 0,
-      "source_sha256": "dcd4a47e033a6583d769774534578ab911cd1f43287a9c472d2efa8fe515b578",
-      "trace": "logisim_trace_d_ff_async.csv"
+      "source_sha256": "9a4ea99551c2591c604006420184a01dbb247bdbc08f4f973a85fe0c324009f9",
+      "trace": "logisim_trace_d_ff_async.csv",
+      "default_tool_verified": "Poke Tool"
     }
   },
   "all_passed": true,
   "total_samples": 130,
-  "total_output_comparisons": 132
+  "total_output_comparisons": 132,
+  "project_toolbar_and_mouse_mappings_verified": true
 }

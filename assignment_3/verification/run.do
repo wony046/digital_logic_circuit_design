@@ -1,8 +1,16 @@
 onerror {quit -code 1}
 onbreak {quit -code 1}
-set script_dir [file dirname [file normalize [info script]]]
-cd $script_dir
-if {![file exists work]} {vlib work}
+set found 0
+foreach candidate [list [pwd] [file join [pwd] verification] [file join [pwd] assignment_3 verification]] {
+    if {[file exists [file join $candidate vhdl_tb_sequential.vhd]]} {
+        cd $candidate
+        set found 1
+        break
+    }
+}
+if {!$found} {error "Run from the repository, assignment_3, or verification directory."}
+if {![file exists modelsim.ini]} {vmap -c}
+if {![file exists work/_info]} {vlib work}
 vmap work work
 vcom -2008 ../rs_latch.vhd ../d_latch.vhd ../d_flip_flop.vhd ../jk_flip_flop.vhd ../d_flip_flop_async.vhd vhdl_tb_sequential.vhd
 vsim -voptargs=+acc work.tb_sequential

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <project source="5.0.0" version="1.0">
   <lib name="0" desc="#Wiring" />
   <lib name="1" desc="#Gates" />
@@ -9,6 +9,31 @@
     <a name="simlimit" val="1000" />
     <a name="simrand" val="0" />
   </options>
+  <mappings>
+    <tool map="Button2" name="Poke Tool" />
+    <tool map="Button3" name="Menu Tool" />
+    <tool map="Ctrl Button1" name="Menu Tool" />
+  </mappings>
+  <toolbar>
+    <tool name="Poke Tool" />
+    <tool name="Edit Tool" />
+    <tool name="Wiring Tool" />
+    <tool name="Text Tool" />
+    <tool name="Image" />
+    <sep />
+    <tool name="Pin" />
+    <tool name="Pin">
+      <a name="facing" val="west" />
+      <a name="type" val="output" />
+    </tool>
+    <sep />
+    <tool name="NOT Gate" />
+    <tool name="AND Gate" />
+    <tool name="OR Gate" />
+    <tool name="XOR Gate" />
+    <tool name="NAND Gate" />
+    <tool name="NOR Gate" />
+  </toolbar>
   <circuit name="rs_latch">
     <a name="appearance" val="logisim_evolution" />
     <a name="circuit" val="rs_latch" />
